@@ -1,0 +1,510 @@
+[
+  {
+    "_id": "28b8abc2-c886-4271-963d-ec28b4669e14",
+    "title": "The Market Inn",
+    "slug": "market-inn-tavistock",
+    "address": "2 Whitchurch Rd\nTavistock \nDevon\nPL19 9BB",
+    "canBookOnline": true,
+    "openTableId": "399420",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/profile.php?id=61569019664944",
+      "instagram": "https://www.instagram.com/themarketinntavistock"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/The+Market+Inn/data=!4m2!3m1!1s0x0:0x4bc3e034f0ab13f7?sa=X&ved=1t:2428&ictx=111",
+    "googleReviewsUrl": "https://www.google.com/search?sca_esv=fd50da422e8f4301&rlz=1C5OZZY_enGB1156GB1157&sxsrf=ANbL-n7esP4bbOqQ9GN6YOJklhBsxg83ug:1775978500348&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x9SDtsqpY3TARCO94y8LaSTrCXBKKbSyQKiN6dwXRzqhd4Tc5JPO6yFKCTzWyvpbLGNcO_GVPpLoxFIGtaRyYSlYJBA8&q=The+Market+Inn+Reviews&sa=X&ved=2ahUKEwjuiZG94-eTAxX9X0EAHQBZLXwQ0bkNegQILRAH&biw=3440&bih=1227&dpr=1",
+    "googleRating": 4.6,
+    "googleReviewCount": 313,
+    "tripAdvisorUrl": "https://www.tripadvisor.com/Restaurant_Review-g190767-d5521880-Reviews-or45-Market_Inn-Tavistock_Dartmoor_National_Park_Devon_England.html",
+    "tripadvisorReviewsUrl": "https://www.tripadvisor.co.uk/UserReviewEdit-g190767-d5521880-Market_Inn-Tavistock_Dartmoor_National_Park_Devon_England.html",
+    "tripadvisorRating": 4.8,
+    "tripadvisorReviewCount": 299,
+    "website": "https://www.marketinn-tavistock.co.uk/",
+    "email": "enquiries@bartoninvestorsgroup.co.uk",
+    "telephone": "+44 1822 458899",
+    "openingTimes": [
+      {
+        "day": "Monday",
+        "openTime": "16:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "16:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Friday",
+        "openTime": "12:00",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "openTime": "12:00",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "openTime": "12:00",
+        "closeTime": "20:00",
+        "isClosed": false
+      }
+    ],
+    "foodTimes": [
+      {
+        "day": "Monday",
+        "openTime": "17:00",
+        "closeTime": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "17:00",
+        "closeTime": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "15:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "17:00",
+            "closeTime": "21:00",
+            "isClosed": false
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "15:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "17:00",
+            "closeTime": "21:00",
+            "isClosed": false
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "15:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "17:00",
+            "closeTime": "21:00",
+            "isClosed": false
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "15:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "17:00",
+            "closeTime": "21:00",
+            "isClosed": false
+          }
+        ]
+      },
+      {
+        "day": "Sunday",
+        "openTime": "12:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      }
+    ],
+    "summary": "Experience the charm of The Market Inn, Tavistock. This dog-friendly pub near Dartmoor offers local cask ales, a cozy wood fire, and the town's best Sunday roast. Enjoy fresh, local British classics and free parking.",
+    "featurePills": [
+      "Dog Friendly",
+      "Sunday Roast",
+      "Free on-site parking",
+      "Real Wood Fire",
+      "Whiskey Tasting Events",
+      "Quiz Nights",
+      "Live Music",
+      "Local Cask Ales"
+    ],
+    "featured": true,
+    "sortOrder": 3,
+    "heroImage": {
+      "alt": "Front view of the Market Inn in Tavistock with stone exterior.",
+      "asset": {
+        "url": "/assets/images/locations/PXL_20251004_121548253.MP_hero_2000.jpg"
+      }
+    }
+  },
+  {
+    "_id": "28b8abc2-c886-4271-963d-ec28b4669e15",
+    "title": "The Cricketers Inn",
+    "slug": "cricketers-inn-andover",
+    "address": "The Cricketers Inn\nLongparish\nHampshire\nSP11 6PZ",
+    "canBookOnline": true,
+    "openTableId": "335259",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/people/The-cricketers-inn-Longparish/61587285515778/"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/The+Cricketers+Inn/data=!4m2!3m1!1s0x0:0xbc2ea008b44ede3e?sa=X&ved=1t:2428&ictx=111",
+    "googleReviewsUrl": "https://www.google.com/search?sca_esv=5fdaec0050cd8acb&rlz=1C5OZZY_enGB1156GB1157&sxsrf=ANbL-n5O7IE5xt4BR7Es7TzDnN1aTOlkvA:1775997654799&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x7qh1PAiuv1xJ8zs60h6fa3ECISCrqqpPkg2euN3hTutRaQQ2uxJHfUBRqEeVk-kjRBXUkeJttjVMCEmz_R2ojy3F_oCaeViOFhUsGCSBd-sLgAplg%3D%3D&q=The+Cricketers+Inn+Reviews&sa=X&ved=2ahUKEwiWg9jqquiTAxXgWkEAHV6KOrIQ0bkNegQIJxAH&biw=3440&bih=1227&dpr=1",
+    "googleRating": 4.4,
+    "googleReviewCount": 292,
+    "tripadvisorReviewsUrl": "https://www.tripadvisor.co.uk/UserReviewEdit-g5521852-d3998569-The_Cricketers_Inn-Longparish_Andover_Hampshire_England.html",
+    "tripadvisorRating": 4.1,
+    "tripadvisorReviewCount": 207,
+    "website": "https://www.cricketersinn-longparish.co.uk/",
+    "email": "enquiries@bartoninvestorsgroup.co.uk",
+    "telephone": "+44 1264 590462",
+    "openingTimes": [
+      {
+        "day": "Monday",
+        "openTime": "12:00",
+        "closeTime": "21:00",
+        "isClosed": true
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "16:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Friday",
+        "openTime": "12:00",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "openTime": "12:00",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "openTime": "12:00",
+        "closeTime": "21:00",
+        "isClosed": false
+      }
+    ],
+    "summary": "Discover the quintessential charm of The Cricketers Inn, a historic Grade II listed pub in the heart of Longparish. Under new management for 2026, it pairs traditional oak beams and roaring log fires with a refined menu of fresh Hampshire game and local river trout. Relax in the extensive beer garden, complete with a wood-fired pizza oven, after exploring the scenic Test Valley trails.",
+    "featurePills": [
+      "Dog Friendly",
+      "Sunday Roast",
+      "Free parking",
+      "Roaring Log Fire",
+      "Wood-Fired Pizza Oven",
+      "Quiz Nights",
+      "Large Beer Garden",
+      "Local Hampshire Game"
+    ],
+    "featured": true,
+    "sortOrder": 4,
+    "heroImage": {
+      "alt": "Front view of the Cricketers Inn in Longparish.",
+      "asset": {
+        "url": "/assets/images/locations/cricketers-inn-cover-photo.webp"
+      }
+    }
+  },
+  {
+    "_id": "28b8abc2-c886-4271-963d-ec28b4669e16",
+    "title": "Rose and Crown",
+    "slug": "rose-and-crown-wells",
+    "address": "Rose and Crown\n7 St John St\nWells\nBA5 1SW",
+    "canBookOnline": false,
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/p/Rose-Crown-Wells-New-61568048277561/",
+      "instagram": "https://www.instagram.com/roseandcrownwells/"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/Rose+%26+Crown/data=!4m2!3m1!1s0x0:0x6bd8b66d622ff9dd?sa=X&ved=1t:2428&ictx=111",
+    "googleReviewsUrl": "https://www.google.com/search?sca_esv=cfbf2bcf1de0a7ba&rlz=1C5OZZY_enGB1156GB1157&sxsrf=ANbL-n5zzEQQrVsBeNVVBosRnGeDl51Wvw:1775998292912&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x5SJd_eh4SXfT6Tmfr3c9pH3r1DRkiWLbDsBxCcHODIcdbY-QVKKJHYecheB2tTE5PIiXWbeYRKakUuAU09vo-8fjQyj&q=Rose+%26+Crown+Reviews&sa=X&ved=2ahUKEwjzq_uareiTAxWq5AIHHelLD4MQ0bkNegQIJxAF&biw=3440&bih=1227&dpr=1",
+    "googleRating": 4.4,
+    "googleReviewCount": 409,
+    "tripadvisorReviewsUrl": "https://www.tripadvisor.com/UserReviewEdit-g186374-d4305668-Rose_and_Crown_PH-Wells_Somerset_England.html",
+    "tripadvisorRating": 4.5,
+    "tripadvisorReviewCount": 71,
+    "website": "https://www.roseandcrown-wells.co.uk/",
+    "email": "enquiries@bartoninvestorsgroup.co.uk",
+    "telephone": "+44 1749 595781",
+    "openingTimes": [
+      {
+        "day": "Monday",
+        "openTime": "16:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "16:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "Friday",
+        "openTime": "12:00",
+        "closeTime": "01:00",
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "openTime": "12:00",
+        "closeTime": "00:00",
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "openTime": "12:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      }
+    ],
+    "summary": "The Rose & Crown is a vibrant, community-focused pub situated just off the Wells high street. Renowned for its friendly atmosphere and exceptional beer garden, it offers a rotating selection of real ales and a massive collection of over 160 gins. Whether you're visiting for live sports on the big screens, a competitive game of pool, or their popular weekend live music, it remains a standout favorite for locals and visitors alike.",
+    "featurePills": [
+      "Dog Friendly",
+      "Large Beer Garden",
+      "160+ Specialist Gins",
+      "Live Music & Entertainment",
+      "Sky & TNT Sports",
+      "Real Ales",
+      "Pool Tables & Darts",
+      "Heated Outdoor Seating"
+    ],
+    "featured": true,
+    "sortOrder": 2,
+    "heroImage": {
+      "alt": "Front view of the Rose and Crown in Wells.",
+      "asset": {
+        "url": "/assets/images/locations/rose-and-crown-wells-gal-001.jpg"
+      }
+    }
+  },
+  {
+    "_id": "28b8abc2-c886-4271-963d-ec28b4669e17",
+    "title": "The Windmill Inn",
+    "slug": "the-windmill-inn-west-quantoxhead",
+    "address": "The Windmill\nWest Quantoxhead\nWilliton\nTaunton\nTA4 4DS",
+    "canBookOnline": true,
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/thewindmillinnwq/",
+      "instagram": "https://www.instagram.com/thewindmillinnwq"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/the+windmill+west+quantoxhead/data=!4m2!3m1!1s0x486de5259a694353:0xecd5897156b1dd5?sa=X&ved=1t:242&ictx=111",
+    "googleReviewsUrl": "https://www.google.com/travel/search?q=windmill%20west%20quantoxhead&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C121529350&hl=en-GB&gl=uk&cs=1&ssta=1&ts=CAEaRgooEiYyJDB4NDg2ZGU1MjU5YTY5NDM1MzoweGVjZDU4OTcxNTZiMWRkNRIaEhQKBwjqDxAEGBMSBwjqDxAEGBQYATICEAA&qs=CAEyE0Nnb0kxYnVzcV9HUzF1WU9FQUU4AkIJCdUdaxWXWM0OQgkJ1R1rFZdYzQ4&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwjAnJnasOiTAxUAAAAAHQAAAAAQBA",
+    "googleRating": 4.3,
+    "googleReviewCount": 933,
+    "tripadvisorReviewsUrl": "https://www.tripadvisor.co.uk/UserReviewEdit-g1800256-d28050696-The_Windmill_Inn_Restaurant-West_Quantoxhead_Somerset_England.html",
+    "tripadvisorRating": 4.4,
+    "tripadvisorReviewCount": 23,
+    "website": "https://www.the-windmill.co.uk/",
+    "bookingUrl": "https://app.hospres.com/9KRB72/Reserve",
+    "email": "enquiries@bartoninvestorsgroup.co.uk",
+    "telephone": "+44 1984 633004",
+    "openingTimes": [
+      {
+        "day": "Monday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Friday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      }
+    ],
+    "summary": "The Windmill Inn is a welcoming countryside retreat nestled at the foot of the Quantock Hills. Renowned for its popular Sunday carvery and panoramic views of St Audries Church and the Somerset coastline, it offers a perfect blend of traditional pub hospitality and modern accommodation. With an extensive beer garden and a dedicated children's play area, it’s an ideal stop for families, walkers, and coastal explorers alike.",
+    "featurePills": [
+      "Dog Friendly",
+      "Famous Sunday Carvery",
+      "Free On-Site Parking",
+      "Panoramic Coastal Views",
+      "Children's Play Area",
+      "Large Beer Garden",
+      "Quantock Hills Gateway",
+      "Private Balcony Rooms"
+    ],
+    "featured": true,
+    "sortOrder": 1,
+    "heroImage": {
+      "alt": "Front view of the Windmill Inn.",
+      "asset": {
+        "url": "/assets/images/locations/windmill-outside004.jpg"
+      }
+    }
+  },
+  {
+    "_id": "28b8abc2-c886-4271-963d-ec28b4669e18",
+    "title": "Burgers in General",
+    "slug": "burgers-in-general-wells",
+    "address": "Burgers in General\n7 St John St\nWells\nBA5 1SW",
+    "canBookOnline": true,
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/people/Rose-Crown-Wells-New/61568048277561/"
+    },
+    "showReviews": false,
+    "googleMapsUrl": "",
+    "googleReviewsUrl": "",
+    "googleRating": 0,
+    "googleReviewCount": 0,
+    "tripadvisorReviewsUrl": "",
+    "tripadvisorRating": 0,
+    "tripadvisorReviewCount": 0,
+    "website": "https://burgersingeneral.co.uk/",
+    "orderUrl": "https://www.ubereats.com/gb/store/burgers-in-general/Np0NTGp6V0uPsTtRbQx6_A?srsltid=AfmBOoo9DLYNGvOR-ZflcytA-Hqr7hu9NMNDE-KxqPWQfMz9KLJmVHgj",
+    "email": "enquiries@bartoninvestorsgroup.co.uk",
+    "telephone": "+44 1984 633004",
+    "openingTimes": [
+      {
+        "day": "Monday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Friday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "openTime": "11:30",
+        "closeTime": "23:00",
+        "isClosed": false
+      }
+    ],
+    "summary": "Burgers In General is a gourmet delivery-first kitchen based at the Rose & Crown in Wells, specializing in handcrafted American-style burgers. Using fresh, locally sourced ingredients from nearby farms, they offer signature creations like 'The Oink & Ooze' and the award-contending 'The General.' Known for their precision and high ratings, they deliver exclusively via Uber Eats, bringing restaurant-quality smash burgers and loaded fries directly to your door.",
+    "featurePills": [
+      "Exclusive Uber Eats Delivery",
+      "Local Farm Ingredients",
+      "Hand-Crafted Patties",
+      "Gourmet Loaded Fries",
+      "Vegetarian Options",
+      "Freshly Made to Order",
+      "Signature House Sauces",
+      "Buttermilk Fried Chicken"
+    ],
+    "featured": true,
+    "sortOrder": 5,
+    "heroImage": {
+      "alt": "A selection of gourmet burgers available from Burgers In General.",
+      "asset": {
+        "url": "/assets/images/burgers_in_general/home-hero_hero_2000.jpg"
+      }
+    }
+  }
+]

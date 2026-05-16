@@ -1,0 +1,40 @@
+{
+  "businessName": "White Horse Inn Launceston",
+  "shortName": "White Horse Inn",
+  "description": "A traditional Launceston inn made for good food, good company and a proper welcome.",
+  "email": "contact@whitehorseinnlaunceston.co.uk",
+  "telephone": "+44 1566 451863",
+  "address": {
+    "streetAddress": "White Horse Inn\n14 Newport Square\nLaunceston\nPL15 8EL",
+    "addressLocality": "United Kingdom",
+    "postalCode": "",
+    "addressCountry": "GB"
+  },
+  "socialLinks": {
+    "instagram": "#",
+    "facebook": "#",
+    "tiktok": "#"
+  },
+  "navItems": [
+    { "label": "Home", "href": "/" },
+    { "label": "Locations", "href": "/locations" },
+    { "label": "What's On", "href": "/whats-on" },
+    { "label": "Gallery", "href": "/gallery" },
+    {
+      "label": "Burgers in General",
+      "href": "https://www.burgersingeneral.co.uk/"
+    },
+    { "label": "Book a Table", "href": "/book-a-table" }
+  ],
+  "footerLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Book a Table", "href": "/book-a-table" },
+    { "label": "What's On", "href": "/whats-on" }
+  ],
+  "seo": {
+    "defaultOgImage": {
+      "src": "",
+      "alt": "A selection of roast dinner plates with beef, pork, Yorkshire pudding, green vegetables and sides."
+    }
+  }
+}

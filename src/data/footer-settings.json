@@ -1,0 +1,11 @@
+{
+  "eyebrow": "White Horse Inn Launceston",
+  "title": "A traditional Launceston inn made for good food, good company and a proper welcome.",
+  "description": "Whether you’re joining us for a meal, a drink, a local event or a special get-together, the White Horse Inn offers a friendly pub setting in the heart of Launceston.",
+  "footerLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Book a Table", "href": "/book-a-table" },
+    { "label": "What's On", "href": "/whats-on" },
+    { "label": "Contact Us", "href": "/contact" }
+  ]
+}

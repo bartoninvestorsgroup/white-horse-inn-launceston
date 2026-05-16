@@ -1,0 +1,102 @@
+{
+  "home": {
+    "heroKey": "home",
+    "slides": [
+      {
+        "id": "hero-foundation",
+        "src": "/assets/images/food_and_drink/PXL_20260307_123254561~2_hero_2000.jpg",
+        "alt": "Pasta bolognese dish finished with parmesan",
+        "eyebrow": "Food & Drink",
+        "title": "Family-run pubs serving proper food",
+        "description": "Discover Barton Investors Group through seasonal dishes, comforting favourites and the kind of warm hospitality that keeps people coming back.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "Explore Locations", "href": "/locations" }
+      },
+      {
+        "id": "hero-locations",
+        "src": "/assets/images/food_and_drink/FB_IMG_1775752352654_hero_2000.jpg",
+        "alt": "Beef Wellington plated in a premium pub dining setting",
+        "eyebrow": "Dining Experience",
+        "title": "Classic pub dishes that are worth going out for.",
+        "description": "From elevated pub favourites to beautifully presented seasonal plates, our venues combine quality food, friendly service and a relaxed atmosphere.",
+        "primaryCta": { "label": "View Locations", "href": "/locations" },
+        "secondaryCta": { "label": "See What’s On", "href": "/whats-on" }
+      },
+      {
+        "id": "hero-booking",
+        "src": "/assets/images/food_and_drink/IMG-20260409-WA0034_hero_2000.jpg",
+        "alt": "Selection of roast dinners with beef, lamb and traditional trimmings",
+        "eyebrow": "Sunday Favourites",
+        "title": "Familiar comforts and stunning Sunday Roasts.",
+        "description": "Whether you are joining us for a roast, a casual lunch or an evening meal, Barton Investors Group brings together local character, great food and easy hospitality.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
+      }
+    ]
+  },
+  "locations": {
+    "heroKey": "locations",
+    "slides": [
+      {
+        "id": "locations-1",
+        "src": "/assets/images/locations/cricketers-inn-garden-photo.webp",
+        "alt": "Garden area at The Cricketers Inn",
+        "eyebrow": "Relaxed Settings",
+        "title": "Easy-going spaces for drinks, dining and catching up.",
+        "description": "Whether you are planning a meal, meeting friends or looking for a relaxed pub garden, our locations are designed to feel comfortable, social and easy to enjoy.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "View Gallery", "href": "/gallery" }
+      },
+      {
+        "id": "locations-2",
+        "src": "/assets/images/locations/windmill-outside004.jpg",
+        "alt": "Exterior view of The Windmill pub",
+        "eyebrow": "Find Your Local",
+        "title": "Explore the venues that make up Barton Investors Group.",
+        "description": "Browse our collection of independent pubs and discover places shaped by local character, welcoming teams and a genuine community atmosphere.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "View Locations", "href": "/locations" }
+      },
+      {
+        "id": "locations-3",
+        "src": "/assets/images/locations/PXL_20260408_152716477.jpg",
+        "alt": "Traditional pub bar pumps serving cask ales",
+        "eyebrow": "Behind the Bar",
+        "title": "Local pubs where good beer and friendly service still matter.",
+        "description": "From familiar favourites to well-kept pints, our venues combine the comfort of a proper pub with the easy hospitality people return for.",
+        "primaryCta": { "label": "See What’s On", "href": "/whats-on" },
+        "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
+      },
+      {
+        "id": "locations-4",
+        "src": "/assets/images/locations/PXL_20260408_152408187.jpg",
+        "alt": "Outdoor pub seating area with parasol in a beer garden",
+        "eyebrow": "Outdoor Spaces",
+        "title": "Outdoor areas made for easy afternoons and longer evenings.",
+        "description": "Discover beer gardens and open-air seating across Barton Investors Group, ideal for casual drinks, laid-back lunches and making the most of good weather.",
+        "primaryCta": { "label": "Explore Locations", "href": "/locations" },
+        "secondaryCta": { "label": "Book a Table", "href": "/book-a-table" }
+      },
+      {
+        "id": "locations-5",
+        "src": "/assets/images/locations/PXL_20250611_210014049.MP.jpg",
+        "alt": "Beer garden at dusk with warm festoon lighting",
+        "eyebrow": "Locations",
+        "title": "Places to eat, drink and unwind across Barton Investors Group.",
+        "description": "From relaxed outdoor spaces to welcoming local pubs, explore the venues that bring together friendly atmosphere, character and family-run hospitality.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "See What’s On", "href": "/whats-on" }
+      },
+      {
+        "id": "locations-6",
+        "src": "/assets/images/locations/PXL_20260226_160713299~2.jpg",
+        "alt": "Large bouquet of roses displayed on a pub bar",
+        "eyebrow": "Thoughtful Details",
+        "title": "The little touches help every venue feel welcoming.",
+        "description": "Across the group, atmosphere comes from more than the setting alone, with thoughtful details, warm service and spaces that feel cared for year-round.",
+        "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
+        "secondaryCta": { "label": "View Locations", "href": "/locations" }
+      }
+    ]
+  }
+}
