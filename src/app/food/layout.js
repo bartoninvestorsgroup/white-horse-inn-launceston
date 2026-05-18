@@ -3,6 +3,7 @@ import PageIntro from "@/components/layout/PageIntro";
 import SectionReveal from "@/components/layout/SectionReveal";
 import FoodTabs from "@/components/menu/FoodTabs";
 import { buildMenuHeroSlides } from "@/lib/menu-hero-images";
+import { sortMenusForDisplay } from "@/lib/menu-order";
 import { getMenus } from "@/sanity/lib/queries";
 
 function menuHref(menu) {
@@ -20,7 +21,9 @@ function buildFoodLinks(menus = []) {
 
 export default async function FoodLayout({ children }) {
   const menus = await getMenus();
-  const visibleMenus = menus.filter((menu) => menu.showOnWebsite !== false);
+  const visibleMenus = sortMenusForDisplay(
+    menus.filter((menu) => menu.showOnWebsite !== false),
+  );
   const foodLinks = buildFoodLinks(visibleMenus);
   const heroSlides = buildMenuHeroSlides(visibleMenus, menuHref);
 
