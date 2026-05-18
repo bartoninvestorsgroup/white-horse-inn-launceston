@@ -52,7 +52,7 @@ function renderInlineAnswer(text) {
 
       const external = href.startsWith("http://") || href.startsWith("https://");
       const className =
-        "font-bold text-[color:var(--color-primary)] underline decoration-[color:var(--color-gold)] decoration-2 underline-offset-4 transition-colors hover:text-[color:var(--color-gold)]";
+        "cursor-pointer font-bold text-[color:var(--color-primary)] underline decoration-[color:var(--color-gold)] decoration-2 underline-offset-4 transition-colors hover:text-[color:var(--color-gold)]";
 
       if (href.startsWith("/")) {
         return (
@@ -100,14 +100,20 @@ export default function FoodFaqAccordion({ faqs = [] }) {
               aria-expanded={open}
               aria-controls={`food-faq-${index}`}
               onClick={() => setOpenIndex(open ? null : index)}
-              className="flex w-full items-center justify-between gap-4 py-5 text-left"
+              className={`flex w-full items-center justify-between gap-4 py-5 text-left ${
+                open ? "cursor-default" : "cursor-pointer"
+              }`}
             >
-              <span className="font-heading text-2xl leading-tight text-[color:var(--color-primary)]">
+              <span
+                className={`font-heading text-2xl leading-tight text-[color:var(--color-primary)] ${
+                  open ? "cursor-default" : "cursor-pointer"
+                }`}
+              >
                 {faq.question}
               </span>
               <span
                 aria-hidden="true"
-                className="shrink-0 text-2xl font-extrabold text-[color:var(--color-gold)]"
+                className="shrink-0 cursor-pointer text-2xl font-extrabold text-[color:var(--color-gold)]"
               >
                 {open ? "-" : "+"}
               </span>
