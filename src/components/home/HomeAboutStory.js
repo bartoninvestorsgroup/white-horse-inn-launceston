@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import Link from "next/link";
 
 const cardVariants = {
   hidden: { opacity: 0, y: 32 },
@@ -27,6 +28,61 @@ const itemVariants = {
   },
 };
 
+function isSafeHref(href) {
+  return href.startsWith("/") || href.startsWith("#");
+}
+
+function renderTextWithLinks(text, keyPrefix) {
+  const parts = String(text || "").split(/(\[[^\]]+\]\([^)]+\))/g);
+
+  return parts.map((part, index) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+
+    if (!match) {
+      return part;
+    }
+
+    const [, label, rawHref] = match;
+    const href = rawHref.trim();
+
+    if (!isSafeHref(href)) {
+      return label;
+    }
+
+    return (
+      <Link
+        key={`${keyPrefix}-${href}-${index}`}
+        href={href}
+        className="font-bold text-[color:var(--color-gold)] underline decoration-[color:var(--color-gold)]/65 decoration-2 underline-offset-4 transition-colors hover:text-white"
+      >
+        {label}
+      </Link>
+    );
+  });
+}
+
+function CardBody({ body }) {
+  const paragraphs = String(body || "").split(/\n{2,}/).filter(Boolean);
+
+  return (
+    <div className="mt-4 space-y-4 text-base leading-8 text-white/86 md:mt-5 md:text-lg">
+      {paragraphs.map((paragraph, paragraphIndex) => (
+        <p key={`about-card-paragraph-${paragraphIndex}`}>
+          {paragraph.split(/\n/).map((line, lineIndex) => (
+            <span key={`about-card-line-${paragraphIndex}-${lineIndex}`}>
+              {lineIndex > 0 ? <br /> : null}
+              {renderTextWithLinks(
+                line,
+                `about-card-${paragraphIndex}-${lineIndex}`,
+              )}
+            </span>
+          ))}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export default function HomeAboutStory({ cards }) {
   const shouldReduceMotion = useReducedMotion();
 
@@ -44,14 +100,14 @@ export default function HomeAboutStory({ cards }) {
             variants={shouldReduceMotion ? undefined : itemVariants}
             className="eyebrow text-[color:var(--color-gold-soft)]"
           >
-            About Us
+            About The White Horse Inn
           </motion.p>
           <motion.h2
             variants={shouldReduceMotion ? undefined : itemVariants}
             className="mt-4 font-heading text-4xl leading-tight text-white md:text-6xl"
           >
-            A family-run passion for local living, genuine hospitality, and
-            quality food.
+            A family-run passion for local hospitality, honest food, and quality
+            ingredients.
           </motion.h2>
         </motion.div>
       </section>
@@ -80,12 +136,11 @@ export default function HomeAboutStory({ cards }) {
               >
                 {card.title}
               </motion.h3>
-              <motion.p
+              <motion.div
                 variants={shouldReduceMotion ? undefined : itemVariants}
-                className="mt-4 text-base leading-8 text-white/86 md:mt-5 md:text-lg"
               >
-                {card.body}
-              </motion.p>
+                <CardBody body={card.body} />
+              </motion.div>
             </motion.article>
           </div>
         ))}

@@ -48,18 +48,23 @@ const foodCards = [
 const aboutCards = [
   {
     title: "A Proper Launceston Local",
-    body: "The White Horse Inn is a welcoming pub in the heart of Launceston, built around good food, friendly service and easy moments around the table. Whether you are calling in for a drink, staying overnight or gathering for a family meal, the aim is simple: make every visit feel comfortable and looked after.",
+    body: "The White Horse Inn is a welcoming pub, restaurant, and inn in the heart of Launceston, built around good honest food, friendly service, and a genuine love of local hospitality.\n\nWhether you are joining us for [lunch](/food), settling in for [Sunday dinner](/food/sunday-menu), calling in for a drink, [staying overnight](/accommodation), or gathering with family and friends, our aim is simple: to make every visit feel relaxed, comfortable, and properly looked after.",
     alignment: "left",
   },
   {
-    title: "Food, Drink and Rooms Under One Roof",
-    body: "From seasonal pub dishes and Sunday favourites to comfortable accommodation, the inn is set up for everything from relaxed lunches to longer stays. It is a straightforward, characterful place to eat, drink, rest and spend time with people.",
+    title: "Good Honest Food, Done Properly",
+    body: "Food is at the heart of what we do. Our [menus](/food) are shaped around generous pub favourites, seasonal specials, comforting classics, and dishes made with care.\n\nWe believe great pub food starts with quality ingredients, which is why we are focused on using fresh, local produce wherever possible, including award-winning butchers Phillip Warren & Son, and Palmers of Tavistock. From hearty mains and proper [Sunday roasts](/food/sunday-menu) to lighter lunches, [children's meals](/food/kids-menu), and homemade desserts, our food is made to be satisfying, welcoming, and full of flavour.",
     alignment: "right",
   },
   {
-    title: "Room for Gatherings",
-    body: "Alongside the pub and dining spaces, our large function room gives guests a practical setting for birthdays, private events, meetings and local celebrations, with the team on hand to help shape the details.",
+    title: "Food, Drink and Rooms Under One Roof",
+    body: "The White Horse Inn is more than a place to eat. With [comfortable rooms](/accommodation), relaxed dining spaces, and a proper pub atmosphere, it is set up for everything from a quick drink to a weekend stay.\n\nGuests can enjoy freshly prepared food, a well-stocked bar, a friendly local setting, and the convenience of having food, drink, and accommodation all under one roof.",
     alignment: "left",
+  },
+  {
+    title: "Room for Gatherings",
+    body: "Alongside the pub, restaurant, and rooms, our large [function room](/functions) provides a practical and welcoming space for birthdays, private events, meetings, wakes, family celebrations, and local gatherings.\n\nWhether you are planning something small and simple or a larger occasion, our team will be on hand to help shape the details and make the day feel personal, relaxed, and well organised. You can also [book a table](/book-a-table) before visiting.",
+    alignment: "right",
   },
 ];
 
@@ -89,7 +94,7 @@ export default function HomePage() {
       </section>
 
       <FixedRevealSection
-        src="/assets/images/locations/PXL_20250611_210014049.MP_hero_2000.jpg"
+        src="/assets/images/locations/white_horse_inn_launceston_front_view.jpg"
         alt="Exterior view of the White Horse Inn"
         zoomRange={[1.02, 1.2]}
         contentClassName="no-snap-zone relative"
