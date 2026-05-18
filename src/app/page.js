@@ -3,6 +3,7 @@ import FixedRevealSection from "@/components/layout/FixedRevealSection";
 import SectionReveal from "@/components/layout/SectionReveal";
 import HomeAboutStory from "@/components/home/HomeAboutStory";
 import HomeFoodShowcase from "@/components/home/HomeFoodShowcase";
+import Link from "next/link";
 import StructuredData from "@/components/seo/StructuredData";
 import FoodImageCard from "@/components/ui/FoodImageCard";
 import { getLocalPageHero } from "@/lib/content";
@@ -45,6 +46,39 @@ const foodCards = [
   },
 ];
 
+const familyCards = [
+  {
+    src: "/assets/images/locations/girls_playing_in_the_indoor_play_area.png",
+    alt: "Preview image of children enjoying a planned indoor play area at the White Horse Inn",
+    title: "Family-Friendly Now",
+    description:
+      "A relaxed Launceston pub where families can feel welcome for meals, short visits and proper local hospitality.",
+    eyebrow: "Families Welcome",
+    size: "portrait",
+    innerBorderTone: "gold",
+  },
+  {
+    src: "/assets/images/locations/boys_playing_in_the_indoor_play_area.png",
+    alt: "Preview image of children playing in a planned indoor play area",
+    title: "Play Space Planned",
+    description:
+      "Later this year, we hope to introduce an indoor play area designed to give children somewhere fun to enjoy.",
+    eyebrow: "Coming Later This Year",
+    size: "portrait",
+    innerBorderTone: "soft",
+  },
+  {
+    src: "/assets/images/locations/children_playing_in_the_ball_pit.png",
+    alt: "Preview image of children playing in a planned ball pit area",
+    title: "Time for Parents Too",
+    description:
+      "The aim is simple: children can play while adults chat, relax or wait comfortably for food.",
+    eyebrow: "Future Plans",
+    size: "portrait",
+    innerBorderTone: "gold",
+  },
+];
+
 const aboutCards = [
   {
     title: "A Proper Launceston Local",
@@ -65,6 +99,24 @@ const aboutCards = [
     title: "Room for Gatherings",
     body: "Alongside the pub, restaurant, and rooms, our large [function room](/functions) provides a practical and welcoming space for birthdays, private events, meetings, wakes, family celebrations, and local gatherings.\n\nWhether you are planning something small and simple or a larger occasion, our team will be on hand to help shape the details and make the day feel personal, relaxed, and well organised. You can also [book a table](/book-a-table) before visiting.",
     alignment: "right",
+  },
+];
+
+const dogFriendlyCards = [
+  {
+    title: "Dogs Welcome in Launceston",
+    body: "The White Horse Inn is a dog friendly pub in Launceston, welcoming well-behaved dogs and their owners to relax with us. Whether you are stopping by after a local walk, meeting friends for a drink, or joining us for [food](/food), we want everyone, including four-legged guests, to feel comfortable and looked after.",
+    alignment: "left",
+  },
+  {
+    title: "A Rest After Local Walks",
+    body: "Launceston is a great base for exploring the surrounding countryside, nearby walking routes, and the wider Cornwall and Devon border area, so we know how important it is to find a welcoming place to rest afterwards. Our pub offers a relaxed setting where dog owners can enjoy good honest food, quality local ingredients, and proper hospitality without having to leave their dog behind. You can [find us in Launceston](/find-us) before visiting.",
+    alignment: "right",
+  },
+  {
+    title: "Water Bowls and Treats",
+    body: "We simply ask that dogs are kept under control, on a lead where appropriate, and considerate of other guests. Water bowls are available, and our team will always do their best to make you and your dog feel welcome. We even have a selection of dog treats available at the bar. Pawfect!",
+    alignment: "left",
   },
 ];
 
@@ -102,6 +154,47 @@ export default function HomePage() {
       >
         <div className="site-container flex w-full items-end px-2 pb-12 md:pb-18">
           <HomeAboutStory cards={aboutCards} />
+        </div>
+      </FixedRevealSection>
+
+      <section className="page-section no-snap-zone relative z-20 bg-[color:var(--color-surface)]">
+        <SectionReveal className="site-container px-2 py-20">
+          <div className="max-w-2xl">
+            <p className="eyebrow">Family Friendly Pub</p>
+            <h2 className="mt-4 font-heading text-4xl leading-tight text-[color:var(--color-primary)] md:text-5xl">
+              A kid-friendly place to eat, relax and spend time together.
+            </h2>
+            <p className="mt-5 text-lg leading-8 text-[color:var(--color-copy-soft)]">
+              The White Horse Inn is already a welcoming place for families,
+              with{" "}
+              <Link
+                href="/food/kids-menu"
+                className="font-extrabold text-[color:var(--color-primary)] underline decoration-[color:var(--color-gold)] decoration-2 underline-offset-4 transition-colors hover:text-[color:var(--color-gold-soft)]"
+              >
+                children&apos;s food options
+              </Link>{" "}
+              and a relaxed local-pub setting. Later this year, we hope to
+              introduce an indoor play area where children can play while adults
+              catch up, chat, or wait for food.
+            </p>
+          </div>
+          <HomeFoodShowcase cards={familyCards} />
+        </SectionReveal>
+      </section>
+
+      <FixedRevealSection
+        src="/assets/images/locations/dog_friendly_local_pub.jpg"
+        alt="Dog friendly local pub setting at the White Horse Inn"
+        zoomRange={[1.02, 1.2]}
+        contentClassName="no-snap-zone relative"
+        revealHeightClassName="h-[72svh] md:h-[88svh]"
+      >
+        <div className="site-container flex w-full items-end px-2 pb-12 md:pb-18">
+          <HomeAboutStory
+            cards={dogFriendlyCards}
+            eyebrow="Dog Friendly Pub"
+            title="Dog Friendly Pub in Launceston"
+          />
         </div>
       </FixedRevealSection>
 

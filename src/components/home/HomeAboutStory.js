@@ -83,7 +83,11 @@ function CardBody({ body }) {
   );
 }
 
-export default function HomeAboutStory({ cards }) {
+export default function HomeAboutStory({
+  cards,
+  eyebrow = "About The White Horse Inn",
+  title = "A family-run passion for local hospitality, honest food, and quality ingredients.",
+}) {
   const shouldReduceMotion = useReducedMotion();
 
   return (
@@ -100,14 +104,13 @@ export default function HomeAboutStory({ cards }) {
             variants={shouldReduceMotion ? undefined : itemVariants}
             className="eyebrow text-[color:var(--color-gold-soft)]"
           >
-            About The White Horse Inn
+            {eyebrow}
           </motion.p>
           <motion.h2
             variants={shouldReduceMotion ? undefined : itemVariants}
             className="mt-4 font-heading text-4xl leading-tight text-white md:text-6xl"
           >
-            A family-run passion for local hospitality, honest food, and quality
-            ingredients.
+            {title}
           </motion.h2>
         </motion.div>
       </section>
