@@ -1,13 +1,18 @@
 "use client";
 
-import { CalendarDays, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const bookingUrl = process.env.NEXT_PUBLIC_BOOKING_URL || "";
+const tableBookingEnquiryHref = "/contact?enquiryType=Table+Booking+Enquiry";
 
-export default function BookATableWidget() {
+export default function BookATableWidget({ live = true }) {
+  if (!live) {
+    return null;
+  }
+
   const hasBookingUrl = Boolean(bookingUrl);
 
   return (
@@ -49,8 +54,8 @@ export default function BookATableWidget() {
                   Call to Book
                 </a>
                 <a
-                  href={`mailto:${siteConfig.email}?subject=Table booking enquiry`}
-                  className="link-button"
+                  href={tableBookingEnquiryHref}
+                  className="link-button link-button-on-primary"
                 >
                   Email Enquiry
                 </a>
@@ -77,22 +82,10 @@ export default function BookATableWidget() {
                     <p className="text-sm font-extrabold uppercase tracking-[0.12em] text-[color:var(--color-gold-soft)]">
                       Email
                     </p>
-                    <a href={`mailto:${siteConfig.email}`} className="footer-link">
+                    <a href={tableBookingEnquiryHref} className="footer-link">
                       {siteConfig.email}
                     </a>
                   </div>
-                </div>
-
-                <div className="flex gap-3">
-                  <CalendarDays className="mt-1 size-4 shrink-0 text-[color:var(--color-gold-soft)]" />
-                  <p className="text-sm leading-6">
-                    Add a public booking URL later with
-                    <span className="font-semibold text-[color:var(--color-gold-soft)]">
-                      {" "}
-                      NEXT_PUBLIC_BOOKING_URL
-                    </span>
-                    , and this panel will show an online booking button.
-                  </p>
                 </div>
               </div>
             </div>

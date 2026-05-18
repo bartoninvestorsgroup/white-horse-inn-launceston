@@ -21,7 +21,7 @@ export default function HomeFoodShowcase({ cards }) {
       {cards.map((card, index) => (
         <motion.div
           key={card.src}
-          initial="hidden"
+          initial={false}
           whileInView="show"
           viewport={{ once: true, amount: 0.28 }}
           variants={foodCardVariants}

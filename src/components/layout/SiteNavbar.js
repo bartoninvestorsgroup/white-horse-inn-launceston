@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
@@ -128,12 +129,12 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
   return (
     <header
       ref={headerRef}
-      className="fixed inset-x-0 top-[var(--site-banner-offset,0px)] z-50"
+      className="pointer-events-none fixed inset-x-0 top-[var(--site-banner-offset,0px)] z-50 h-[10.4rem] min-[575px]:h-[10.6rem] min-[1080px]:h-auto"
     >
       <motion.div
         animate={{ y: scrolled ? 0 : -1 }}
         transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-        className="relative"
+        className="relative h-full min-[1080px]:h-auto"
       >
         <motion.div
           aria-hidden="true"
@@ -151,24 +152,46 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
                 : "rgba(255,249,249,0)",
           }}
           transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-          className="absolute inset-0 border-b bg-[color:var(--color-glass-dark)]"
+          className="absolute inset-x-0 top-0 h-24 border-b bg-[color:var(--color-glass-dark)]"
         />
 
-        <div className="site-container relative z-10 flex min-h-24 items-center justify-between gap-1.5 px-2 lg:gap-2">
+        <div className="site-container pointer-events-auto relative z-30 flex min-h-24 items-center justify-between gap-1.5 px-2 lg:gap-2">
           <Link
             href="/"
-            className="min-w-0 max-w-[16rem] flex-1 text-left transition-colors hover:text-[color:var(--color-gold)] min-[575px]:max-w-none min-[575px]:whitespace-nowrap min-[1080px]:flex-none min-[1080px]:max-w-[10.5rem] min-[1080px]:whitespace-normal min-[1360px]:max-w-none min-[1360px]:whitespace-nowrap"
+            className="relative min-h-24 min-w-0 max-w-[16rem] flex-1 overflow-visible text-left transition-colors hover:text-[color:var(--color-gold)] min-[575px]:max-w-none min-[575px]:whitespace-nowrap min-[1080px]:flex-none min-[1080px]:max-w-[10.5rem] min-[1080px]:whitespace-normal min-[1360px]:max-w-none min-[1360px]:whitespace-nowrap"
+            aria-label="White Horse Inn home"
           >
             <motion.span
               animate={{
                 color: isLightTone
                   ? "var(--color-surface)"
                   : "var(--color-primary)",
+                opacity: scrolled ? 0 : 1,
               }}
               transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-              className="block w-fit font-heading text-[0.92rem] leading-[1.02] font-semibold tracking-[0.02em] min-[575px]:whitespace-nowrap min-[1080px]:whitespace-normal min-[1360px]:whitespace-nowrap"
+              className="absolute left-0 top-1/2 block w-fit -translate-y-1/2 font-heading text-[0.92rem] leading-[1.02] font-semibold tracking-[0.02em] min-[575px]:whitespace-nowrap min-[1080px]:whitespace-normal min-[1360px]:whitespace-nowrap"
             >
               White Horse Inn
+            </motion.span>
+            <motion.span
+              aria-hidden="true"
+              animate={{
+                opacity: scrolled ? 1 : 0,
+                scale: scrolled ? 1 : 0.92,
+                y: scrolled ? "50%" : "40%",
+              }}
+              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+              className="absolute bottom-0 left-0 z-20 flex size-[8.9rem] overflow-hidden rounded-full border-[5px] border-[color:var(--color-gold)] bg-[color:var(--color-primary)] shadow-[0_22px_44px_rgba(10,14,28,0.3),0_6px_16px_rgba(var(--color-gold-rgb),0.2)] min-[575px]:size-[9.2rem] min-[1080px]:size-[9.6rem]"
+            >
+              <Image
+                src="/assets/images/logo_round.png"
+                alt=""
+                fill
+                sizes="(min-width: 1080px) 154px, (min-width: 575px) 147px, 142px"
+                className="object-cover"
+                priority
+                unoptimized
+              />
             </motion.span>
           </Link>
 
@@ -255,9 +278,13 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-              className="relative z-10 overflow-hidden border-t border-white/10 min-[1080px]:hidden"
+              className="pointer-events-auto relative z-10 overflow-hidden border-t border-white/10 bg-[color:var(--color-glass-dark)] shadow-[var(--shadow-lifted)] backdrop-blur-[var(--blur-glass)] min-[1080px]:hidden"
             >
-              <nav className="site-container flex flex-col gap-2 px-2 py-4">
+              <motion.nav
+                animate={{ paddingTop: scrolled ? "5.8rem" : "1rem" }}
+                transition={{ duration: 0.36, ease: [0.22, 1, 0.36, 1] }}
+                className="site-container flex flex-col gap-2 px-2 pb-4"
+              >
                 {navItems.map((item) => {
                   const current = isNavItemCurrent(resolvedPathname, item);
                   const isBookingLink = item.href === "/book-a-table";
@@ -298,7 +325,7 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
                     </div>
                   );
                 })}
-              </nav>
+              </motion.nav>
             </motion.div>
           ) : null}
         </AnimatePresence>

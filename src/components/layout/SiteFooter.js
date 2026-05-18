@@ -42,9 +42,9 @@ export default function SiteFooter({
           <div className="space-y-3 text-white/82">
             <p>{address.streetAddress}</p>
             <p>{address.addressLocality}</p>
-            <a href={`mailto:${email}`} className="footer-link">
+            <Link href="/contact?enquiryType=General+Enquiry" className="footer-link">
               {email}
-            </a>
+            </Link>
             <br></br>
             <a href={`tel:${telephone}`} className="footer-link">
               {telephone}

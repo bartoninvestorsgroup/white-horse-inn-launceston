@@ -53,11 +53,16 @@ export default function ContactFormSection() {
   });
 
   const locationParam = searchParams.get("location");
+  const enquiryTypeParam = searchParams.get("enquiryType") || searchParams.get("enquiry");
 
   const prefilledEnquiryType = useMemo(() => {
+    if (enquiryTypeParam && enquiryOptions.includes(enquiryTypeParam)) {
+      return enquiryTypeParam;
+    }
+
     if (!locationParam) return "";
     return locationOptionMap[locationParam] || "";
-  }, [locationParam]);
+  }, [enquiryTypeParam, locationParam]);
 
   const selectedEnquiryType = formData.enquiryType || prefilledEnquiryType;
 

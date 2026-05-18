@@ -34,7 +34,7 @@ export default function HomeAboutStory({ cards }) {
     <div className="w-full">
       <section className="pt-28 md:pt-34">
         <motion.div
-          initial={shouldReduceMotion ? false : "hidden"}
+          initial={false}
           whileInView={shouldReduceMotion ? {} : "show"}
           viewport={{ once: true, amount: 0.3 }}
           variants={cardVariants}
@@ -60,7 +60,7 @@ export default function HomeAboutStory({ cards }) {
         {cards.map((card, index) => (
           <div key={card.title}>
             <motion.article
-              initial={shouldReduceMotion ? false : "hidden"}
+              initial={false}
               whileInView={shouldReduceMotion ? {} : "show"}
               viewport={{ once: true, amount: 0.28 }}
               variants={cardVariants}

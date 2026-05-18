@@ -259,6 +259,16 @@ img {
   background: rgba(var(--color-gold-rgb), 0.12);
 }
 
+.link-button-on-primary {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+.link-button-on-primary:hover {
+  background: rgba(var(--color-gold-rgb), 0.12);
+  color: white;
+}
+
 .nav-link,
 .footer-link,
 .mobile-nav-link {

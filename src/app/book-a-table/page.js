@@ -1,12 +1,16 @@
 import PageIntro from "@/components/layout/PageIntro";
 import SectionReveal from "@/components/layout/SectionReveal";
 import BookATableWidget from "@/components/book/BookATableWidget";
+import OpenTableBookingWidget from "@/components/book/OpenTableBookingWidget";
 import StructuredData from "@/components/seo/StructuredData";
 import { absoluteUrl, breadcrumbSchema } from "@/lib/seo";
 import { getPageMetadata, getPageSchema } from "@/lib/seo-config";
 import { Suspense } from "react";
 
 export const metadata = getPageMetadata("bookATable");
+
+const showContactBookingWidget = true;
+const showOpenTableBookingWidget = false;
 
 const reservationSchema = {
   ...getPageSchema("bookATable"),
@@ -34,9 +38,16 @@ export default function BookATablePage() {
         description="Call us directly or send a table booking enquiry and the team will help with availability."
       />
       <Suspense fallback={null}>
-        <SectionReveal>
-          <BookATableWidget />
-        </SectionReveal>
+        {showContactBookingWidget ? (
+          <SectionReveal>
+            <BookATableWidget live={showContactBookingWidget} />
+          </SectionReveal>
+        ) : null}
+        {showOpenTableBookingWidget ? (
+          <SectionReveal>
+            <OpenTableBookingWidget live={showOpenTableBookingWidget} />
+          </SectionReveal>
+        ) : null}
       </Suspense>
     </>
   );
