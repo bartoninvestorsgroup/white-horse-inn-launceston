@@ -1,6 +1,8 @@
+import FoodFaqs from "@/components/food/FoodFaqs";
 import { notFound } from "next/navigation";
 import MenuPageShell from "@/components/menu/MenuPageShell";
 import SanityMenuView from "@/components/menu/SanityMenuView";
+import { getFoodFaqs } from "@/lib/food-faqs";
 import { buildMetadata } from "@/lib/seo";
 import { getMenuBySlug, getMenus } from "@/sanity/lib/queries";
 
@@ -38,6 +40,8 @@ export default async function DynamicFoodMenuPage({ params }) {
     notFound();
   }
 
+  const faqs = getFoodFaqs(menu.slug);
+
   return (
     <MenuPageShell
       seoKey="menu"
@@ -45,6 +49,7 @@ export default async function DynamicFoodMenuPage({ params }) {
       activeHref={`/food/${menu.slug}`}
     >
       <SanityMenuView menus={[menu]} emptyTitle={`${menu.title} coming soon`} />
+      <FoodFaqs faqs={faqs} />
     </MenuPageShell>
   );
 }

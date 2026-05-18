@@ -143,3 +143,26 @@ export function breadcrumbSchema(items = []) {
     })),
   };
 }
+
+export function faqPageSchema(faqs = []) {
+  const mainEntity = faqs
+    .filter((faq) => faq?.question && faq?.answer)
+    .map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    }));
+
+  if (!mainEntity.length) {
+    return null;
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity,
+  };
+}
