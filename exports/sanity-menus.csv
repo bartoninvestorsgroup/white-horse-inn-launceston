@@ -140,6 +140,24 @@ Salted Caramel (GF)
 Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
 ,Dinner,dinner-menu,dinnerMenu,,,,4,Desserts,5,,2 scoops,5,TRUE,no,no,no
 ,Dinner,dinner-menu,dinnerMenu,,,,4,Desserts,5,,3 scoops,6.9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,1,Beef Burger or Veggie Burger,"Mayo, Ketchup, Lettuce & Fries",10,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,2,Mac & Cheese,,8.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,3,Chicken Tenders & Fries,,9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,4,"Veggie Sausage & Mash, or Fries",,9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,5,Kids Margaritta Pizza,,10,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,6,Fish Goujons & Chips,,12,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,7,Chicken Pastabake,,8.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,1,Fries,,4,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,2,Garlic Ciabatta,,3.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,3,Cheese & Pickle Sandwich,,4,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,Ice Cream Scoop,Vanilla,2.5,TRUE,no,no,no
+,Kids Menu,kids-menu,kidsMenu,,,,2,Snacks,4,,Honeycomb,2.5,TRUE,no,no,no
+,Kids Menu,kids-menu,kidsMenu,,,,2,Snacks,4,,Salted Caramel,2.5,TRUE,no,no,no
+,Kids Menu,kids-menu,kidsMenu,,,,2,Snacks,4,,Chocolate (V),2.5,TRUE,no,no,no
+,Kids Menu,kids-menu,kidsMenu,,,,2,Snacks,4,,Rockyroad,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,1,"Orange Juice, Apple Juice",,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,2,"Small Pepsi, Pepsi Max, Lemonade",,2,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,3,"J20 Apple & Raspberry, Orange & Mango, Apple & Mango",,3.5,TRUE,no,no,no
 menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
 
 As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
@@ -282,24 +300,6 @@ Salted Caramel (GF)
 Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
 ,Lunch,lunch-menu,lunchMenu,,,,5,Desserts,5,,2 scoops,5,TRUE,no,no,no
 ,Lunch,lunch-menu,lunchMenu,,,,5,Desserts,5,,3 scoops,6.9,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,1,Beef Burger or Veggie Burger,"Mayo, Ketchup, Lettuce & Fries",10,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,2,Mac & Cheese,,8.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,3,Chicken Tenders & Fries,,9,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,4,"Veggie Sausage & Mash, or Fries",,9,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,5,Kids Margaritta Pizza,,10,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,6,Fish Goujons & Chips,,12,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,7,Chicken Pastabake,,8.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,1,Fries,,4,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,2,Garlic Ciabatta,,3.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,3,Cheese & Pickle Sandwich,,4,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,Ice Cream Scoop,Vanilla,2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Honeycomb,2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Salted Caramel,2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Chocolate (V),2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Rockyroad,2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,1,"Orange Juice, Apple Juice",,2.5,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,2,"Small Pepsi, Pepsi Max, Lemonade",,2,TRUE,no,no,no
-menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,3,"J20 Apple & Raspberry, Orange & Mango, Apple & Mango",,3.5,TRUE,no,no,no
 menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,1,Smoked Salmon & King Prawn Mille-Feuille,Lemon Caper Crème,9.9,TRUE,no,no,no
 menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,2,Honey & Rosemary Camembert Sharer,"Toasted Ciabatta, Chutney, Fig lam",14,TRUE,yes,no,option
 menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,3,Buffalo Cauliflower Bites,Celeriac Slaw,8.5,TRUE,yes,yes,option
@@ -325,5 +325,5 @@ Salted Caramel (GF)
 Honeycomb (GF)
 Madagascan Vanilla (GF)
 Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
-menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,5,,2 scoops,5,TRUE,no,no,no
-menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,5,,3 scoops,6.9,TRUE,no,no,no
+,Sunday,sunday-menu,sundayMenu,,,,4,Desserts,5,,2 scoops,5,TRUE,no,no,no
+,Sunday,sunday-menu,sundayMenu,,,,4,Desserts,5,,3 scoops,6.9,TRUE,no,no,no

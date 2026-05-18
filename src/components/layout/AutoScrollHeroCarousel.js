@@ -14,6 +14,44 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+const kidsCarouselColors = {
+  meals: "#FFAADB",
+  snacks: "#F1C816",
+  drinks: "#F08D2B",
+};
+
+function normalizeKey(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function getKidsCarouselColor(slide) {
+  return kidsCarouselColors[normalizeKey(slide?.sectionTitle || slide?.eyebrow)];
+}
+
+function PaintBlobLabel({
+  children,
+  color = "var(--color-primary)",
+  className = "",
+  textClassName = "",
+}) {
+  return (
+    <span className={`relative inline-grid place-items-center px-7 py-3 ${className}`}>
+      <svg
+        aria-hidden="true"
+        viewBox="0 0 240 96"
+        preserveAspectRatio="none"
+        className="absolute inset-0 h-full w-full"
+      >
+        <path
+          d="M22.6 53.7C11.4 39.4 22.7 17.5 47.8 13.8c15.9-2.3 26.6 2.9 40.7-1.8 18.2-6.1 39.6-11.2 58-1.2 15.5 8.4 17.9 20.9 39.4 20.1 22.5-.8 39 9.1 37.9 26.3-1 15.6-16.3 25.1-37.4 24.5-17.5-.5-26.3 8.7-47.7 9.8-17.3.9-27.5-5-43.6-3.6-24.8 2.1-42.6 4.6-57.2-7.2-8.5-6.9-7.9-16.4-15.3-27Z"
+          fill={color}
+        />
+      </svg>
+      <span className={`relative z-10 ${textClassName}`}>{children}</span>
+    </span>
+  );
+}
+
 function HeroArrow({ direction = "next", onClick }) {
   const Icon = direction === "next" ? ChevronRight : ChevronLeft;
 
@@ -149,6 +187,10 @@ export default function AutoScrollHeroCarousel({
   }
 
   const activeSlide = safeSlides[activeIndex];
+  const activeSlideIsKids = activeSlide?.menuType === "kidsMenu";
+  const activeSlideKidsColor = activeSlideIsKids
+    ? getKidsCarouselColor(activeSlide) || "var(--color-primary)"
+    : null;
   const initialDelay = activeIndex === 0 ? 0.16 : 0;
 
   function goToIndex(nextIndex) {
@@ -246,15 +288,29 @@ export default function AutoScrollHeroCarousel({
                 {activeSlide.eyebrow ? (
                   <motion.p
                     variants={shouldReduceMotion ? undefined : itemVariants}
-                    className="eyebrow text-white/88"
+                    className={activeSlideIsKids ? "" : "eyebrow text-white/88"}
                   >
-                    {activeSlide.eyebrow}
+                    {activeSlideIsKids ? (
+                      <PaintBlobLabel
+                        color={activeSlideKidsColor}
+                        className="min-h-[3.8rem] min-w-[9rem] px-5 py-2"
+                        textClassName="kids-menu-font-heading text-3xl leading-none text-[#111111]"
+                      >
+                        {activeSlide.eyebrow}
+                      </PaintBlobLabel>
+                    ) : (
+                      activeSlide.eyebrow
+                    )}
                   </motion.p>
                 ) : null}
                 {activeSlide.title ? (
                   <motion.h1
                     variants={shouldReduceMotion ? undefined : itemVariants}
-                    className="mt-2 max-w-4xl font-heading text-[clamp(2.05rem,7.1vw,3.55rem)] leading-[0.9] text-white md:text-[clamp(3rem,6vw,4.55rem)]"
+                    className={
+                      activeSlideIsKids
+                        ? "kids-menu-font-heading kids-menu-outlined-text mt-1 max-w-4xl text-[clamp(2.8rem,8.4vw,5.6rem)] leading-[0.84]"
+                        : "mt-2 max-w-4xl font-heading text-[clamp(2.05rem,7.1vw,3.55rem)] leading-[0.9] text-white md:text-[clamp(3rem,6vw,4.55rem)]"
+                    }
                   >
                     {activeSlide.title}
                   </motion.h1>
@@ -262,7 +318,11 @@ export default function AutoScrollHeroCarousel({
                 {activeSlide.description ? (
                   <motion.p
                     variants={shouldReduceMotion ? undefined : itemVariants}
-                    className="mt-2 max-w-2xl text-[0.92rem] leading-6 text-white/76 sm:text-[0.96rem] sm:leading-6 md:mt-3 md:text-[0.98rem] md:leading-7"
+                    className={
+                      activeSlideIsKids
+                        ? "kids-menu-font-body mt-2 max-w-2xl text-xl leading-7 text-white md:mt-3 md:text-2xl md:leading-8"
+                        : "mt-2 max-w-2xl text-[0.92rem] leading-6 text-white/76 sm:text-[0.96rem] sm:leading-6 md:mt-3 md:text-[0.98rem] md:leading-7"
+                    }
                   >
                     {activeSlide.description}
                   </motion.p>
@@ -276,10 +336,22 @@ export default function AutoScrollHeroCarousel({
                     {activeSlide.primaryCta ? (
                       <Link
                         href={activeSlide.primaryCta.href}
-                        className={buttonVariants({
-                          variant: "brandCta",
-                          size: "hero",
-                        })}
+                        className={
+                          activeSlideIsKids
+                            ? "kids-menu-font-heading inline-flex min-h-[64px] items-center justify-center rounded-[0.9rem] border border-transparent px-6 py-2.5 text-2xl leading-none shadow-[var(--shadow-card)] transition-all hover:-translate-y-px hover:shadow-[var(--shadow-lifted)] max-md:w-full"
+                            : buttonVariants({
+                                variant: "brandCta",
+                                size: "hero",
+                              })
+                        }
+                        style={
+                          activeSlideIsKids
+                            ? {
+                                backgroundColor: activeSlideKidsColor,
+                                color: "#111111",
+                              }
+                            : undefined
+                        }
                       >
                         {activeSlide.primaryCta.label}
                       </Link>

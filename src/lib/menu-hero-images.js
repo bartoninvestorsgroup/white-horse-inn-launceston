@@ -93,6 +93,8 @@ export function buildMenuHeroSlides(menus = [], href = "/food/menu") {
           id: `${menu._id}-${section._key}-${item._key}`,
           src: `/assets/images/food_and_drink/${filename}`,
           alt: `${item.title} from ${section.title} on ${menu.title}`,
+          menuType: menu.menuType,
+          sectionTitle: section.title,
           eyebrow: section.title,
           title: item.title,
           description: normalizeDescription(item.description),
