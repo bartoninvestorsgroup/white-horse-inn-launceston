@@ -2,7 +2,7 @@ import { unstable_cache } from "next/cache";
 import { groq } from "next-sanity";
 import { sanityFetch } from "./client";
 
-const CACHE_REVALIDATE_SECONDS = 3600;
+const CACHE_REVALIDATE_SECONDS = 10;
 const BANNER_REVALIDATE_SECONDS = 10;
 
 export const activeSiteBannersQuery = groq`
@@ -18,41 +18,52 @@ export const activeSiteBannersQuery = groq`
   }
 `;
 
-export const eventBaseProjection = groq`{
+export const menuBaseProjection = groq`{
   _id,
   title,
   "slug": slug.current,
-  summary,
-  startAt,
-  endAt,
-  priceLabel,
-  body,
-  ctaLink,
-  featured,
-  image{
-    "src": asset->url,
-    "alt": alt
-  },
-  status,
-  "locations": select(
-    defined(locations) => locations,
-    defined(location) => [location],
-    []
-  )
+  menuType,
+  "showOnWebsite": coalesce(showOnWebsite, true),
+  "listInSitemap": coalesce(listInSitemap, true),
+  introduction,
+  sections[]{
+    _key,
+    title,
+    items[]{
+      _key,
+      title,
+      description,
+      price,
+      choices[]{
+        _key,
+        label,
+        price,
+        "show": coalesce(show, true),
+        vegetarian,
+        vegan,
+        glutenFree
+      },
+      "show": coalesce(show, true),
+      vegetarian,
+      vegan,
+      glutenFree
+    }
+  }
 }`;
 
-export const eventsQuery = groq`
-  *[_type == "event"] | order(startAt asc)
-  ${eventBaseProjection}
+export const menusQuery = groq`
+  *[_type == "menu"] | order(menuType asc, title asc)
+  ${menuBaseProjection}
 `;
 
-export const eventBySlugQuery = groq`
-  *[_type == "event" && slug.current == $slug][0]
-  ${eventBaseProjection}
+export const menuBySlugQuery = groq`
+  *[_type == "menu" && slug.current == $slug][0]
+  ${menuBaseProjection}
 `;
 
-export const eventSlugsQuery = groq`
-  *[_type == "event" && defined(slug.current)].slug.current
+export const menusByTypesQuery = groq`
+  *[_type == "menu" && menuType in $menuTypes] | order(menuType asc, title asc)
+  ${menuBaseProjection}
 `;
 
 export function getActiveSiteBanners() {
@@ -70,48 +81,63 @@ export function getActiveSiteBanners() {
   )();
 }
 
-export function getEvents() {
+export function getMenus() {
   return unstable_cache(
     async () =>
       sanityFetch({
-        query: eventsQuery,
+        query: menusQuery,
         fallback: [],
       }),
-    ["sanity-events"],
+    ["sanity-menus"],
     {
-      tags: ["sanity:events"],
+      tags: ["sanity:menus"],
       revalidate: CACHE_REVALIDATE_SECONDS,
     },
   )();
 }
 
-export function getEventBySlug(slug) {
+export function getMenuBySlug(slug) {
   return unstable_cache(
     async () =>
       sanityFetch({
-        query: eventBySlugQuery,
+        query: menuBySlugQuery,
         params: { slug },
         fallback: null,
       }),
-    ["sanity-event-by-slug", slug],
+    ["sanity-menu-by-slug", slug],
     {
-      tags: ["sanity:events", `sanity:event:${slug}`],
+      tags: ["sanity:menus", `sanity:menu:${slug}`],
       revalidate: CACHE_REVALIDATE_SECONDS,
     },
   )();
 }
 
-export function getEventSlugs() {
+export function getMenusByTypes(menuTypes = []) {
+  const normalizedMenuTypes = Array.isArray(menuTypes) ? menuTypes : [menuTypes];
+
   return unstable_cache(
     async () =>
       sanityFetch({
-        query: eventSlugsQuery,
+        query: menusByTypesQuery,
+        params: { menuTypes: normalizedMenuTypes },
         fallback: [],
       }),
-    ["sanity-event-slugs"],
+    ["sanity-menus-by-types", normalizedMenuTypes.join(":")],
     {
-      tags: ["sanity:events"],
+      tags: ["sanity:menus", ...normalizedMenuTypes.map((type) => `sanity:menus:${type}`)],
       revalidate: CACHE_REVALIDATE_SECONDS,
     },
   )();
+}
+
+export function getEvents() {
+  return Promise.resolve([]);
+}
+
+export function getEventBySlug() {
+  return Promise.resolve(null);
+}
+
+export function getEventSlugs() {
+  return Promise.resolve([]);
 }

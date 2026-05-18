@@ -34,7 +34,7 @@ export default defineType({
       title: "Link",
       type: "string",
       description:
-        "Optional. Use an internal path such as /whats-on or a full URL.",
+        "Optional. Use an internal path such as /food/menu or a full URL.",
       validation: (Rule) => Rule.custom(validateBannerLink),
     }),
     defineField({

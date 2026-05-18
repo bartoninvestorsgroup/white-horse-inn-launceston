@@ -6,7 +6,7 @@ import { singletonDocumentTypes, structure } from "./src/sanity/structure";
 
 export default defineConfig({
   name: "default",
-  title: "Barton Investors Group",
+  title: "White Horse Inn Launceston",
   projectId,
   dataset,
   basePath: studioBasePath,

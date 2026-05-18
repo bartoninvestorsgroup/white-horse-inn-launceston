@@ -1,10 +1,12 @@
 import { absoluteUrl } from "@/lib/seo";
-import { getEventSlugs } from "@/sanity/lib/queries";
+import { getMenus } from "@/sanity/lib/queries";
 
 const routes = [
   "/",
-  "/locations",
-  "/whats-on",
+  "/food",
+  "/accommodation",
+  "/find-us",
+  "/functions",
   "/gallery",
   "/book-a-table",
   "/contact",
@@ -12,7 +14,7 @@ const routes = [
 ];
 
 export default async function sitemap() {
-  const eventSlugs = await getEventSlugs();
+  const menus = await getMenus();
   const staticRoutes = routes.map((route) => ({
     url: absoluteUrl(route),
     lastModified: new Date(),
@@ -20,12 +22,14 @@ export default async function sitemap() {
     priority: route === "/" ? 1 : 0.7,
   }));
 
-  const eventRoutes = eventSlugs.map((slug) => ({
-    url: absoluteUrl(`/whats-on/${slug}`),
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.75,
-  }));
+  const menuRoutes = menus
+    .filter((menu) => menu.slug && menu.listInSitemap !== false)
+    .map((menu) => ({
+      url: absoluteUrl(`/food/${menu.slug}`),
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    }));
 
-  return [...staticRoutes, ...eventRoutes];
+  return [...staticRoutes, ...menuRoutes];
 }

@@ -16,20 +16,21 @@
     "tiktok": "#"
   },
   "navItems": [
-    { "label": "Home", "href": "/" },
-    { "label": "Locations", "href": "/locations" },
-    { "label": "What's On", "href": "/whats-on" },
-    { "label": "Gallery", "href": "/gallery" },
     {
-      "label": "Burgers in General",
-      "href": "https://www.burgersingeneral.co.uk/"
+      "label": "Food",
+      "href": "/food"
     },
+    { "label": "Accommodation", "href": "/accommodation" },
+    { "label": "Find Us", "href": "/find-us" },
+    { "label": "Functions", "href": "/functions" },
+    { "label": "Gallery", "href": "/gallery" },
     { "label": "Book a Table", "href": "/book-a-table" }
   ],
   "footerLinks": [
     { "label": "Privacy Policy", "href": "/privacy-policy" },
     { "label": "Book a Table", "href": "/book-a-table" },
-    { "label": "What's On", "href": "/whats-on" }
+    { "label": "Food", "href": "/food" },
+    { "label": "Find Us", "href": "/find-us" }
   ],
   "seo": {
     "defaultOgImage": {

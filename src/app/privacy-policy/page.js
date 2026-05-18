@@ -11,7 +11,7 @@ const policySections = [
   {
     title: "Who We Are",
     body: [
-      `This website is operated by ${siteConfig.businessName}. For the purposes of UK data protection law, Barton Investors Group is the data controller for the personal information collected through this website unless this policy says otherwise.`,
+      `This website is operated by ${siteConfig.businessName}. For the purposes of UK data protection law, ${siteConfig.businessName} is the data controller for the personal information collected through this website unless this policy says otherwise.`,
       `If you have questions about this policy or about how we handle personal information, you can contact us using the details below.`,
     ],
   },
@@ -28,14 +28,14 @@ const policySections = [
     title: "What Information We May Collect",
     body: [
       "We may collect your name, contact details, enquiry details, booking-related selections, technical device and browser information, cookie preferences, and any information you choose to send to us through forms or communications.",
-      "If you follow a booking journey from this website to OpenTable, you may also provide reservation information directly to OpenTable. That information is collected and processed on OpenTable's platform under OpenTable's own terms and privacy practices.",
+      "If you follow a booking journey from this website to OpenTable, Booking.com, Voucher Connect, or another third-party service, you may also provide information directly to that provider. That information is collected and processed on the provider's platform under its own terms and privacy practices.",
     ],
   },
   {
     title: "How We Use Personal Information",
     body: [
       "We use personal information to operate and improve the website, respond to enquiries, manage venue and booking-related communications, maintain security, remember cookie choices, and understand how the website is used where analytics are enabled with consent.",
-      "We do not use this website to complete restaurant reservations directly. Where you choose to make a booking, you will be redirected to OpenTable to complete that process.",
+      "We do not use this website to complete restaurant reservations, accommodation bookings, gift card purchases, or loyalty programme activity directly. Where you choose to use those services, you may be redirected to the relevant third-party platform to complete that process.",
     ],
   },
   {
@@ -64,13 +64,27 @@ const policySections = [
     title: "OpenTable Bookings",
     body: [
       "When you use booking links or the booking journey on this website, you are redirected to OpenTable to complete your reservation. OpenTable collects and processes the booking information required to manage that reservation.",
-      "Barton Investors Group may receive reservation-related details from OpenTable so that we can administer and honour bookings. OpenTable is responsible for its own platform, cookies, and reservation processing. You should review OpenTable's privacy policy before completing a booking.",
+      `${siteConfig.businessName} may receive reservation-related details from OpenTable so that we can administer and honour bookings. OpenTable is responsible for its own platform, cookies, and reservation processing. You should review OpenTable's privacy policy before completing a booking.`,
+    ],
+  },
+  {
+    title: "Booking.com Accommodation",
+    body: [
+      "When you use accommodation booking links from this website, you may be redirected to Booking.com to check availability or complete a room booking. Booking.com collects and processes the information needed to manage that accommodation booking on its own platform.",
+      `${siteConfig.businessName} may receive accommodation-related booking details from Booking.com so that we can administer and honour stays. Booking.com is responsible for its own platform, cookies, and booking processing. You should review Booking.com's privacy policy before completing a booking.`,
+    ],
+  },
+  {
+    title: "Voucher Connect Gift Cards and Loyalty",
+    body: [
+      "Where we provide links to customer loyalty, gift card, or voucher services, those services may be operated through Voucher Connect at voucherconnect.com. Voucher Connect may collect and process the information needed to issue, manage, redeem, or support vouchers, gift cards, and loyalty activity.",
+      `${siteConfig.businessName} may receive voucher, gift card, or loyalty-related details from Voucher Connect where needed to administer those services. Voucher Connect is responsible for its own platform, cookies, payment flow, and processing. You should review Voucher Connect's privacy policy before using those services.`,
     ],
   },
   {
     title: "Sharing Information",
     body: [
-      "We may share information with service providers who help us operate the website or related services, including hosting providers, website suppliers, analytics providers where enabled with consent, and booking platform providers such as OpenTable.",
+      "We may share information with service providers who help us operate the website or related services, including hosting providers, website suppliers, analytics providers where enabled with consent, and service platforms such as OpenTable, Booking.com, and Voucher Connect.",
       "We may also disclose information where required by law or where necessary to protect legal rights, prevent fraud, or respond to security issues.",
     ],
   },
@@ -122,7 +136,7 @@ export default function PrivacyPolicyPage() {
       <PageIntro
         eyebrow="Privacy Policy"
         title="Privacy, cookies, and reservation data handling."
-        description="This policy explains how Barton Investors Group handles website data, cookie choices, and third-party booking journeys. It should be reviewed again before launch and whenever services such as analytics are enabled."
+        description="This policy explains how the White Horse Inn handles website data, cookie choices, enquiries, bookings, accommodation, vouchers, gift cards, and loyalty-related services."
       />
       <section className="relative z-20 bg-[color:var(--color-surface)]">
         <SectionReveal className="site-container px-2 py-16 md:py-20">
@@ -131,10 +145,9 @@ export default function PrivacyPolicyPage() {
               Effective date: 11 April 2026
             </p>
             <p className="mt-6 text-lg leading-8 text-[color:var(--color-copy-soft)]">
-              This privacy policy is provided as a strong website-ready draft for Barton
-              Investors Group. It should be checked again before launch to ensure it
-              matches the final services, cookies, booking flow, and operational
-              practices used on the live site.
+              This privacy policy explains what personal information we collect,
+              how we use it, when we may share it with trusted service providers,
+              and the choices and rights available to you.
             </p>
           </div>
 

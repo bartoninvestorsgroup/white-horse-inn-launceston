@@ -48,7 +48,7 @@ export default function FixedRevealSection({
   src,
   alt,
   children,
-  overlayClassName = "bg-[linear-gradient(180deg,rgba(var(--color-primary-rgb),0.58)_0%,rgba(var(--color-primary-rgb),0.4)_16%,rgba(var(--color-primary-rgb),0.28)_34%,rgba(var(--color-primary-rgb),0.4)_100%)]",
+  overlayClassName = "bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0.58)_0%,rgba(var(--color-image-vignette-rgb),0.4)_16%,rgba(var(--color-image-vignette-rgb),0.28)_34%,rgba(var(--color-image-vignette-rgb),0.4)_100%)]",
   contentClassName = "",
   zoomRange,
 }) {

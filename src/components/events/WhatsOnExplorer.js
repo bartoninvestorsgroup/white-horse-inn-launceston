@@ -165,13 +165,13 @@ export default function WhatsOnExplorer({
                   : "border-[color:var(--color-gold-soft)]/30",
                 selectedStatus === option.key
                   ? "border-[color:var(--color-gold)] bg-[color:var(--color-gold)] text-[color:var(--color-primary)]"
-                  : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold-soft)] hover:border-[color:var(--color-primary)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:text-[color:rgba(var(--color-gold-soft-rgb),0.86)]",
+                  : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold)] hover:border-[color:var(--color-primary)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:text-[color:var(--color-gold)]",
               )}
               style={{
                 color:
                   selectedStatus === option.key
                     ? "var(--color-primary)"
-                    : "var(--color-gold-soft)",
+                    : "var(--color-gold)",
               }}
             >
               {option.label}
@@ -187,13 +187,13 @@ export default function WhatsOnExplorer({
               "inline-flex min-h-10 items-center justify-center rounded-[1rem] border px-4 py-2 text-sm font-semibold transition-colors",
               selectedLocation === "all"
                 ? "border-[color:var(--color-gold-soft)] bg-[color:var(--color-gold-soft)] text-[color:var(--color-primary)]"
-                : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold-soft)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:border-[color:var(--color-primary)] hover:text-[color:rgba(var(--color-gold-soft-rgb),0.86)]",
+                : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:border-[color:var(--color-primary)] hover:text-[color:var(--color-gold)]",
             )}
             style={{
               color:
                 selectedLocation === "all"
                   ? "var(--color-primary)"
-                  : "var(--color-gold-soft)",
+                  : "var(--color-gold)",
             }}
           >
             All Locations
@@ -207,13 +207,13 @@ export default function WhatsOnExplorer({
                 "inline-flex min-h-10 items-center justify-center rounded-[1rem] border px-4 py-2 text-sm font-semibold transition-colors",
                 selectedLocation === locationTitle
                   ? "border-[color:var(--color-gold-soft)] bg-[color:var(--color-gold-soft)] text-[color:var(--color-primary)]"
-                  : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold-soft)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:border-[color:var(--color-primary)] hover:text-[color:rgba(var(--color-gold-soft-rgb),0.86)]",
+                  : "border-[color:var(--color-primary)] bg-[color:var(--color-primary)] text-[color:var(--color-gold)] hover:bg-[color:rgba(var(--color-primary-rgb),0.86)] hover:border-[color:var(--color-primary)] hover:text-[color:var(--color-gold)]",
               )}
               style={{
                 color:
                   selectedLocation === locationTitle
                     ? "var(--color-primary)"
-                    : "var(--color-gold-soft)",
+                    : "var(--color-gold)",
               }}
             >
               {locationTitle}

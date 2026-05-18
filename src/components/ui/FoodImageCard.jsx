@@ -175,7 +175,7 @@ export default function FoodImageCard({
             rest: { opacity: 0.32 },
             hover: { opacity: 1 },
           }}
-          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-primary-rgb),0)_0%,rgba(var(--color-primary-rgb),0.18)_32%,rgba(var(--color-primary-rgb),0.58)_72%,rgba(var(--color-primary-rgb),0.92)_100%)]"
+          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0)_0%,rgba(var(--color-image-vignette-rgb),0.18)_32%,rgba(var(--color-image-vignette-rgb),0.58)_72%,rgba(var(--color-image-vignette-rgb),0.92)_100%)]"
         />
       </motion.div>
 

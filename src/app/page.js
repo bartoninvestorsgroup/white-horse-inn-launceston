@@ -47,18 +47,18 @@ const foodCards = [
 
 const aboutCards = [
   {
-    title: "A Family-Run Passion for Local Living",
-    body: "At Barton Investors Group, we believe the heart of every community is its local pub. As a family-run independent team, we aren't just running businesses; we're looking after the places where memories are made. From the moment we opened the doors to our very first venues, our mission has been simple: to create a home-away-from-home for every guest who walks through our doors.",
+    title: "A Proper Launceston Local",
+    body: "The White Horse Inn is a welcoming pub in the heart of Launceston, built around good food, friendly service and easy moments around the table. Whether you are calling in for a drink, staying overnight or gathering for a family meal, the aim is simple: make every visit feel comfortable and looked after.",
     alignment: "left",
   },
   {
-    title: "Growing Our Community",
-    body: "We are incredibly proud of our collection of pubs across Devon, Somerset, Hampshire, and the South East. Most recently, we've been delighted to welcome the Cricketers Inn in Longparish into our family. Each of our pubs maintains its own unique charm and local character while sharing the same commitment to genuine hospitality and a friendly, inclusive atmosphere.",
+    title: "Food, Drink and Rooms Under One Roof",
+    body: "From seasonal pub dishes and Sunday favourites to comfortable accommodation, the inn is set up for everything from relaxed lunches to longer stays. It is a straightforward, characterful place to eat, drink, rest and spend time with people.",
     alignment: "right",
   },
   {
-    title: "Quality Food, Wherever You Are",
-    body: "Our love for great food doesn't stop at the pub table. With Burgers in General, we've brought our passion for gourmet quality to the comfort of your own home. Whether you're joining us at the bar or ordering in for a movie night, we're dedicated to serving up quality, comfort, and a very warm welcome.",
+    title: "Room for Gatherings",
+    body: "Alongside the pub and dining spaces, our large function room gives guests a practical setting for birthdays, private events, meetings and local celebrations, with the team on hand to help shape the details.",
     alignment: "left",
   },
 ];
@@ -90,7 +90,7 @@ export default function HomePage() {
 
       <FixedRevealSection
         src="/assets/images/locations/PXL_20250611_210014049.MP_hero_2000.jpg"
-        alt="Exterior view of a Barton Investors Group venue"
+        alt="Exterior view of the White Horse Inn"
         zoomRange={[1.02, 1.2]}
         contentClassName="no-snap-zone relative"
         revealHeightClassName="h-[72svh] md:h-[88svh]"
@@ -128,7 +128,7 @@ export default function HomePage() {
           <div className="grid gap-6 md:grid-cols-2">
             <FoodImageCard
               src="/assets/images/food_and_drink/scallops.png"
-              alt="Freshly caught coastal scallops plated at a Barton Investors Group venue"
+              alt="Freshly caught coastal scallops plated at the White Horse Inn"
               title="Coastal Scallops"
               description="Freshly caught coastal scallops, sourced local to our pubs."
               eyebrow="From Shore to Plate"

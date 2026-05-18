@@ -24,16 +24,16 @@ export default function NotFound() {
             Back to Home
           </Link>
           <Link
-            href="/locations"
+            href="/food/menu"
             className={cn(buttonVariants({ variant: "outline", size: "hero" }), "link-button")}
           >
-            View Locations
+            View Menus
           </Link>
           <Link
-            href="/whats-on"
+            href="/find-us"
             className={cn(buttonVariants({ variant: "outline", size: "hero" }), "link-button")}
           >
-            What&apos;s On
+            Find Us
           </Link>
         </div>
       </SectionReveal>

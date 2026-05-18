@@ -7,6 +7,8 @@
 :root {
   --color-primary: #00563b;
   --color-primary-rgb: 0, 86, 59;
+  --color-image-vignette: #111211;
+  --color-image-vignette-rgb: 17, 18, 17;
   --color-gold: #e2cb91;
   --color-gold-rgb: 226, 203, 145;
   --color-gold-soft: #e7b866;
@@ -25,9 +27,9 @@
   --radius-pill: 999px;
   --space-section-y: clamp(4.5rem, 8vw, 8rem);
   --space-container: min(1200px, calc(100vw - 2rem));
-  --font-lora: Georgia, "Times New Roman", serif;
-  --font-cormorant: Georgia, "Times New Roman", serif;
-  --font-mulish: Arial, Helvetica, sans-serif;
+  --font-lora: var(--font-caladea), Georgia, "Times New Roman", serif;
+  --font-cormorant: var(--font-caladea), Georgia, "Times New Roman", serif;
+  --font-mulish: var(--font-montserrat), Arial, Helvetica, sans-serif;
   --background: var(--color-surface);
   --foreground: var(--color-primary);
   --card: var(--color-surface);
@@ -35,7 +37,7 @@
   --popover: var(--color-surface);
   --popover-foreground: var(--color-primary);
   --primary: var(--color-primary);
-  --primary-foreground: var(--color-surface);
+  --primary-foreground: var(--color-gold);
   --secondary: #f6f2e6;
   --secondary-foreground: var(--color-primary);
   --muted: #f8f6ef;
@@ -170,6 +172,25 @@ img {
 
 .font-display {
   font-family: var(--font-cormorant), serif;
+}
+
+.kids-menu-font-heading {
+  font-family: var(--font-luckiest-guy), var(--font-caladea), Georgia, serif;
+}
+
+.kids-menu-font-body {
+  font-family: var(--font-love-ya-like-a-sister), var(--font-montserrat), Arial, sans-serif;
+}
+
+.kids-menu-outlined-text {
+  color: #111111;
+  -webkit-text-stroke: 2px white;
+  paint-order: stroke fill;
+  text-shadow:
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white;
 }
 
 .cta-button {
@@ -351,6 +372,27 @@ img {
 
 .footer-link:hover {
   color: var(--color-gold);
+}
+
+.menu-item-anchor {
+  border-radius: 5px;
+  margin-inline: -10px;
+  padding-inline: 10px;
+}
+
+.menu-item-anchor-highlight {
+  animation: menu-item-target-highlight 3s ease-out both;
+}
+
+@keyframes menu-item-target-highlight {
+  0%,
+  72% {
+    background-color: rgba(var(--color-gold-rgb), 0.34);
+  }
+
+  100% {
+    background-color: transparent;
+  }
 }
 
 @media (max-width: 767px) {

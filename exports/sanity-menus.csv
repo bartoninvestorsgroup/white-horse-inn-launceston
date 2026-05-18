@@ -1,0 +1,329 @@
+_id,menuTitle,slug,menuType,showOnWebsite,listInSitemap,menuIntroduction,sectionOrder,sectionTitle,itemOrder,itemTitle,description,price,show,vegetarian,vegan,glutenFree
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,1,Slow Cooked Beef Croquette,"Horseradish Cream, Beef jus",9.5,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,2,Smoked Salmon & King Prawn Mille-Feuille,Lemon Caper Crème,9.9,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,3,Buffalo Cauliflower Bites,Celeriac Slaw,8,TRUE,yes,yes,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,4,Confit Pork Belly,"Celeriac Puree, Pomegranate",9,TRUE,no,no,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,5,Scallops,"Chorizo, Spiced Ketchup, Basil Oil",11,TRUE,no,no,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",1,Starters,6,Honey & Rosemary Camembert Sharer,"Toasted Ciabatta, Chutney, Fig lam",14,TRUE,yes,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,1,Baked Hake Cassoulet,"Chorizo & Bean Cassoulet, Sourdough",20,TRUE,no,no,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,2,Brisket Ragu Rigatoni or Vegetable Rigatoni,"Arrabbiata Sauce, Parmesan",18.5,TRUE,option,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,3,Chargrill Chicken & Harissa Yoghurt or Aged Beef with Monterey Jack Cheese or Vegan Burger,"Spiced Ketchup, Lettuce, Tomato, Red Onion, Brioche Bun with Homemade Chips",17.95,TRUE,no,option,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,4,Scallop & Prawn Gratin,"Pomme Anna, Wilted Spinach",21,TRUE,no,no,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,5,Beer Battered Catch of the Day,"Homemade Chips, Homemade Tartare Sauce, Garden Peas, Malt Vinegar Powder",19.5,TRUE,no,no,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,6,8oz Sirloin Steak,"Homemade Chips, Peas
+Add Sauce (Peppercorn, Blue Cheese or Port) £2.50
+Add Baked Mushroom and Tomatoes £2.50
+Add Fresh Battered Onion Rings £2.50",27,TRUE,no,no,option
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,7,Roasted Cauliflower Steak,"Celeriac Puree, Butterbean Mash, Mushroom Jus",17,TRUE,yes,yes,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",2,Mains,8,Pie of the Day & Vegetarian Option (See Specials Board),"Buttered Mash, Carrots, Red Cabbage, Tender Stem Broccoli",19,TRUE,option,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,1,BBQ Jackfruit Loaded Fries,,7,TRUE,yes,yes,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,2,Brisket Loaded Fries,,9,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,3,Cheesy Garlic Ciabatta,,6,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,4,Mixed Vegetables,,5,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,5,Chips,,5,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,6,Cheesy Chips,,6,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",3,Sides,7,Onion Rings,,5.5,TRUE,no,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",4,Desserts,1,"Chocolate Cremeux, Baileys Fudge, Chocolate Crumb",,9,TRUE,yes,no,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",4,Desserts,2,"Treacle Tart with Berry Compote, Clotted Cream",,8.75,TRUE,yes,no,no
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",4,Desserts,3,"Raspberry Posset, Berry Gel, Butter
+Sable Biscuit",,8.75,TRUE,yes,no,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",4,Desserts,4,Chocolate Brownie,,8.5,TRUE,no,yes,yes
+menu-dinner-menu,Dinner,dinner-menu,dinnerMenu,TRUE,TRUE,"Settle in for dinner at The White Horse Inn, Launceston, where classic pub dining meets a little extra care and creativity. Our evening menu features starters and sharers, fresh fish, homemade pies, steak, burgers, vegetarian and vegan options, traditional sides, and proper desserts, all served in a warm, welcoming pub setting.
+
+We are part of an independent, family-run group of local pubs, with a focus on freshly prepared dishes, generous hospitality, and quality ingredients, including [insert local produce / local suppliers reference here]. Dinner is served [insert dinner food service times here].
+
+Families are very welcome, and younger guests can choose from our [Kids Menu](/food/kids-menu) here.",4,Desserts,5,"Dartmoor Ice Cream Company Selection
+Honeycomb (GF)
+Madagascan Vanilla (GF)
+Rocky Road
+Salted Caramel (GF)
+Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
+,Dinner,dinner-menu,dinnerMenu,,,,4,Desserts,5,,2 scoops,5,TRUE,no,no,no
+,Dinner,dinner-menu,dinnerMenu,,,,4,Desserts,5,,3 scoops,6.9,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,1,Slow Cooked Beef Croquette,"Horseradish Cream, Beef jus",9.5,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,2,Smoked Salmon & King Prawn Mille-Feuille,Lemon Caper Crème,9.9,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,3,Buffalo Cauliflower Bites,Celeriac Slaw,8,TRUE,yes,yes,option
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,4,Confit Pork Belly,"Celeriac Puree, Pomegranate",9,TRUE,no,no,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,5,Scallops,"Chorizo, Spiced Ketchup, Basil Oil",11,TRUE,no,no,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",1,Starters,6,Honey & Rosemary Camembert Sharer,"Toasted Ciabatta, Chutney, Fig lam",14,TRUE,yes,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,1,Brisket Ragu Rigatoni or Vegetable Rigatoni,"Arrabbiata Sauce, Parmesan",18.5,TRUE,option,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,2,Chargrill Chicken & Harissa Yoghurt or Aged Beef with Monterey Jack Cheese or Vegan Burger,"Spiced Ketchup, Lettuce, Tomato, Red Onion, Brioche Bun with Homemade Chips",17.95,TRUE,no,option,option
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,3,Beer Battered Catch of the Day,"Homemade Chips, Homemade Tartare Sauce, Garden Peas, Malt Vinegar Powder",19.5,TRUE,no,no,option
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,4,Roasted Cauliflower Steak,"Celeriac Puree, Butterbean Mash, Mushroom Jus",17,TRUE,yes,yes,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,5,Chickpea Curry,"Rice, Poppadom, Mango Chutney",16.95,TRUE,no,yes,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",2,Mains,6,Pie of the Day & Vegetarian Option (See Specials Board),"Buttered Mash, Carrots, Red Cabbage, Tender Stem Broccoli",19,TRUE,option,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",3,Sandwiches,1,"Open top Sandwich served on Sourdough with Salted Crisps, Leaves and pickled red Onion;",Smoked Salmon & Lemon Caper Cr£me,10,TRUE,no,no,no
+,Lunch,lunch-menu,lunchMenu,,,,3,Sandwiches,1,,Chicken & Chorizo,10,TRUE,no,no,no
+,Lunch,lunch-menu,lunchMenu,,,,3,Sandwiches,1,,Beef Brisket & Horseradish Cream,10,TRUE,no,no,no
+,Lunch,lunch-menu,lunchMenu,,,,3,Sandwiches,1,,"Hummus, Red Pepper & Harissa Yoghurt",10,TRUE,yes,no,no
+,Lunch,lunch-menu,lunchMenu,,,,3,Sandwiches,1,,"'Dirty' Vegan Bap (Sausages, Cheese, Hash Brown, Crispy onions, BBQ Sauce)",10,TRUE,no,yes,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",3,Sandwiches,2,Upgrade from Crisps to Fries for,,2,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,1,BBQ Jackfruit Loaded Fries,,7,TRUE,yes,yes,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,2,Brisket Loaded Fries,,9,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,3,Cheesy Garlic Ciabatta,,6,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,4,Mixed Vegetables,,5,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,5,Chips,,5,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,6,Cheesy Chips,,6,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",4,Sides,7,Onion Rings,,5.5,TRUE,no,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",5,Desserts,1,"Chocolate Cremeux, Baileys Fudge, Chocolate Crumb",,9,TRUE,yes,no,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",5,Desserts,2,"Treacle Tart with Berry Compote, Clotted Cream",,8.75,TRUE,yes,no,no
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",5,Desserts,3,"Raspberry Posset, Berry Gel, Butter
+Sable Biscuit",,8.75,TRUE,yes,no,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",5,Desserts,4,Chocolate Brownie,,8.5,TRUE,no,yes,yes
+menu-lunch-menu,Lunch,lunch-menu,lunchMenu,TRUE,TRUE,"Enjoy a relaxed pub lunch at The White Horse Inn, Launceston, with a menu built around generous portions, proper flavour, and comforting British pub favourites. Our lunch menu includes hearty mains, fresh seafood dishes, open sourdough sandwiches, loaded fries, homemade sides, and indulgent desserts, ideal for everything from a quick bite to a long, leisurely lunch.
+
+As part of an independent, family-run group of local pubs, we focus on welcoming service, freshly prepared food, and quality ingredients, including [insert local produce / local suppliers reference here]. Lunch is served [insert lunch food service times here].
+
+Dining with little ones? View our [Kids Menu](/food/kids-menu) here.",5,Desserts,5,"Dartmoor Ice Cream Company Selection
+Honeycomb (GF)
+Madagascan Vanilla (GF)
+Rocky Road
+Salted Caramel (GF)
+Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
+,Lunch,lunch-menu,lunchMenu,,,,5,Desserts,5,,2 scoops,5,TRUE,no,no,no
+,Lunch,lunch-menu,lunchMenu,,,,5,Desserts,5,,3 scoops,6.9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,1,Beef Burger or Veggie Burger,"Mayo, Ketchup, Lettuce & Fries",10,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,2,Mac & Cheese,,8.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,3,Chicken Tenders & Fries,,9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,4,"Veggie Sausage & Mash, or Fries",,9,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,5,Kids Margaritta Pizza,,10,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,6,Fish Goujons & Chips,,12,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,1,Meals,7,Chicken Pastabake,,8.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,1,Fries,,4,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,2,Garlic Ciabatta,,3.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,3,Cheese & Pickle Sandwich,,4,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,Ice Cream Scoop,Vanilla,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Honeycomb,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Salted Caramel,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Chocolate (V),2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,2,Snacks,4,,Rockyroad,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,1,"Orange Juice, Apple Juice",,2.5,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,2,"Small Pepsi, Pepsi Max, Lemonade",,2,TRUE,no,no,no
+menu-kids-menu,Kids Menu,kids-menu,kidsMenu,TRUE,TRUE,,3,Drinks,3,"J20 Apple & Raspberry, Orange & Mango, Apple & Mango",,3.5,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,1,Smoked Salmon & King Prawn Mille-Feuille,Lemon Caper Crème,9.9,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,2,Honey & Rosemary Camembert Sharer,"Toasted Ciabatta, Chutney, Fig lam",14,TRUE,yes,no,option
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,1,Starters,3,Buffalo Cauliflower Bites,Celeriac Slaw,8.5,TRUE,yes,yes,option
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,1,Rolled Braised Shoulder of Lamb,,19.95,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,2,Belly of Free-Range Pork,,19.95,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,3,Palmer's British Rump of Beef,,20.95,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,4,The Whole Roast,All three meats,27,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,5,"Butternut Squash, Red Onion, Goats Cheese Wellington",,18,TRUE,yes,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,6,"Roast Mushroom, Roast Garlic and Cashew Crumb",,18,TRUE,no,yes,yes
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,7,Add Pigs in Blankets for,,5,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,8,Add Brisket Loaded Yorkshires,,5,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,2,Sunday Lunch,9,Small Roast Available for,,15,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,3,Non-Roast Mains,1,Chargrill Chicken & Harissa Yoghurt or Aged Beef with Monterey Jack Cheese or Vegan Burger,"Spiced Ketchup, Lettuce, Tomato, Red Onion, Brioche Bun with Homemade Chips",17.95,TRUE,no,option,option
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,3,Non-Roast Mains,2,Beer Battered Catch of the Day,"Homemade Chips, Homemade Tartare Sauce, Garden Peas, Malt Vinegar Powder",19.5,TRUE,no,no,option
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,1,"Chocolate Cremeux, Baileys Fudge, Chocolate Crumb",,9,TRUE,yes,no,yes
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,2,"Treacle Tart with Berry Compote, Clotted Cream",,8.75,TRUE,yes,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,3,Chocolate Brownie,,8.5,TRUE,no,yes,yes
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,4,"Raspberry Posset, Berry Gel, Butter
+Sable Biscuit",,8.75,TRUE,yes,no,yes
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,5,"Dartmoor Ice Cream Company Selection
+Pistachio
+Salted Caramel (GF)
+Honeycomb (GF)
+Madagascan Vanilla (GF)
+Vegan Chocolate (VE)(GF)",1 scoop,2.75,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,5,,2 scoops,5,TRUE,no,no,no
+menu-sunday,Sunday,sunday-menu,sundayMenu,TRUE,TRUE,,4,Desserts,5,,3 scoops,6.9,TRUE,no,no,no

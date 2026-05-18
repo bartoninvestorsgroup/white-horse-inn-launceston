@@ -30,8 +30,8 @@ export default function BookATablePage() {
       <StructuredData data={schema} />
       <PageIntro
         eyebrow="Book a Table"
-        title="Choose your venue and continue to booking."
-        description="Use the booking widget below to select your preferred location and continue to that venue’s secure reservation partner."
+        title="Book a table at the White Horse Inn."
+        description="Call us directly or send a table booking enquiry and the team will help with availability."
       />
       <Suspense fallback={null}>
         <SectionReveal>

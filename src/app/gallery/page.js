@@ -23,8 +23,8 @@ export default async function GalleryPage() {
       <StructuredData data={galleryPageSchema} />
       <PageIntro
         eyebrow="Gallery"
-        title="Take a closer look at Barton Investors Group."
-        description="Browse a curated gallery of our venues, spaces and moments, designed to showcase the character, warmth and everyday charm found across the group."
+        title="Take a closer look at the White Horse Inn."
+        description="Browse photos of the pub, food, drink, rooms and gathering spaces, with a feel for the character and warmth guests can expect when they visit."
       />
 
       <section className="relative z-20 bg-[color:var(--color-surface)] pb-14 pt-6 md:pb-18 md:pt-8">

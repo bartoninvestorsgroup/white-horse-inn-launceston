@@ -8,6 +8,6 @@ export function structure(S) {
         .title("Site Banner")
         .child(S.documentTypeList("siteBanner").title("Site Banners")),
       S.divider(),
-      S.documentTypeListItem("event").title("Events"),
+      S.documentTypeListItem("menu").title("Menu"),
     ]);
 }

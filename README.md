@@ -1,6 +1,6 @@
-# Barton Investors Group Site
+# White Horse Inn Launceston Website
 
-Next.js App Router project for Barton Investors Group, built in JavaScript and intended for Vercel deployment with Sanity as the CMS.
+Next.js App Router project for the White Horse Inn Launceston website, built in JavaScript and intended for Vercel deployment with Sanity as the CMS.
 
 ## Stack
 
@@ -15,6 +15,90 @@ Next.js App Router project for Barton Investors Group, built in JavaScript and i
 ## Getting Started
 
 New deployment allowed from parter git
+
+## Sanity CMS
+
+The active Sanity Studio content types for this venue are:
+
+- `Menu`
+- `Site Banner`
+
+Menus are edited as documents such as "Lunch Menu" or "Desserts Menu". Each menu document has a menu type, manually ordered sections, and manually ordered menu items. Hidden menu items remain in Sanity when `show` is false, but should not be rendered on the frontend.
+
+## Sanity Revalidation Webhooks
+
+Use the same `REVALIDATE_SECRET` value from the project environment as the `x-revalidate-secret` HTTP header value.
+
+### Revalidate Menu
+
+Name:
+`Revalidate Menu`
+
+Description:
+`Revalidates menu pages when menu content changes.`
+
+URL:
+`https://www.whitehorseinnlaunceston.co.uk/api/revalidate`
+
+Dataset:
+`production`
+
+Trigger on:
+`Create`, `Update`, `Delete`
+
+Filter:
+```groq
+_type == "menu"
+```
+
+Projection:
+```groq
+{
+  "_type": _type,
+  "slug": slug.current
+}
+```
+
+HTTP method:
+`POST`
+
+HTTP header:
+`x-revalidate-secret`
+
+### Revalidate Site Banner
+
+Name:
+`Revalidate Site Banner`
+
+Description:
+`Revalidates the site banner when banner content changes.`
+
+URL:
+`https://www.whitehorseinnlaunceston.co.uk/api/revalidate`
+
+Dataset:
+`production`
+
+Trigger on:
+`Create`, `Update`, `Delete`
+
+Filter:
+```groq
+_type == "siteBanner"
+```
+
+Projection:
+```groq
+{
+  "_type": _type
+}
+```
+
+HTTP method:
+`POST`
+
+HTTP header:
+`x-revalidate-secret`
 
 ## Local Mobile Testing With Ngrok
 

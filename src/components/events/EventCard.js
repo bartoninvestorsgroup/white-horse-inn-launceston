@@ -233,13 +233,13 @@ export default function EventCard({ event }) {
       <div className="pointer-events-none absolute inset-0">
         <div
           className={cn(
-            "absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-primary-rgb),0)_0%,rgba(var(--color-primary-rgb),0.18)_32%,rgba(var(--color-primary-rgb),0.58)_72%,rgba(var(--color-primary-rgb),0.94)_100%)] transition-opacity duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]",
+            "absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0)_0%,rgba(var(--color-image-vignette-rgb),0.18)_32%,rgba(var(--color-image-vignette-rgb),0.58)_72%,rgba(var(--color-image-vignette-rgb),0.94)_100%)] transition-opacity duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]",
             canHover ? "group-hover:opacity-0" : mobileReveal ? "opacity-0" : "opacity-100",
           )}
         />
         <div
           className={cn(
-            "absolute inset-0 transition-opacity duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] bg-[linear-gradient(180deg,rgba(var(--color-primary-rgb),0.3)_0%,rgba(var(--color-primary-rgb),0.46)_30%,rgba(var(--color-primary-rgb),0.74)_64%,rgba(var(--color-primary-rgb),1)_100%)]",
+            "absolute inset-0 transition-opacity duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0.3)_0%,rgba(var(--color-image-vignette-rgb),0.46)_30%,rgba(var(--color-image-vignette-rgb),0.74)_64%,rgba(var(--color-image-vignette-rgb),1)_100%)]",
             canHover ? "opacity-0 group-hover:opacity-100" : mobileReveal ? "opacity-100" : "opacity-0",
           )}
         />

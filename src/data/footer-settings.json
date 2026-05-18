@@ -5,7 +5,8 @@
   "footerLinks": [
     { "label": "Privacy Policy", "href": "/privacy-policy" },
     { "label": "Book a Table", "href": "/book-a-table" },
-    { "label": "What's On", "href": "/whats-on" },
+    { "label": "Food", "href": "/food" },
+    { "label": "Find Us", "href": "/find-us" },
     { "label": "Contact Us", "href": "/contact" }
   ]
 }

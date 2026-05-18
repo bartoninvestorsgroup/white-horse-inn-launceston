@@ -27,11 +27,16 @@ function isCurrentRoute(pathname, href) {
   return normalizedPathname.startsWith(href);
 }
 
+function isNavItemCurrent(pathname, item) {
+  return (
+    isCurrentRoute(pathname, item.href) ||
+    item.children?.some((child) => isCurrentRoute(pathname, child.href))
+  );
+}
+
 function isLightStartRoute(pathname) {
   const normalizedPathname = normalizePathname(pathname);
-  return (
-    normalizedPathname === "/" || normalizedPathname.startsWith("/locations")
-  );
+  return normalizedPathname === "/" || normalizedPathname.startsWith("/food");
 }
 
 function BurgerButton({ open, onClick, tone }) {
@@ -163,17 +168,50 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
               transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
               className="block w-fit font-heading text-[0.92rem] leading-[1.02] font-semibold tracking-[0.02em] min-[575px]:whitespace-nowrap min-[1080px]:whitespace-normal min-[1360px]:whitespace-nowrap"
             >
-              Barton Investors Group
+              White Horse Inn
             </motion.span>
           </Link>
 
           <div className="hidden min-w-0 flex-1 items-center gap-3 min-[1080px]:flex xl:gap-4">
             <nav className="flex min-w-0 flex-1 items-center justify-center gap-3 px-2 xl:gap-4 xl:px-3">
               {standardNavItems.map((item) => {
-                const current = isCurrentRoute(resolvedPathname, item.href);
+                const current = isNavItemCurrent(resolvedPathname, item);
                 const isExternal = item.href.startsWith("http");
+                const hasChildren = Array.isArray(item.children) && item.children.length > 0;
 
-                return (
+                return hasChildren ? (
+                  <div key={item.href} className="group/nav-item relative">
+                    <Link
+                      href={item.href}
+                      className={`nav-link ${current ? "nav-link-active" : ""} ${
+                        isLightTone ? "nav-link-light" : "nav-link-dark"
+                      } px-1 text-center text-[0.78rem] tracking-[0.03em]`}
+                      onClick={() => setOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                    <div className="pointer-events-none absolute left-1/2 top-full z-50 w-52 -translate-x-1/2 pt-4 opacity-0 transition-opacity duration-150 group-hover/nav-item:pointer-events-auto group-hover/nav-item:opacity-100 group-focus-within/nav-item:pointer-events-auto group-focus-within/nav-item:opacity-100">
+                      <div className="border border-[color:var(--color-gold-soft)]/25 bg-[color:var(--color-primary)] p-2 shadow-[var(--shadow-lifted)]">
+                        {item.children.map((child) => {
+                          const childCurrent = isCurrentRoute(resolvedPathname, child.href);
+
+                          return (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={`block rounded-[0.45rem] px-3 py-2 text-sm font-bold text-white/86 transition-colors hover:bg-[color:var(--color-gold)] hover:text-[color:var(--color-primary)] ${
+                                childCurrent ? "bg-[color:var(--color-gold)] text-[color:var(--color-primary)]" : ""
+                              }`}
+                              onClick={() => setOpen(false)}
+                            >
+                              {child.label}
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
                   <Link
                     key={item.href}
                     href={item.href}
@@ -221,23 +259,43 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
             >
               <nav className="site-container flex flex-col gap-2 px-2 py-4">
                 {navItems.map((item) => {
-                  const current = isCurrentRoute(resolvedPathname, item.href);
+                  const current = isNavItemCurrent(resolvedPathname, item);
                   const isBookingLink = item.href === "/book-a-table";
                   const isExternal = item.href.startsWith("http");
+                  const hasChildren = Array.isArray(item.children) && item.children.length > 0;
 
                   return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      target={isExternal ? "_blank" : undefined}
-                      rel={isExternal ? "noopener noreferrer" : undefined}
-                      className={`mobile-nav-link ${
-                        current ? "mobile-nav-link-active" : ""
-                      } ${isBookingLink ? "mobile-nav-link-cta" : ""}`}
-                      onClick={() => setOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
+                    <div key={item.href}>
+                      <Link
+                        href={item.href}
+                        target={isExternal ? "_blank" : undefined}
+                        rel={isExternal ? "noopener noreferrer" : undefined}
+                        className={`mobile-nav-link block ${
+                          current ? "mobile-nav-link-active" : ""
+                        } ${isBookingLink ? "mobile-nav-link-cta" : ""}`}
+                        onClick={() => setOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                      {hasChildren ? (
+                        <div className="mt-2 grid gap-2 pl-4">
+                          {item.children.map((child) => (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={`mobile-nav-link block text-sm ${
+                                isCurrentRoute(resolvedPathname, child.href)
+                                  ? "mobile-nav-link-active"
+                                  : ""
+                              }`}
+                              onClick={() => setOpen(false)}
+                            >
+                              {child.label}
+                            </Link>
+                          ))}
+                        </div>
+                      ) : null}
+                    </div>
                   );
                 })}
               </nav>

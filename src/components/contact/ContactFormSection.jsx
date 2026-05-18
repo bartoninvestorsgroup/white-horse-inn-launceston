@@ -22,16 +22,14 @@ import {
 import { siteConfig } from "@/lib/site";
 
 const locationOptionMap = {
-  "market-inn-tavistock": "Market Inn, Tavistock",
-  "the-windmill-inn-westquantoxhead": "The Windmill Inn, West Quantoxhead",
-  "rose-and-crown-wells": "Rose and Crown, Wells",
-  "cricketers-inn-andover": "The Cricketers Inn, Longparish",
-  "burgers-in-general-wells": "Burgers In General",
+  "white-horse-inn-launceston": "White Horse Inn, Launceston",
 };
 
 const enquiryOptions = [
   "General Enquiry",
-  "Media Enquiry",
+  "Table Booking Enquiry",
+  "Accommodation Enquiry",
+  "Function Room Enquiry",
   ...Object.values(locationOptionMap),
 ];
 
@@ -124,11 +122,11 @@ export default function ContactFormSection() {
             <CardHeader className="space-y-3 border-b border-[color:var(--color-border-soft)] pb-6">
               <p className="eyebrow">Enquiry Form</p>
               <CardTitle className="font-heading text-4xl leading-tight text-[color:var(--color-primary)] md:text-5xl">
-                Contact Barton Investors Group
+                Contact White Horse Inn
               </CardTitle>
               <CardDescription className="max-w-3xl text-base leading-7 text-[color:var(--color-copy-soft)]">
-                Fill in the form below and we&apos;ll route your message to the
-                right team as quickly as possible.
+                Fill in the form below and we&apos;ll get your message to the
+                right person as quickly as possible.
               </CardDescription>
             </CardHeader>
 

@@ -5,8 +5,16 @@ function unauthorized() {
   return NextResponse.json({ revalidated: false }, { status: 401 });
 }
 
+const menuPaths = [
+  "/food",
+  "/food/menu",
+  "/food/kids-menu",
+  "/food/sunday-menu",
+  "/food/desserts",
+  "/food/drinks",
+];
+
 export async function POST(request) {
-  const secretFromQuery = request.nextUrl.searchParams.get("secret");
   const secretFromHeader = request.headers.get("x-revalidate-secret");
   const expectedSecret = process.env.REVALIDATE_SECRET;
 
@@ -17,10 +25,7 @@ export async function POST(request) {
     );
   }
 
-  if (
-    secretFromQuery !== expectedSecret &&
-    secretFromHeader !== expectedSecret
-  ) {
+  if (secretFromHeader !== expectedSecret) {
     return unauthorized();
   }
 
@@ -36,19 +41,22 @@ export async function POST(request) {
     return NextResponse.json({ revalidated: true, target: "siteBanner" });
   }
 
-  if (documentType === "event") {
-    revalidateTag("sanity:events");
-    revalidatePath("/whats-on");
+  if (documentType === "menu") {
+    revalidateTag("sanity:menus");
+
+    menuPaths.forEach((path) => {
+      revalidatePath(path);
+    });
 
     if (slug) {
-      revalidateTag(`sanity:event:${slug}`);
-      revalidatePath(`/whats-on/${slug}`);
+      revalidateTag(`sanity:menu:${slug}`);
     }
 
     return NextResponse.json({
       revalidated: true,
-      target: "event",
+      target: "menu",
       slug,
+      paths: menuPaths,
     });
   }
 

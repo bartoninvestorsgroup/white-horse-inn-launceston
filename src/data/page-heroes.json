@@ -7,10 +7,10 @@
         "src": "/assets/images/food_and_drink/PXL_20260307_123254561~2_hero_2000.jpg",
         "alt": "Pasta bolognese dish finished with parmesan",
         "eyebrow": "Food & Drink",
-        "title": "Family-run pubs serving proper food",
-        "description": "Discover Barton Investors Group through seasonal dishes, comforting favourites and the kind of warm hospitality that keeps people coming back.",
+        "title": "A welcoming Launceston pub serving proper food",
+        "description": "Discover the White Horse Inn through seasonal dishes, comforting favourites and the kind of warm hospitality that keeps people coming back.",
         "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
-        "secondaryCta": { "label": "Explore Locations", "href": "/locations" }
+        "secondaryCta": { "label": "View Menus", "href": "/food/menu" }
       },
       {
         "id": "hero-locations",
@@ -18,9 +18,9 @@
         "alt": "Beef Wellington plated in a premium pub dining setting",
         "eyebrow": "Dining Experience",
         "title": "Classic pub dishes that are worth going out for.",
-        "description": "From elevated pub favourites to beautifully presented seasonal plates, our venues combine quality food, friendly service and a relaxed atmosphere.",
-        "primaryCta": { "label": "View Locations", "href": "/locations" },
-        "secondaryCta": { "label": "See What’s On", "href": "/whats-on" }
+        "description": "From elevated pub favourites to beautifully presented seasonal plates, the White Horse Inn combines quality food, friendly service and a relaxed atmosphere.",
+        "primaryCta": { "label": "View Food", "href": "/food" },
+        "secondaryCta": { "label": "Find Us", "href": "/find-us" }
       },
       {
         "id": "hero-booking",
@@ -28,7 +28,7 @@
         "alt": "Selection of roast dinners with beef, lamb and traditional trimmings",
         "eyebrow": "Sunday Favourites",
         "title": "Familiar comforts and stunning Sunday Roasts.",
-        "description": "Whether you are joining us for a roast, a casual lunch or an evening meal, Barton Investors Group brings together local character, great food and easy hospitality.",
+        "description": "Whether you are joining us for a roast, a casual lunch or an evening meal, the White Horse Inn brings together local character, great food and easy hospitality.",
         "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
         "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
       }

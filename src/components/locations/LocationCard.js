@@ -449,7 +449,7 @@ export default function LocationCard({
               </div>
               <div
                 className={cn(
-                  "absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-primary-rgb),0)_0%,rgba(var(--color-primary-rgb),0.18)_32%,rgba(var(--color-primary-rgb),0.62)_72%,rgba(var(--color-primary-rgb),1)_100%)] transition-opacity duration-500",
+                  "absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0)_0%,rgba(var(--color-image-vignette-rgb),0.18)_32%,rgba(var(--color-image-vignette-rgb),0.62)_72%,rgba(var(--color-image-vignette-rgb),1)_100%)] transition-opacity duration-500",
                   canHover
                     ? "opacity-80 group-hover:opacity-100"
                     : mobileReveal
@@ -469,7 +469,7 @@ export default function LocationCard({
               />
             </>
           ) : (
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-surface-rgb),0.02)_0%,rgba(var(--color-primary-rgb),0.35)_100%)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-surface-rgb),0.02)_0%,rgba(var(--color-image-vignette-rgb),0.35)_100%)]" />
           )}
 
           <div className="pointer-events-none relative flex h-full items-end p-6">

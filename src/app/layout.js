@@ -1,4 +1,10 @@
 import { headers } from "next/headers";
+import {
+  Caladea,
+  Luckiest_Guy,
+  Love_Ya_Like_A_Sister,
+  Montserrat,
+} from "next/font/google";
 import "./globals.css";
 import SiteFrame from "@/components/layout/SiteFrame";
 import StructuredData from "@/components/seo/StructuredData";
@@ -6,6 +12,34 @@ import { getLocalFooterSettings } from "@/lib/content";
 import { buildMetadata, organizationSchema, websiteSchema } from "@/lib/seo";
 import { previewBanner, siteConfig } from "@/lib/site";
 import { getActiveSiteBanners } from "@/sanity/lib/queries";
+
+const caladea = Caladea({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-caladea",
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
+const luckiestGuy = Luckiest_Guy({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-luckiest-guy",
+  display: "swap",
+});
+
+const loveYaLikeASister = Love_Ya_Like_A_Sister({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-love-ya-like-a-sister",
+  display: "swap",
+});
 
 export const metadata = {
   metadataBase: new URL(
@@ -47,7 +81,7 @@ export default async function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning
-      className="antialiased"
+      className={`${caladea.variable} ${montserrat.variable} ${luckiestGuy.variable} ${loveYaLikeASister.variable} antialiased`}
     >
       <body className="bg-[color:var(--color-surface)] text-[color:var(--color-primary)]">
         <StructuredData data={organizationSchema()} />

@@ -7,9 +7,9 @@ export default function SiteFooter({
   address,
   email,
   telephone,
-  eyebrow = "Barton Investors Group",
-  title = "Built for memorable hospitality experiences, bookings, and events.",
-  description = "Independent hospitality destinations with joined-up venue discovery, bookings, events, and gallery storytelling.",
+  eyebrow = "White Horse Inn",
+  title = "Food, drink, rooms and gatherings in the heart of Launceston.",
+  description = "A welcoming pub with seasonal menus, comfortable accommodation, function room hire and easy table bookings.",
 }) {
   const currentYear = new Date().getFullYear();
 
@@ -68,7 +68,7 @@ export default function SiteFooter({
             © {currentYear} All rights reserved.
           </p>
           <a
-            href="https://www.datopia.co.uk/?utm_source=bartoninvestorsgroup&utm_medium=referral&utm_campaign=footer_credit"
+            href="https://www.datopia.co.uk/?utm_source=whitehorseinnlaunceston&utm_medium=referral&utm_campaign=footer_credit"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link text-sm"
