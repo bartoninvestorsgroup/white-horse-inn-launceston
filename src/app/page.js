@@ -72,12 +72,12 @@ const familyCards = [
 const aboutCards = [
   {
     title: "A Proper Launceston Local",
-    body: "The White Horse Inn is a welcoming pub, restaurant, and inn in the heart of Launceston, built around good honest food, friendly service, and a genuine love of local hospitality.\n\nWhether you are joining us for [lunch](/food), settling in for [Sunday dinner](/food/sunday-menu), calling in for a drink, [staying overnight](/accommodation), or gathering with family and friends, our aim is simple: to make every visit feel relaxed, comfortable, and properly looked after.",
+    body: "The White Horse Inn is a welcoming pub, restaurant, and inn in the heart of Launceston, built around good honest food, friendly service, and a genuine love of local hospitality.\n\nWhether you are joining us for [lunch](/food), settling in for Sunday dinner, calling in for a drink, [staying overnight](/accommodation), or gathering with family and friends, our aim is simple: to make every visit feel relaxed, comfortable, and properly looked after.",
     alignment: "left",
   },
   {
     title: "Good Honest Food, Done Properly",
-    body: "Food is at the heart of what we do. Our [menus](/food) are shaped around generous pub favourites, seasonal specials, comforting classics, and dishes made with care.\n\nWe believe great pub food starts with quality ingredients, which is why we are focused on using fresh, local produce wherever possible, including award-winning butchers Phillip Warren & Son, and Palmers of Tavistock. From hearty mains and proper [Sunday roasts](/food/sunday-menu) to lighter lunches, [children's meals](/food/kids-menu), and homemade desserts, our food is made to be satisfying, welcoming, and full of flavour.",
+    body: "Food is at the heart of what we do. Our [menus](/food) are shaped around generous pub favourites, seasonal specials, comforting classics, and dishes made with care.\n\nWe believe great pub food starts with quality ingredients, which is why we are focused on using fresh, local produce wherever possible, including award-winning butchers Phillip Warren & Son, and Palmers of Tavistock. From hearty mains and proper Sunday roasts to lighter lunches, children's meals, and homemade desserts, our food is made to be satisfying, welcoming, and full of flavour.",
     alignment: "right",
   },
   {
@@ -158,7 +158,7 @@ export default function HomePage() {
               The White Horse Inn is already a welcoming place for families,
               with{" "}
               <Link
-                href="/food/kids-menu"
+                href="/food"
                 className="font-extrabold text-[color:var(--color-primary)] underline decoration-[color:var(--color-gold)] decoration-2 underline-offset-4 transition-colors hover:text-[color:var(--color-gold-soft)]"
               >
                 children&apos;s food options

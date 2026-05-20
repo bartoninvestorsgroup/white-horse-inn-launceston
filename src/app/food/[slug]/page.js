@@ -6,6 +6,10 @@ import { getFoodFaqs } from "@/lib/food-faqs";
 import { buildMetadata } from "@/lib/seo";
 import { getMenuBySlug, getMenus } from "@/sanity/lib/queries";
 
+function getMenuOgImage(menu) {
+  return menu?.menuType === "dessertsMenu" ? "/og-desserts.jpg" : "/og-food.jpg";
+}
+
 export async function generateStaticParams() {
   const menus = await getMenus();
 
@@ -28,6 +32,8 @@ export async function generateMetadata({ params }) {
     title: `${menu.title} | White Horse Inn Launceston`,
     description: `View the ${menu.title} at the White Horse Inn in Launceston.`,
     path: `/food/${menu.slug}`,
+    image: getMenuOgImage(menu),
+    imageAlt: `${menu.title} at the White Horse Inn Launceston.`,
     appendSiteName: false,
   });
 }
@@ -47,6 +53,12 @@ export default async function DynamicFoodMenuPage({ params }) {
       seoKey="menu"
       title={menu.title}
       activeHref={`/food/${menu.slug}`}
+      schemaOverrides={{
+        path: `/food/${menu.slug}`,
+        schemaName: `${menu.title} at White Horse Inn Launceston`,
+        description: `View the ${menu.title} at the White Horse Inn in Launceston.`,
+        image: getMenuOgImage(menu),
+      }}
     >
       <SanityMenuView menus={[menu]} emptyTitle={`${menu.title} coming soon`} />
       <FoodFaqs faqs={faqs} />

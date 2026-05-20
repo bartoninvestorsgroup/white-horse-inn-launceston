@@ -65,13 +65,13 @@ function resolveHref(href, menu) {
   }
 
   if (href && typeof href === "object") {
-    return href[menu.menuType] || href.default || "/food/menu";
+    return href[menu.menuType] || href.default || "/food";
   }
 
-  return href || "/food/menu";
+  return href || "/food";
 }
 
-export function buildMenuHeroSlides(menus = [], href = "/food/menu") {
+export function buildMenuHeroSlides(menus = [], href = "/food") {
   const imageMap = getFoodImageMap();
   const slides = [];
 

@@ -7,7 +7,7 @@ import { sortMenusForDisplay } from "@/lib/menu-order";
 import { getMenus } from "@/sanity/lib/queries";
 
 function menuHref(menu) {
-  return menu.slug ? `/food/${menu.slug}` : "/food/menu";
+  return menu.slug ? `/food/${menu.slug}` : "/food";
 }
 
 function buildFoodLinks(menus = []) {

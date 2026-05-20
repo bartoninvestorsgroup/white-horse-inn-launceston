@@ -6,10 +6,11 @@ export default function MenuPageShell({
   seoKey,
   title,
   activeHref,
+  schemaOverrides,
   children,
 }) {
   const schema = [
-    getPageSchema(seoKey),
+    getPageSchema(seoKey, {}, schemaOverrides),
     breadcrumbSchema([
       { name: "Home", path: "/" },
       { name: "Food", path: "/food" },

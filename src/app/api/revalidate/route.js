@@ -7,11 +7,6 @@ function unauthorized() {
 
 const menuPaths = [
   "/food",
-  "/food/menu",
-  "/food/kids-menu",
-  "/food/sunday-menu",
-  "/food/desserts",
-  "/food/drinks",
 ];
 
 export async function POST(request) {

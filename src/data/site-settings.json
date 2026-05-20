@@ -5,15 +5,16 @@
   "email": "contact@whitehorseinnlaunceston.co.uk",
   "telephone": "+44 1566 451863",
   "address": {
-    "streetAddress": "White Horse Inn\n14 Newport Square\nLaunceston\nPL15 8EL",
-    "addressLocality": "United Kingdom",
-    "postalCode": "",
+    "streetAddress": "14 Newport Square",
+    "addressLocality": "Launceston",
+    "addressRegion": "Cornwall",
+    "postalCode": "PL15 8EL",
     "addressCountry": "GB"
   },
   "socialLinks": {
-    "instagram": "#",
-    "facebook": "#",
-    "tiktok": "#"
+    "facebook": "https://www.facebook.com/WhiteHorseInnLaunceston/",
+    "googleMaps": "https://www.google.com/maps/place/white+horse+inn+launceston/data=!4m2!3m1!1s0x486c6328f4989f75:0x73bb1c70f8473e2d",
+    "tripAdvisor": "https://www.tripadvisor.co.uk/Restaurant_Review-g1009894-d4507472-Reviews-The_White_Horse_Inn-Launceston_Cornwall_England.html"
   },
   "navItems": [
     {

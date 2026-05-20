@@ -23,7 +23,7 @@ export const configuredSiteUrl = normalizeOrigin(
     process.env.VERCEL_PROJECT_PRODUCTION_URL,
 );
 
-function normalizeExternalUrl(value) {
+export function normalizeExternalUrl(value) {
   if (!value) {
     return "";
   }
@@ -31,7 +31,7 @@ function normalizeExternalUrl(value) {
   return /^https?:\/\//i.test(value) ? value : `https://${value}`;
 }
 
-const primaryLocation = locations[0] || {};
+export const primaryLocation = locations[0] || {};
 
 export const footerSocialLinks = [
   {

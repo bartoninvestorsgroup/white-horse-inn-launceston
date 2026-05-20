@@ -24,7 +24,7 @@ export default function NotFound() {
             Back to Home
           </Link>
           <Link
-            href="/food/menu"
+            href="/food"
             className={cn(buttonVariants({ variant: "outline", size: "hero" }), "link-button")}
           >
             View Menus
