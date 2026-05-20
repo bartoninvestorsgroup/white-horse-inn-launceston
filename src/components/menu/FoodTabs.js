@@ -16,11 +16,25 @@ export default function FoodTabs({ links = [] }) {
   const tabsRef = useRef(null);
 
   useEffect(() => {
-    if (window.sessionStorage.getItem(foodTabsScrollKey) !== "true") {
-      return;
+    if (pathname === "/food" && !window.location.hash) {
+      window.sessionStorage.removeItem(foodTabsScrollKey);
+
+      const scrollToTop = () => window.scrollTo({ top: 0, behavior: "auto" });
+      scrollToTop();
+      const frame = window.requestAnimationFrame(scrollToTop);
+
+      return () => window.cancelAnimationFrame(frame);
     }
 
+    const pendingScrollPath = normalizePath(
+      window.sessionStorage.getItem(foodTabsScrollKey),
+    );
+
     window.sessionStorage.removeItem(foodTabsScrollKey);
+
+    if (pendingScrollPath !== pathname || pathname === "/food") {
+      return;
+    }
 
     window.requestAnimationFrame(() => {
       tabsRef.current?.scrollIntoView({
@@ -28,6 +42,8 @@ export default function FoodTabs({ links = [] }) {
         block: "start",
       });
     });
+
+    return undefined;
   }, [pathname]);
 
   if (!links.length) {
@@ -51,7 +67,10 @@ export default function FoodTabs({ links = [] }) {
               key={link.href}
               href={link.href}
               onClick={() => {
-                window.sessionStorage.setItem(foodTabsScrollKey, "true");
+                window.sessionStorage.setItem(
+                  foodTabsScrollKey,
+                  normalizePath(link.href),
+                );
               }}
               className={`inline-flex min-h-11 items-center rounded-[0.9rem] border px-4 py-2 text-sm font-bold transition-colors ${
                 current

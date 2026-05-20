@@ -40,6 +40,15 @@ function isLightStartRoute(pathname) {
   return normalizedPathname === "/" || normalizedPathname.startsWith("/food");
 }
 
+function handleFoodLandingNavigation(href) {
+  if (normalizePathname(href) !== "/food") {
+    return;
+  }
+
+  window.sessionStorage.removeItem("white-horse-food-tabs-navigation");
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
 function BurgerButton({ open, onClick, tone }) {
   const lightTone = tone === "light";
 
@@ -209,7 +218,10 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
                       className={`nav-link ${current ? "nav-link-active" : ""} ${
                         isLightTone ? "nav-link-light" : "nav-link-dark"
                       } px-1 text-center text-[0.78rem] tracking-[0.03em]`}
-                      onClick={() => setOpen(false)}
+                      onClick={() => {
+                        handleFoodLandingNavigation(item.href);
+                        setOpen(false);
+                      }}
                     >
                       {item.label}
                     </Link>
@@ -243,7 +255,10 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
                     className={`nav-link ${current ? "nav-link-active" : ""} ${
                       isLightTone ? "nav-link-light" : "nav-link-dark"
                     } px-1 text-center text-[0.78rem] tracking-[0.03em]`}
-                    onClick={() => setOpen(false)}
+                    onClick={() => {
+                      handleFoodLandingNavigation(item.href);
+                      setOpen(false);
+                    }}
                   >
                     {item.label}
                   </Link>
@@ -300,7 +315,10 @@ export default function SiteNavbar({ navItems, initialPathname = "/" }) {
                         className={`mobile-nav-link block ${
                           current ? "mobile-nav-link-active" : ""
                         } ${isBookingLink ? "mobile-nav-link-cta" : ""}`}
-                        onClick={() => setOpen(false)}
+                        onClick={() => {
+                          handleFoodLandingNavigation(item.href);
+                          setOpen(false);
+                        }}
                       >
                         {item.label}
                       </Link>
