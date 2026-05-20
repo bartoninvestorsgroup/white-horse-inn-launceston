@@ -80,10 +80,10 @@ export default function SiteBanner({ banners, onVisibilityChange }) {
   const banner = activeBanners[activeIndex % activeBanners.length];
   const slideKey = banner?._id || `${banner?.title}-${activeIndex}`;
   const linkClassName =
-    "inline-flex items-center justify-center gap-1.5 transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[color:var(--color-gold-soft)]";
+    "inline-flex items-center justify-center gap-1.5 transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[color:var(--color-gold)]";
 
   return (
-    <div className="fixed inset-x-0 top-0 z-[60] border-b border-[color:var(--color-primary)]/20 bg-[color:var(--color-gold-soft)] text-[color:var(--color-primary)]">
+    <div className="fixed inset-x-0 top-0 z-[60] border-b border-[color:var(--color-primary)]/20 bg-[color:var(--color-gold)] text-[color:var(--color-primary)]">
       <div className="site-container relative flex h-[34px] items-center justify-center px-2 text-center text-[0.68rem] font-extrabold tracking-[0.09em] sm:text-[0.76rem]">
         <AnimatePresence mode="wait" initial={false}>
           <motion.div
