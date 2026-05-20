@@ -1,0 +1,194 @@
+{
+  "home": [
+    {
+      "question": "Where can I find a family-friendly pub in Launceston?",
+      "answer": "The White Horse Inn is a family-friendly pub in the heart of Launceston, with relaxed dining, welcoming spaces and dedicated menus for [lunch](/food/lunch-menu), [dinner](/food/dinner-menu), [children](/food/kids-menu) and [Sunday roast](/food/sunday-menu)."
+    },
+    {
+      "question": "Which pubs in Launceston have a kids' menu?",
+      "answer": "The White Horse Inn offers a dedicated [kids' menu](/food/kids-menu), making it a good choice for families looking for child-friendly pub food in Launceston."
+    },
+    {
+      "question": "Where can I find a dog-friendly pub in Launceston?",
+      "answer": "The White Horse Inn is a dog-friendly pub in Launceston, welcoming well-behaved dogs so you can enjoy [food and drinks](/food) without leaving your four-legged friend behind."
+    },
+    {
+      "question": "Where is good for Sunday roast in Launceston?",
+      "answer": "The White Horse Inn serves a dedicated [Sunday roast menu](/food/sunday-menu), offering proper pub food, quality ingredients and a relaxed local setting in the heart of Launceston."
+    },
+    {
+      "question": "Where can I get lunch in Launceston?",
+      "answer": "The White Horse Inn serves [lunch in Launceston](/food/lunch-menu), with good honest pub food made using quality locally sourced ingredients wherever possible."
+    },
+    {
+      "question": "Where can I eat dinner in Launceston?",
+      "answer": "The White Horse Inn serves [dinner in Launceston](/food/dinner-menu), with a dedicated evening menu featuring proper pub dishes, local ingredients and a warm traditional pub atmosphere."
+    },
+    {
+      "question": "Are there pubs with accommodation in Launceston?",
+      "answer": "Yes. The White Horse Inn offers [pub accommodation in Launceston](/accommodation), ideal for visitors looking to eat, drink and stay in the heart of town."
+    },
+    {
+      "question": "Where can I hire a function room in Launceston?",
+      "answer": "The White Horse Inn has [function rooms available to hire in Launceston](/functions), suitable for celebrations, meetings, family gatherings, wakes, birthdays and private events."
+    },
+    {
+      "question": "Where can I find locally sourced pub food in Launceston?",
+      "answer": "The White Horse Inn focuses on good honest [food made with quality locally sourced ingredients](/food) wherever possible, served across lunch, dinner, kids' and Sunday menus."
+    },
+    {
+      "question": "What is a good local pub in Launceston town centre?",
+      "answer": "The White Horse Inn is a local pub in the heart of Launceston, offering [food](/food), drinks, [accommodation](/accommodation), [function room hire](/functions), dog-friendly spaces and family-friendly dining."
+    }
+  ],
+  "food": {
+    "shared": [
+      {
+        "question": "Do I need to book a table?",
+        "answer": "Booking is recommended for busy periods, especially evenings, weekends and Sunday lunch. Walk-ins are welcome when tables are available."
+      },
+      {
+        "question": "Do you serve Sunday lunch?",
+        "answer": "Yes. The White Horse Inn serves Sunday lunch, with dedicated Sunday menu options when available. Please check the current [Sunday menu](/food/sunday-menu)."
+      },
+      {
+        "question": "Do you use locally sourced ingredients?",
+        "answer": "Yes. We use good quality ingredients that are as locally sourced as possible, including from award winning butchers Phillip Warren & Son, and Palmers of Tavistock."
+      },
+      {
+        "question": "Is there a kids menu?",
+        "answer": "Yes. The White Horse Inn has dedicated children's options with meals, snacks and drinks for younger guests. Please check the current [kids' menu](/food/kids-menu)."
+      },
+      {
+        "question": "Do you offer vegetarian, vegan or gluten-free options?",
+        "answer": "Yes. Menu items can include vegetarian (V), vegetarian option (VO), vegan (VE), vegan option (VEO), gluten-free (GF) and gluten-free option (GFO) markers. Please speak to the team before ordering if you have an allergy or dietary requirement."
+      },
+      {
+        "question": "Can I see allergen information?",
+        "answer": "Yes. Please ask a member of the team for allergen information before ordering, especially if you have a food allergy or intolerance."
+      },
+      {
+        "question": "Are dogs allowed?",
+        "answer": "Yes. Our venues are dog friendly and we welcome well behaved furry friends. Please keep dogs comfortable, supervised and considerate of other guests during your visit."
+      },
+      {
+        "question": "Do you serve food all day?",
+        "answer": "Food service times can vary by day and season. Please contact the White Horse Inn directly for the latest kitchen opening times."
+      },
+      {
+        "question": "Is there car parking on site?",
+        "answer": "Yes. The White Horse Inn has car parking on site, making it easier to visit for food, drinks, functions and accommodation."
+      },
+      {
+        "question": "Can I book for a larger group?",
+        "answer": "Yes. Larger group bookings are welcome, subject to availability. Please contact the team in advance so they can help with the best table arrangement."
+      },
+      {
+        "question": "Do you have high chairs or family-friendly seating?",
+        "answer": "The White Horse Inn aims to be welcoming for families. Please mention high chairs or seating needs when booking so the team can prepare where possible."
+      }
+    ],
+    "menu": {
+      "kids-menu": [
+        {
+          "question": "What is included on the kids menu?",
+          "answer": "The kids menu includes child-friendly meals, snacks and drinks. Availability can change, so please check the current menu on this page."
+        }
+      ],
+      "sunday-menu": [
+        {
+          "question": "What comes with Sunday lunch?",
+          "answer": "Sunday dishes are served with roast potatoes, vegetables, Yorkshire pudding, gravy and cauliflower cheese, unless stated otherwise on the menu."
+        },
+        {
+          "question": "Can I ask for gravy on the side?",
+          "answer": "Yes. If you would like gravy on the side, please let your server know when ordering."
+        }
+      ]
+    }
+  },
+  "accommodation": [
+    {
+      "question": "Where can I stay in Launceston, Cornwall?",
+      "answer": "If you are looking for somewhere to stay in Launceston, Cornwall, The White Horse Inn offers comfortable accommodation with the convenience of a [pub and restaurant on site](/food). It is a practical choice for visitors, workers, families, and anyone looking for a relaxed place to stay locally."
+    },
+    {
+      "question": "Is there pub accommodation in Launceston?",
+      "answer": "Yes. The White Horse Inn provides pub accommodation in Launceston, giving guests somewhere to eat, drink, and stay under one roof. It is ideal for people who prefer the character and convenience of a local inn rather than a larger hotel. You can [contact us about accommodation](/contact?enquiryType=Accommodation%20Enquiry) before you visit."
+    },
+    {
+      "question": "What is a good place to stay near Launceston town centre?",
+      "answer": "The White Horse Inn is a convenient place to stay in Launceston, with access to the town, local routes, nearby countryside, and the wider Cornwall and Devon border area. It is suited to short stays, overnight stops, and weekend visits. See where we are on the [find us page](/find-us)."
+    },
+    {
+      "question": "Where can I stay near the Devon and Cornwall border?",
+      "answer": "Launceston is close to the Devon and Cornwall border, making The White Horse Inn a useful base for exploring both counties. Guests can stay locally while visiting nearby towns, countryside, coastlines, attractions, or family in the area. You can use our [Launceston location details](/find-us) to plan your route."
+    },
+    {
+      "question": "Is there accommodation in Launceston with food and drink on site?",
+      "answer": "Yes. The White Horse Inn offers accommodation with food and drink available on site, subject to food service times and table availability. It is a convenient option for guests who want to stay somewhere with a proper pub atmosphere and freshly prepared food nearby. View our [food and drink information](/food) or [book a table](/book-a-table)."
+    },
+    {
+      "question": "Where can I stay in Launceston for a short break?",
+      "answer": "The White Horse Inn is suitable for short breaks in Launceston, whether you are visiting for a weekend, exploring Cornwall, seeing family, attending an event, or stopping overnight while travelling. You can [contact the team](/contact?enquiryType=Accommodation%20Enquiry) to ask about stay options."
+    },
+    {
+      "question": "Is Launceston a good base for visiting Cornwall and Devon?",
+      "answer": "Yes. Launceston is well placed for exploring North Cornwall, West Devon, Bodmin Moor, Dartmoor, and the surrounding countryside. Staying in Launceston can be a practical option for visitors who want access to both Cornwall and Devon. Start with our [find us page](/find-us) for local details."
+    },
+    {
+      "question": "Are there places to stay in Launceston for work trips?",
+      "answer": "Yes. The White Horse Inn can be a practical accommodation option for people visiting Launceston for work, trade visits, meetings, local projects, or short business stays. Please [send an accommodation enquiry](/contact?enquiryType=Accommodation%20Enquiry) to check availability."
+    },
+    {
+      "question": "Can I stay overnight near a function or family event in Launceston?",
+      "answer": "Yes. If you are attending a family gathering, private event, wedding, wake, or local celebration in or around Launceston, The White Horse Inn may be a convenient place to stay overnight, subject to room availability. You can also view our [function room information](/functions)."
+    },
+    {
+      "question": "How do I book accommodation in Launceston?",
+      "answer": "Full online booking details for The White Horse Inn are being prepared. For now, guests looking for accommodation in Launceston can [contact the team directly](/contact?enquiryType=Accommodation%20Enquiry) to ask about room availability, facilities, and stay options."
+    }
+  ],
+  "functions": [
+    {
+      "question": "Where can I hire a function room in Launceston?",
+      "answer": "The White Horse Inn offers a function room in Launceston for private events, local gatherings, family celebrations, meetings, wakes, and community occasions. Guests can [contact the team directly](/contact?enquiryType=Function%20Room%20Enquiry) to discuss availability and event requirements."
+    },
+    {
+      "question": "Is there a private party venue in Launceston?",
+      "answer": "Yes. The White Horse Inn can provide a private function space for parties and celebrations in Launceston, including birthdays, anniversaries, family gatherings, reunions, and informal private events. You can [enquire about a private event](/contact?enquiryType=Function%20Room%20Enquiry) with the team."
+    },
+    {
+      "question": "Where can I hold a wake in Launceston?",
+      "answer": "The White Horse Inn offers a welcoming and practical setting for wakes, memorial gatherings, and celebration-of-life events in Launceston. The team can discuss food, drink, timings, and room availability with care and sensitivity through the [function room enquiry form](/contact?enquiryType=Function%20Room%20Enquiry)."
+    },
+    {
+      "question": "Are there function rooms near Launceston for family celebrations?",
+      "answer": "Yes. The White Horse Inn has a function room suitable for family celebrations in the Launceston area, including birthdays, anniversaries, reunions, christenings, and other private gatherings. Guests can also view our [find us page](/find-us) when planning travel."
+    },
+    {
+      "question": "Can I book a room for a private meal in Launceston?",
+      "answer": "The function room at The White Horse Inn may be suitable for private meals, depending on availability, guest numbers, and food requirements. It is a good option for people looking for a relaxed local venue with [pub food and hospitality](/food)."
+    },
+    {
+      "question": "Where can I hold a business meeting or group meeting in Launceston?",
+      "answer": "The White Horse Inn function room may be suitable for business meetings, local group meetings, training sessions, club gatherings, and community meetings in Launceston. Guests can [contact the team](/contact?enquiryType=Function%20Room%20Enquiry) to discuss practical requirements."
+    },
+    {
+      "question": "Is there a Launceston venue with food, drink, and accommodation?",
+      "answer": "Yes. The White Horse Inn offers pub hospitality, [food and drink](/food), a function room, and [accommodation](/accommodation) under one roof. This can be useful for events where guests may want to eat, drink, gather, and potentially stay overnight."
+    },
+    {
+      "question": "Can I hire a function room in Launceston with catering?",
+      "answer": "The White Horse Inn can discuss food options for private functions, subject to availability and the type of event. This may include suitable choices for family gatherings, wakes, meetings, and private celebrations. Start with a [function room enquiry](/contact?enquiryType=Function%20Room%20Enquiry)."
+    },
+    {
+      "question": "What types of events can be held in a pub function room?",
+      "answer": "A pub function room can be used for many types of events, including birthdays, wakes, anniversaries, private meals, meetings, club events, community gatherings, and informal celebrations. The White Horse Inn offers a flexible local option in Launceston with [food, drink, and rooms](/accommodation) nearby."
+    },
+    {
+      "question": "How do I enquire about function room hire in Launceston?",
+      "answer": "To enquire about function room hire in Launceston, [contact The White Horse Inn](/contact?enquiryType=Function%20Room%20Enquiry) with your preferred date, approximate guest numbers, type of event, food requirements, and any other details. The team can then advise on availability and next steps."
+    }
+  ]
+}

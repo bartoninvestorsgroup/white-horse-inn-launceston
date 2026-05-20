@@ -148,6 +148,13 @@ export function organizationSchema() {
     acceptsReservations: true,
     servesCuisine: ["British", "Pub Food"],
     priceRange: "££",
+    amenityFeature: [
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "On-site car parking",
+        value: true,
+      },
+    ],
     geo: {
       "@type": "GeoCoordinates",
       latitude: 50.6423696,
