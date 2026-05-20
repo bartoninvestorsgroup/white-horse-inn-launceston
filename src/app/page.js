@@ -48,7 +48,7 @@ const foodCards = [
 
 const familyCards = [
   {
-    src: "/assets/images/locations/girls_playing_in_the_indoor_play_area.png",
+    src: "/assets/images/locations/children_playing_indoor_play_area_teepee.png",
     alt: "Preview image of children enjoying a planned indoor play area at the White Horse Inn",
     title: "Family-Friendly Now",
     description:
@@ -58,7 +58,7 @@ const familyCards = [
     innerBorderTone: "gold",
   },
   {
-    src: "/assets/images/locations/boys_playing_in_the_indoor_play_area.png",
+    src: "/assets/images/locations/children_playing_uno_indoor_play_area.png",
     alt: "Preview image of children playing in a planned indoor play area",
     title: "Play Space Planned",
     description:
@@ -66,16 +66,6 @@ const familyCards = [
     eyebrow: "Coming Later This Year",
     size: "portrait",
     innerBorderTone: "soft",
-  },
-  {
-    src: "/assets/images/locations/children_playing_in_the_ball_pit.png",
-    alt: "Preview image of children playing in a planned ball pit area",
-    title: "Time for Parents Too",
-    description:
-      "The aim is simple: children can play while adults chat, relax or wait comfortably for food.",
-    eyebrow: "Future Plans",
-    size: "portrait",
-    innerBorderTone: "gold",
   },
 ];
 

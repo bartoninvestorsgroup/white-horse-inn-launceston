@@ -88,7 +88,7 @@ function ServicePanel({ page, className = "" }) {
             </Link>
             <Link
               href={page.secondaryCta.href}
-              className="link-button min-h-14 w-full border-[color:var(--color-gold)] text-[color:var(--color-gold)] hover:bg-[color:var(--color-gold)] hover:text-[color:var(--color-primary)]"
+              className="link-button link-button-on-dark min-h-14 w-full"
             >
               {page.secondaryCta.label}
             </Link>

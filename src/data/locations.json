@@ -8,19 +8,19 @@
     "openTableId": null,
     "bookingUrl": null,
     "socialLinks": {
-      "facebook": null,
+      "facebook": "https://www.facebook.com/WhiteHorseInnLaunceston/",
       "instagram": null,
       "tiktok": null
     },
-    "googleMapsUrl": null,
+    "googleMapsUrl": "google.com/maps/place/white+horse+inn+launceston/data=!4m2!3m1!1s0x486c6328f4989f75:0x73bb1c70f8473e2d?sa=X&ved=1t:242&ictx=111",
     "googleReviewsUrl": null,
     "googleRating": null,
     "googleReviewCount": null,
-    "tripAdvisorUrl": null,
+    "tripAdvisorUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g1009894-d4507472-Reviews-The_White_Horse_Inn-Launceston_Cornwall_England.html",
     "tripadvisorReviewsUrl": null,
     "tripadvisorRating": null,
     "tripadvisorReviewCount": null,
-    "website": null,
+    "website": "https://www.whitehorseinnlaunceston.co.uk",
     "email": "contact@whitehorseinnlaunceston.co.uk",
     "telephone": "+44 1566 451863",
     "openingTimes": [
@@ -32,7 +32,7 @@
       },
       {
         "day": "Tuesday",
-        "openTime": "16:00",
+        "openTime": "12:00",
         "closeTime": "22:00",
         "isClosed": false
       },
@@ -51,19 +51,19 @@
       {
         "day": "Friday",
         "openTime": "12:00",
-        "closeTime": "23:00",
+        "closeTime": "23:59",
         "isClosed": false
       },
       {
         "day": "Saturday",
-        "openTime": "12:00",
-        "closeTime": "23:00",
+        "openTime": "11:00",
+        "closeTime": "23:59",
         "isClosed": false
       },
       {
         "day": "Sunday",
         "openTime": "12:00",
-        "closeTime": "20:00",
+        "closeTime": "22:00",
         "isClosed": false
       }
     ],
@@ -76,9 +76,19 @@
       },
       {
         "day": "Tuesday",
-        "openTime": "17:00",
-        "closeTime": "21:00",
-        "isClosed": false
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "15:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "17:00",
+            "closeTime": "21:00",
+            "isClosed": false
+          }
+        ]
       },
       {
         "day": "Wednesday",

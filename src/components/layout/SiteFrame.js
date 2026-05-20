@@ -38,7 +38,7 @@ export default function SiteFrame({
       </main>
       <SiteFooter
         footerLinks={footerSettings?.footerLinks || siteConfig.footerLinks}
-        socialLinks={siteConfig.socialLinks}
+        socialLinks={siteConfig.footerSocialLinks}
         address={siteConfig.address}
         email={siteConfig.email}
         telephone={siteConfig.telephone}
