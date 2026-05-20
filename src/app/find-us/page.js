@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MapPin } from "lucide-react";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle, faWaze } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import StyledQrCode from "@/components/location/StyledQrCode";
 import PageIntro from "@/components/layout/PageIntro";
@@ -67,9 +67,20 @@ export default function FindUsPage() {
         description="Plan your visit to The White Horse Inn with our address, live map, Google directions, Waze QR code, and what3words location."
       />
 
-      <section className="relative z-20 bg-[color:var(--color-surface)] py-16 md:py-24">
+      <section className="relative z-20 bg-[color:var(--color-surface)] pb-16 md:pb-24">
+        <div className="relative mb-8 overflow-hidden border-y border-[color:var(--color-border-soft)] bg-[color:var(--muted)] shadow-[var(--shadow-card)] md:mb-10">
+          <iframe
+            title="Map showing The White Horse Inn in Launceston"
+            src={googleMapEmbedUrl}
+            className="h-[min(70vh,300px)] w-full border-0 pointer-events-none md:h-[min(70vh,390px)] md:pointer-events-auto"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        </div>
+
         <SectionReveal className="site-container px-2">
-          <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-stretch">
+          <div className="grid gap-8 lg:grid-cols-2 lg:items-stretch">
             <div className="flex flex-col justify-between border border-[color:var(--color-border-soft)] bg-[color:var(--muted)] p-6 shadow-[var(--shadow-card)] md:p-8">
               <div>
                 <p className="eyebrow">Our Address</p>
@@ -114,39 +125,40 @@ export default function FindUsPage() {
               </div>
             </div>
 
-            <div className="min-h-[420px] overflow-hidden border border-[color:var(--color-border-soft)] bg-[color:var(--muted)] shadow-[var(--shadow-card)] md:min-h-[560px]">
-              <iframe
-                title="Map showing The White Horse Inn in Launceston"
-                src={googleMapEmbedUrl}
-                className="h-full min-h-[420px] w-full border-0 md:min-h-[560px]"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-              />
-            </div>
-          </div>
+            <div className="grid gap-8 border border-[color:var(--color-gold)]/45 bg-[color:var(--color-primary)] p-6 text-white shadow-[var(--shadow-panel)] md:p-8 lg:grid-rows-[auto_1fr]">
+              <div>
+                <p className="eyebrow text-[color:var(--color-gold)]">
+                  Scan for Waze
+                </p>
+                <h2 className="mt-4 flex items-center gap-3 font-heading text-3xl leading-tight text-[color:var(--color-gold)] md:text-5xl">
+                  <FontAwesomeIcon
+                    icon={faWaze}
+                    className="size-9 shrink-0 md:size-12"
+                    aria-hidden="true"
+                  />
+                  <span>Open directions on your phone.</span>
+                </h2>
+                <p className="mt-4 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
+                  Click or scan the code to open Waze directions to The White
+                  Horse Inn, or use the button above if you are already on your
+                  phone.
+                </p>
+              </div>
 
-          <div className="mt-8 grid gap-8 border border-[color:var(--color-gold)]/45 bg-[color:var(--color-primary)] p-6 text-white shadow-[var(--shadow-panel)] md:p-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(18rem,0.8fr)] lg:items-center">
-            <div>
-              <p className="eyebrow text-[color:var(--color-gold)]">
-                Scan for Waze
-              </p>
-              <h2 className="mt-4 font-heading text-3xl leading-tight text-[color:var(--color-gold)] md:text-5xl">
-                Open directions on your phone.
-              </h2>
-              <p className="mt-4 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
-                Scan the code to open Waze directions to The White Horse Inn,
-                or use the button above if you are already on your phone.
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center justify-center">
-              <div className="relative flex size-[19rem] items-center justify-center rounded-[1.5rem] border border-[color:var(--color-gold)]/70 bg-[color:var(--color-surface)] p-3 shadow-[var(--shadow-card)] md:size-[22rem] md:p-4">
-                <StyledQrCode
-                  data={wazeUrl}
-                  label="QR code for Waze directions to The White Horse Inn"
-                  className="size-full rounded-[1rem]"
-                />
+              <div className="flex flex-col items-center justify-center">
+                <Link
+                  href={wazeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Waze directions to The White Horse Inn"
+                  className="relative flex size-[19rem] items-center justify-center rounded-[1.5rem] border border-[color:var(--color-gold)]/70 bg-[color:var(--color-surface)] p-3 shadow-[var(--shadow-card)] transition-transform hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-gold)] focus-visible:ring-offset-2 focus-visible:ring-offset-[color:var(--color-primary)] md:size-[22rem] md:p-4 lg:size-[20rem]"
+                >
+                  <StyledQrCode
+                    data={wazeUrl}
+                    label="QR code for Waze directions to The White Horse Inn"
+                    className="size-full rounded-[1rem]"
+                  />
+                </Link>
               </div>
             </div>
           </div>
