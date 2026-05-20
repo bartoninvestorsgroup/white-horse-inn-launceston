@@ -77,16 +77,10 @@ export default function GalleryMasonry({ items }) {
   }, []);
 
   useEffect(() => {
-    const fourColumnQuery = window.matchMedia("(min-width: 1100px)");
     const widescreenQuery = window.matchMedia("(min-width: 900px)");
     const tabletQuery = window.matchMedia("(min-width: 768px)");
 
     const syncColumns = () => {
-      if (fourColumnQuery.matches) {
-        setColumnCount(4);
-        return;
-      }
-
       if (widescreenQuery.matches) {
         setColumnCount(3);
         return;
@@ -101,12 +95,10 @@ export default function GalleryMasonry({ items }) {
     };
 
     syncColumns();
-    fourColumnQuery.addEventListener("change", syncColumns);
     widescreenQuery.addEventListener("change", syncColumns);
     tabletQuery.addEventListener("change", syncColumns);
 
     return () => {
-      fourColumnQuery.removeEventListener("change", syncColumns);
       widescreenQuery.removeEventListener("change", syncColumns);
       tabletQuery.removeEventListener("change", syncColumns);
     };
@@ -246,9 +238,7 @@ export default function GalleryMasonry({ items }) {
       <div
         className={`grid gap-6 ${columnCount === 1 ? "grid-cols-1" : ""} ${
           columnCount === 2 ? "md:grid-cols-2" : ""
-        } ${columnCount === 3 ? "min-[900px]:grid-cols-3" : ""} ${
-          columnCount === 4 ? "min-[1100px]:grid-cols-4" : ""
-        }`}
+        } ${columnCount === 3 ? "min-[900px]:grid-cols-3" : ""}`}
       >
         {columns.map((column, columnIndex) => (
           <div key={`gallery-column-${columnIndex}`} className="relative">
