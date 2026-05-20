@@ -198,6 +198,13 @@ export function breadcrumbSchema(items = []) {
   };
 }
 
+function plainTextFaqAnswer(answer = "") {
+  return String(answer)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function faqPageSchema(faqs = []) {
   const mainEntity = faqs
     .filter((faq) => faq?.question && faq?.answer)
@@ -206,7 +213,7 @@ export function faqPageSchema(faqs = []) {
       name: faq.question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: plainTextFaqAnswer(faq.answer),
       },
     }));
 

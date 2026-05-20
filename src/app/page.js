@@ -1,4 +1,5 @@
 import AutoScrollHeroCarousel from "@/components/layout/AutoScrollHeroCarousel";
+import FaqSection from "@/components/layout/FaqSection";
 import FixedRevealSection from "@/components/layout/FixedRevealSection";
 import SectionReveal from "@/components/layout/SectionReveal";
 import HomeAboutStory from "@/components/home/HomeAboutStory";
@@ -72,7 +73,7 @@ const familyCards = [
 const aboutCards = [
   {
     title: "A Proper Launceston Local",
-    body: "The White Horse Inn is a welcoming pub, restaurant, and inn in the heart of Launceston, built around good honest food, friendly service, and a genuine love of local hospitality.\n\nWhether you are joining us for [lunch](/food), settling in for Sunday dinner, calling in for a drink, [staying overnight](/accommodation), or gathering with family and friends, our aim is simple: to make every visit feel relaxed, comfortable, and properly looked after.",
+    body: "The White Horse Inn is a welcoming pub, restaurant, and inn in the heart of Launceston, built around good honest food, friendly service, and a genuine love of local hospitality.\n\nWhether you are joining us for [lunch](/food/lunch-menu), settling in for [Sunday dinner](/food/sunday-menu), calling in for a drink, [staying overnight](/accommodation), or gathering with family and friends, our aim is simple: to make every visit feel relaxed, comfortable, and properly looked after.",
     alignment: "left",
   },
   {
@@ -107,6 +108,59 @@ const dogFriendlyCards = [
     title: "Water Bowls and Treats",
     body: "We simply ask that dogs are kept under control, on a lead where appropriate, and considerate of other guests. Water bowls are available, and our team will always do their best to make you and your dog feel welcome. We even have a selection of dog treats available at the bar. Pawfect!",
     alignment: "left",
+  },
+];
+
+const homeFaqs = [
+  {
+    question: "Where can I find a family-friendly pub in Launceston?",
+    answer:
+      "The White Horse Inn is a family-friendly pub in the heart of Launceston, with relaxed dining, welcoming spaces and dedicated menus for [lunch](/food/lunch-menu), [dinner](/food/dinner-menu), [children](/food/kids-menu) and [Sunday roast](/food/sunday-menu).",
+  },
+  {
+    question: "Which pubs in Launceston have a kids' menu?",
+    answer:
+      "The White Horse Inn offers a dedicated [kids' menu](/food/kids-menu), making it a good choice for families looking for child-friendly pub food in Launceston.",
+  },
+  {
+    question: "Where can I find a dog-friendly pub in Launceston?",
+    answer:
+      "The White Horse Inn is a dog-friendly pub in Launceston, welcoming well-behaved dogs so you can enjoy [food and drinks](/food) without leaving your four-legged friend behind.",
+  },
+  {
+    question: "Where is good for Sunday roast in Launceston?",
+    answer:
+      "The White Horse Inn serves a dedicated [Sunday roast menu](/food/sunday-menu), offering proper pub food, quality ingredients and a relaxed local setting in the heart of Launceston.",
+  },
+  {
+    question: "Where can I get lunch in Launceston?",
+    answer:
+      "The White Horse Inn serves [lunch in Launceston](/food/lunch-menu), with good honest pub food made using quality locally sourced ingredients wherever possible.",
+  },
+  {
+    question: "Where can I eat dinner in Launceston?",
+    answer:
+      "The White Horse Inn serves [dinner in Launceston](/food/dinner-menu), with a dedicated evening menu featuring proper pub dishes, local ingredients and a warm traditional pub atmosphere.",
+  },
+  {
+    question: "Are there pubs with accommodation in Launceston?",
+    answer:
+      "Yes. The White Horse Inn offers [pub accommodation in Launceston](/accommodation), ideal for visitors looking to eat, drink and stay in the heart of town.",
+  },
+  {
+    question: "Where can I hire a function room in Launceston?",
+    answer:
+      "The White Horse Inn has [function rooms available to hire in Launceston](/functions), suitable for celebrations, meetings, family gatherings, wakes, birthdays and private events.",
+  },
+  {
+    question: "Where can I find locally sourced pub food in Launceston?",
+    answer:
+      "The White Horse Inn focuses on good honest [food made with quality locally sourced ingredients](/food) wherever possible, served across lunch, dinner, kids' and Sunday menus.",
+  },
+  {
+    question: "What is a good local pub in Launceston town centre?",
+    answer:
+      "The White Horse Inn is a local pub in the heart of Launceston, offering [food](/food), drinks, [accommodation](/accommodation), [function room hire](/functions), dog-friendly spaces and family-friendly dining.",
   },
 ];
 
@@ -158,7 +212,7 @@ export default function HomePage() {
               The White Horse Inn is already a welcoming place for families,
               with{" "}
               <Link
-                href="/food"
+                href="/food/kids-menu"
                 className="font-extrabold text-[color:var(--color-primary)] underline decoration-[color:var(--color-gold)] decoration-2 underline-offset-4 transition-colors hover:text-[color:var(--color-gold-soft)]"
               >
                 children&apos;s food options
@@ -240,6 +294,12 @@ export default function HomePage() {
           </div>
         </SectionReveal>
       </section>
+
+      <FaqSection
+        faqs={homeFaqs}
+        eyebrow="White Horse Inn FAQs"
+        title="Helpful answers before you visit."
+      />
     </>
   );
 }
