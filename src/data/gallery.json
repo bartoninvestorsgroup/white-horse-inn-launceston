@@ -204,6 +204,42 @@
     "displaySize": "landscape"
   },
   {
+    "_id": "gallery-location-children-playing-indoor-play-area-teepee",
+    "src": "/assets/images/locations/children_playing_indoor_play_area_teepee.png",
+    "mobileLightboxSrc": "/assets/images/locations/children_playing_indoor_play_area_teepee.png",
+    "desktopLightboxSrc": "/assets/images/locations/children_playing_indoor_play_area_teepee.png",
+    "alt": "Children enjoying the indoor play area at the White Horse Inn Launceston",
+    "title": "Family Friendly Pub",
+    "caption": "",
+    "eyebrow": "Families",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-children-playing-uno-indoor-play-area",
+    "src": "/assets/images/locations/children_playing_uno_indoor_play_area.png",
+    "mobileLightboxSrc": "/assets/images/locations/children_playing_uno_indoor_play_area.png",
+    "desktopLightboxSrc": "/assets/images/locations/children_playing_uno_indoor_play_area.png",
+    "alt": "Children playing Uno in the indoor play area at the White Horse Inn Launceston",
+    "title": "Indoor Play Area",
+    "caption": "",
+    "eyebrow": "Families",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-dog-friendly-local-pub",
+    "src": "/assets/images/locations/dog_friendly_local_pub.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/dog_friendly_local_pub.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/dog_friendly_local_pub.jpg",
+    "alt": "Dog friendly local pub at the White Horse Inn Launceston",
+    "title": "Dog Friendly Local Pub",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
     "_id": "gallery-location-dog-friendly-pub-with-dog-by-the-fire",
     "src": "/assets/images/locations/dog_friendly_pub_with_dog_by_the_fire.jpg",
     "mobileLightboxSrc": "/assets/images/locations/dog_friendly_pub_with_dog_by_the_fire.jpg",
@@ -212,6 +248,18 @@
     "title": "Dog Friendly Pub",
     "caption": "",
     "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "portrait"
+  },
+  {
+    "_id": "gallery-location-dog-friendly-regular-visitor-puppy",
+    "src": "/assets/images/locations/dog_friendly_regular_visitor_puppy.png",
+    "mobileLightboxSrc": "/assets/images/locations/dog_friendly_regular_visitor_puppy.png",
+    "desktopLightboxSrc": "/assets/images/locations/dog_friendly_regular_visitor_puppy.png",
+    "alt": "A regular dog visitor at the White Horse Inn Launceston",
+    "title": "Dogs Welcome",
+    "caption": "",
+    "eyebrow": "Pooch Friendly",
     "featured": false,
     "displaySize": "portrait"
   },

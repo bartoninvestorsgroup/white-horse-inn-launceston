@@ -17,7 +17,7 @@ const homeSchema = getPageSchema("home");
 
 const foodCards = [
   {
-    src: "/assets/images/food_and_drink/IMG-20260409-WA0034_hero_2000.jpg",
+    src: "/assets/images/food_and_drink/roast_dinner_with_trimmings.jpg",
     alt: "Selection of roast dinners with traditional trimmings",
     title: "Sunday Roasts",
     description:
@@ -27,7 +27,7 @@ const foodCards = [
     innerBorderTone: "gold",
   },
   {
-    src: "/assets/images/food_and_drink/FB_IMG_1775752352654_hero_2000.jpg",
+    src: "/assets/images/food_and_drink/beef_wellington.jpg",
     alt: "Beef Wellington plated in a premium pub dining setting",
     title: "Seasonal Favourites",
     description:
@@ -37,7 +37,7 @@ const foodCards = [
     innerBorderTone: "soft",
   },
   {
-    src: "/assets/images/food_and_drink/PXL_20260124_141824715_hero_2000.jpg",
+    src: "/assets/images/food_and_drink/PXL_20260124_141824715.jpg",
     alt: "Poached eggs on toasted potato cake",
     title: "Brunch & Specials",
     description:
