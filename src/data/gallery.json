@@ -1,5 +1,17 @@
 [
   {
+    "_id": "gallery-location-white-horse-inn-launceston-front-view",
+    "src": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
+    "alt": "Front view of the White Horse Inn Launceston",
+    "title": "White Horse Inn Front View",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
     "_id": "gallery-food-pxl-20260124-141824715",
     "src": "/assets/images/food_and_drink/PXL_20260124_141824715.jpg",
     "mobileLightboxSrc": "/assets/images/food_and_drink/PXL_20260124_141824715.jpg",
@@ -354,18 +366,6 @@
     "desktopLightboxSrc": "/assets/images/locations/white_horse_inn_launceston_chesterfield.png",
     "alt": "Chesterfield seating at the White Horse Inn Launceston",
     "title": "Chesterfield Seating",
-    "caption": "",
-    "eyebrow": "Venue",
-    "featured": false,
-    "displaySize": "landscape"
-  },
-  {
-    "_id": "gallery-location-white-horse-inn-launceston-front-view",
-    "src": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
-    "mobileLightboxSrc": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
-    "desktopLightboxSrc": "/assets/images/locations/white_horse_inn_launceston_front_view.jpg",
-    "alt": "Front view of the White Horse Inn Launceston",
-    "title": "White Horse Inn Front View",
     "caption": "",
     "eyebrow": "Venue",
     "featured": false,
