@@ -156,9 +156,19 @@
       },
       {
         "day": "Sunday",
-        "openTime": "12:00",
-        "closeTime": "16:00",
-        "isClosed": false
+        "isClosed": false,
+        "sittings": [
+          {
+            "openTime": "12:00",
+            "closeTime": "16:00",
+            "isClosed": false
+          },
+          {
+            "openTime": "18:00",
+            "closeTime": "20:30",
+            "isClosed": false
+          }
+        ]
       }
     ],
     "summary": "A traditional Launceston inn made for good food, good company and a proper welcome in a friendly pub setting in the heart of Launceston.",
