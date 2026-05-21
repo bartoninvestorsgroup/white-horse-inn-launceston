@@ -21,11 +21,10 @@ function buildFoodLinks(menus = []) {
 
 export default async function FoodLayout({ children }) {
   const menus = await getMenus();
-  const visibleMenus = sortMenusForDisplay(
-    menus.filter((menu) => menu.showOnWebsite !== false),
-  );
+  const sortedMenus = sortMenusForDisplay(menus);
+  const visibleMenus = sortedMenus.filter((menu) => menu.showOnWebsite !== false);
   const foodLinks = buildFoodLinks(visibleMenus);
-  const heroSlides = buildMenuHeroSlides(visibleMenus, menuHref);
+  const heroSlides = buildMenuHeroSlides(sortedMenus, menuHref);
 
   return (
     <>

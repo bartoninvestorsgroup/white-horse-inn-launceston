@@ -98,10 +98,13 @@ export function buildMenuHeroSlides(menus = [], href = "/food") {
           eyebrow: section.title,
           title: item.title,
           description: normalizeDescription(item.description),
-          primaryCta: {
-            label: "View Menu",
-            href: `${resolveHref(href, menu)}#${imageKey}`,
-          },
+          primaryCta:
+            menu.showOnWebsite === false
+              ? null
+              : {
+                  label: "View Menu",
+                  href: `${resolveHref(href, menu)}#${imageKey}`,
+                },
         });
       }
     }
