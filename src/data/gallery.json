@@ -180,6 +180,30 @@
     "displaySize": "portrait"
   },
   {
+    "_id": "gallery-location-bar-area",
+    "src": "/assets/images/locations/bar_area.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/bar_area.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/bar_area.jpg",
+    "alt": "Bar area at the White Horse Inn Launceston",
+    "title": "Bar Area",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-bar-area-with-bar-stools",
+    "src": "/assets/images/locations/bar_area_with_bar_stools.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/bar_area_with_bar_stools.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/bar_area_with_bar_stools.jpg",
+    "alt": "Bar area with stools and booth seating at the White Horse Inn Launceston",
+    "title": "Bar and Booth Seating",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
     "_id": "gallery-location-brass-ornaments-on-display",
     "src": "/assets/images/locations/brass_ornaments_on_display.jpg",
     "mobileLightboxSrc": "/assets/images/locations/brass_ornaments_on_display.jpg",
@@ -198,6 +222,30 @@
     "desktopLightboxSrc": "/assets/images/locations/comfortable_seating_area.jpg",
     "alt": "Comfortable seating area at the White Horse Inn Launceston",
     "title": "Comfortable Seating Area",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-cosy-log-burner-fire-area",
+    "src": "/assets/images/locations/cosy_log_burner_fire_area.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/cosy_log_burner_fire_area.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/cosy_log_burner_fire_area.jpg",
+    "alt": "Cosy log burner fire area at the White Horse Inn Launceston",
+    "title": "Cosy Log Burner",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-cosy-seating-area-for-food-and-quiet-drinks",
+    "src": "/assets/images/locations/cosy_seating_area_for_food_and_quiet_drinks.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/cosy_seating_area_for_food_and_quiet_drinks.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/cosy_seating_area_for_food_and_quiet_drinks.jpg",
+    "alt": "Cosy seating area for food and quiet drinks at the White Horse Inn Launceston",
+    "title": "Cosy Seating Area",
     "caption": "",
     "eyebrow": "Venue",
     "featured": false,
@@ -312,6 +360,18 @@
     "displaySize": "portrait"
   },
   {
+    "_id": "gallery-location-lovely-day-for-a-pint-outside",
+    "src": "/assets/images/locations/lovely_day_for_a_pint_outside.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/lovely_day_for_a_pint_outside.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/lovely_day_for_a_pint_outside.jpg",
+    "alt": "Pint outside on a sunny day at the White Horse Inn Launceston",
+    "title": "A Pint Outside",
+    "caption": "",
+    "eyebrow": "Drinks",
+    "featured": false,
+    "displaySize": "portrait"
+  },
+  {
     "_id": "gallery-location-old-sailing-propaganda-on-display",
     "src": "/assets/images/locations/old_sailing_propaganda_on_display.jpg",
     "mobileLightboxSrc": "/assets/images/locations/old_sailing_propaganda_on_display.jpg",
@@ -336,6 +396,30 @@
     "displaySize": "portrait"
   },
   {
+    "_id": "gallery-location-outdoor-seating",
+    "src": "/assets/images/locations/outdoor_seating.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/outdoor_seating.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/outdoor_seating.jpg",
+    "alt": "Outdoor seating at the White Horse Inn Launceston",
+    "title": "Outdoor Seating",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-pool-table-and-dart-board-area",
+    "src": "/assets/images/locations/pool_table_and_dart_board_area.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/pool_table_and_dart_board_area.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/pool_table_and_dart_board_area.jpg",
+    "alt": "Pool table and dart board area at the White Horse Inn Launceston",
+    "title": "Pool and Darts Area",
+    "caption": "",
+    "eyebrow": "Venue",
+    "featured": false,
+    "displaySize": "landscape"
+  },
+  {
     "_id": "gallery-location-selection-of-beer-tap-handles",
     "src": "/assets/images/locations/selection_of_beer_tap_handles.jpg",
     "mobileLightboxSrc": "/assets/images/locations/selection_of_beer_tap_handles.jpg",
@@ -346,6 +430,18 @@
     "eyebrow": "Venue",
     "featured": false,
     "displaySize": "landscape"
+  },
+  {
+    "_id": "gallery-location-stocked-and-loaded-under-new-management",
+    "src": "/assets/images/locations/stocked_and_loaded_under_new_management.jpg",
+    "mobileLightboxSrc": "/assets/images/locations/stocked_and_loaded_under_new_management.jpg",
+    "desktopLightboxSrc": "/assets/images/locations/stocked_and_loaded_under_new_management.jpg",
+    "alt": "Stocked bar shelves at the White Horse Inn Launceston",
+    "title": "Stocked Bar Shelves",
+    "caption": "",
+    "eyebrow": "Drinks",
+    "featured": false,
+    "displaySize": "portrait"
   },
   {
     "_id": "gallery-location-the-cask-collection-framed-picture",

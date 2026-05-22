@@ -31,6 +31,28 @@
         "description": "Whether you are joining us for a roast, a casual lunch or an evening meal, the White Horse Inn brings together local character, great food and easy hospitality.",
         "primaryCta": { "label": "Book a Table", "href": "/book-a-table" },
         "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
+      },
+      {
+        "id": "hero-stocked-bar",
+        "src": "/assets/images/locations/stocked_and_loaded_under_new_management.jpg",
+        "alt": "Stocked bar shelves and drinks at the White Horse Inn Launceston",
+        "imagePosition": "center 36%",
+        "eyebrow": "Proper Local Pub",
+        "title": "A stocked bar and a warm local welcome.",
+        "description": "Drop in for a drink, settle in with friends or make it part of a relaxed visit with good food and proper pub hospitality.",
+        "primaryCta": { "label": "Find Us", "href": "/find-us" },
+        "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
+      },
+      {
+        "id": "hero-pint-outside",
+        "src": "/assets/images/locations/lovely_day_for_a_pint_outside.jpg",
+        "alt": "A pint outside on a sunny day at the White Horse Inn Launceston",
+        "imagePosition": "center 42%",
+        "eyebrow": "Sunny Days",
+        "title": "A proper pint outside when the sun is shining.",
+        "description": "Take a seat outside, enjoy a relaxed drink and make the most of a sunny day in Launceston with a welcoming local pub nearby.",
+        "primaryCta": { "label": "Find Us", "href": "/find-us" },
+        "secondaryCta": { "label": "Browse Gallery", "href": "/gallery" }
       }
     ]
   }

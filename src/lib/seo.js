@@ -84,8 +84,12 @@ export function buildMetadata({
   imageAlt,
   appendSiteName = true,
 } = {}) {
+  const titleIncludesSiteName =
+    title &&
+    siteConfig.name &&
+    title.toLowerCase().includes(siteConfig.name.toLowerCase());
   const fullTitle = title
-    ? appendSiteName
+    ? appendSiteName && !titleIncludesSiteName
       ? `${title} | ${siteConfig.name}`
       : title
     : siteConfig.name;

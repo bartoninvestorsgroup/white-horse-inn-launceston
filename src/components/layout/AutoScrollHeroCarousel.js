@@ -254,6 +254,9 @@ export default function AutoScrollHeroCarousel({
                 fetchPriority={activeIndex === 0 ? "high" : "auto"}
                 sizes="100vw"
                 className="object-cover object-center"
+                style={{
+                  objectPosition: activeSlide.imagePosition || "center",
+                }}
               />
             </motion.div>
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(var(--color-image-vignette-rgb),0.72)_0%,rgba(var(--color-image-vignette-rgb),0.34)_24%,rgba(var(--color-image-vignette-rgb),0.22)_52%,rgba(var(--color-image-vignette-rgb),0.88)_100%)]" />

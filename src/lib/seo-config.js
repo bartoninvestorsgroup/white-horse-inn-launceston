@@ -4,7 +4,7 @@ export const pageSeo = {
   home: {
     title: "White Horse Inn Launceston | Pub, Food, Rooms & Functions",
     description:
-      "Welcome to the White Horse Inn in Launceston, a warm and welcoming pub with good food, comfortable accommodation, function room hire, events, and easy table bookings.",
+      "Welcome to the White Horse Inn in Launceston, a warm, welcoming pub with good food, comfortable accommodation, function room hire, events, and easy table bookings.",
     path: "/",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn exterior in Launceston.",
@@ -13,9 +13,9 @@ export const pageSeo = {
   },
 
   food: {
-    title: "Food & Drink | White Horse Inn Launceston",
+    title: "Food and Drink Menus | White Horse Inn Launceston Pub Food",
     description:
-      "Explore food and drink at the White Horse Inn in Launceston, including pub classics, seasonal dishes, children’s options, Sunday menu, desserts, and drinks.",
+      "Explore food and drink at the White Horse Inn in Launceston, including pub classics, seasonal dishes, children’s options, Sunday roasts, desserts, and drinks.",
     path: "/food",
     image: "/og-food.jpg",
     imageAlt: "A freshly prepared dish from the White Horse Inn food menu.",
@@ -24,9 +24,9 @@ export const pageSeo = {
   },
 
   menu: {
-    title: "Main Menu | White Horse Inn Launceston",
+    title: "Main Food Menu | White Horse Inn Launceston Pub Dining Menu",
     description:
-      "View the main menu at the White Horse Inn in Launceston, featuring freshly prepared pub favourites, seasonal dishes, and comforting food for relaxed dining.",
+      "View the main menu at the White Horse Inn in Launceston, featuring freshly prepared pub favourites, seasonal dishes, comforting plates, and relaxed dining.",
     path: "/food",
     image: "/og-food.jpg",
     imageAlt: "A freshly prepared dish from the White Horse Inn main menu.",
@@ -35,9 +35,9 @@ export const pageSeo = {
   },
 
   accommodation: {
-    title: "Accommodation | Rooms at White Horse Inn Launceston",
+    title: "Accommodation Rooms | White Horse Inn Launceston Pub Stay",
     description:
-      "Stay at the White Horse Inn in Launceston, with comfortable accommodation above a welcoming pub, ideal for visits to Launceston and the surrounding area.",
+      "Stay at the White Horse Inn in Launceston, with comfortable accommodation above a welcoming pub, ideal for town visits, local events, short breaks, and trips nearby.",
     path: "/accommodation",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn in Launceston.",
@@ -46,9 +46,9 @@ export const pageSeo = {
   },
 
   findUs: {
-    title: "Find Us | White Horse Inn Launceston",
+    title: "Find Us and Directions | White Horse Inn Launceston Pub",
     description:
-      "Find the White Horse Inn in Launceston, view our location, get directions, and plan your visit with helpful travel and contact information.",
+      "Find the White Horse Inn in Launceston, view our location, get directions, check travel details, and plan your visit to our welcoming pub in Newport Square.",
     path: "/find-us",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn exterior in Newport Square, Launceston.",
@@ -57,9 +57,9 @@ export const pageSeo = {
   },
 
   functions: {
-    title: "Function Room Hire | White Horse Inn Launceston",
+    title: "Function Room Hire | White Horse Inn Launceston Local Venue",
     description:
-      "Hire the function room at the White Horse Inn in Launceston for parties, private events, meetings, celebrations, and local gatherings.",
+      "Hire the function room at the White Horse Inn in Launceston for parties, private events, meetings, wakes, family celebrations, local gatherings, and meals.",
     path: "/functions",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn in Launceston.",
@@ -68,9 +68,9 @@ export const pageSeo = {
   },
 
   gallery: {
-    title: "Gallery | White Horse Inn Launceston",
+    title: "Gallery Photos | White Horse Inn Launceston Pub and Food",
     description:
-      "View photos of the White Horse Inn in Launceston, including the pub interior, food, drink, accommodation, events, and function spaces.",
+      "View photos of the White Horse Inn in Launceston, including our pub interior, freshly prepared food, drinks, accommodation, events, venue rooms, and function spaces.",
     path: "/gallery",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn in Launceston.",
@@ -79,9 +79,9 @@ export const pageSeo = {
   },
 
   bookATable: {
-    title: "Book a Table | White Horse Inn Launceston",
+    title: "Book a Table Online | White Horse Inn Launceston Pub Dining",
     description:
-      "Book a table at the White Horse Inn in Launceston for food, drinks, Sunday dining, family meals, and relaxed pub visits.",
+      "Book a table at the White Horse Inn in Launceston for lunch, dinner, Sunday dining, family meals, drinks with friends, celebrations, and relaxed local pub visits.",
     path: "/book-a-table",
     image: "/og-food.jpg",
     imageAlt: "A freshly prepared dish at the White Horse Inn.",
@@ -90,9 +90,9 @@ export const pageSeo = {
   },
 
   contact: {
-    title: "Contact Us | White Horse Inn Launceston",
+    title: "Contact and Enquiries | White Horse Inn Launceston Pub Team",
     description:
-      "Contact the White Horse Inn in Launceston for table bookings, accommodation enquiries, function room hire, events, and general questions.",
+      "Contact the White Horse Inn in Launceston for table bookings, accommodation enquiries, function room hire, events, opening times, venue hire, and general questions.",
     path: "/contact",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn exterior in Launceston.",
@@ -101,9 +101,9 @@ export const pageSeo = {
   },
 
   privacyPolicy: {
-    title: "Privacy Policy | White Horse Inn Launceston",
+    title: "Privacy Policy and Cookies | White Horse Inn Launceston",
     description:
-      "Privacy, cookies, and data handling information for the White Horse Inn in Launceston.",
+      "Read privacy, cookie, and data handling information for the White Horse Inn in Launceston, including website choices, enquiries, bookings, and contact forms.",
     path: "/privacy-policy",
     image: "/og-default.jpg",
     imageAlt: "The White Horse Inn exterior in Launceston.",
