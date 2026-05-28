@@ -37,6 +37,13 @@ export default function SiteFooter({
   description = "A welcoming pub with seasonal menus, comfortable accommodation, function room hire and easy table bookings.",
 }) {
   const currentYear = new Date().getFullYear();
+  const addressLines = [
+    address.streetAddress,
+    address.addressLocality,
+    address.addressRegion,
+    address.postalCode,
+    address.addressCountry,
+  ].filter(Boolean);
 
   return (
     <footer className="relative z-20 bg-[color:var(--color-primary)] text-white">
@@ -65,8 +72,15 @@ export default function SiteFooter({
         <div className="space-y-4">
           <p className="eyebrow">Contact</p>
           <div className="space-y-3 text-white/82">
-            <p>{address.streetAddress}</p>
-            <p>{address.addressLocality}</p>
+            <Link href="/find-us" className="footer-link block">
+              <address className="space-y-1 not-italic">
+                {addressLines.map((line) => (
+                  <span key={line} className="block">
+                    {line}
+                  </span>
+                ))}
+              </address>
+            </Link>
             <Link href="/contact?enquiryType=General+Enquiry" className="footer-link">
               {email}
             </Link>
