@@ -229,7 +229,7 @@ export default function HomePage() {
             />
 
             <FoodImageCard
-              src="/assets/images/food_and_drink/steak.png"
+              src="/assets/images/food_and_drink/signature_steak.jpg"
               alt="Signature steak dish served with seasonal vegetables"
               title="Signature Steak"
               description="A signature steak dish prepared with grass-fed beef and cuts sourced from local butchers."

@@ -48,12 +48,12 @@
     "displaySize": "landscape"
   },
   {
-    "_id": "gallery-food-dinner-mains-8oz-sirloin-steak",
-    "src": "/assets/images/food_and_drink/dinner_mains_8oz_sirloin_steak.png",
-    "mobileLightboxSrc": "/assets/images/food_and_drink/dinner_mains_8oz_sirloin_steak.png",
-    "desktopLightboxSrc": "/assets/images/food_and_drink/dinner_mains_8oz_sirloin_steak.png",
-    "alt": "8oz sirloin steak from the dinner menu at the White Horse Inn Launceston",
-    "title": "8oz Sirloin Steak",
+    "_id": "gallery-food-lunch-mains-steak-frites",
+    "src": "/assets/images/food_and_drink/lunch_mains_steak_frites.jpg",
+    "mobileLightboxSrc": "/assets/images/food_and_drink/lunch_mains_steak_frites.jpg",
+    "desktopLightboxSrc": "/assets/images/food_and_drink/lunch_mains_steak_frites.jpg",
+    "alt": "Steak and chips from the lunch menu at the White Horse Inn Launceston",
+    "title": "Steak and Fries",
     "caption": "",
     "eyebrow": "Food & Drink",
     "featured": false,
