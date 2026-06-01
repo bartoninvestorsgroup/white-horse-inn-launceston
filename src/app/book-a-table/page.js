@@ -9,8 +9,8 @@ import { Suspense } from "react";
 
 export const metadata = getPageMetadata("bookATable");
 
-const showContactBookingWidget = true;
-const showOpenTableBookingWidget = false;
+const showContactBookingWidget = false;
+const showOpenTableBookingWidget = true;
 
 const reservationSchema = {
   ...getPageSchema("bookATable"),
@@ -35,7 +35,7 @@ export default function BookATablePage() {
       <PageIntro
         eyebrow="Book a Table"
         title="Book a table at the White Horse Inn."
-        description="Call us directly or send a table booking enquiry and the team will help with availability."
+        description="Choose your preferred date, time, and party size, then complete your reservation securely on OpenTable."
       />
       <Suspense fallback={null}>
         {showContactBookingWidget ? (
