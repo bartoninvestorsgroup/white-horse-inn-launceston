@@ -156,12 +156,12 @@
     "displaySize": "landscape"
   },
   {
-    "_id": "gallery-food-sunday-sunday-lunch-palmers-british-rump-of-beef",
-    "src": "/assets/images/food_and_drink/sunday_sunday_lunch_palmers_british_rump_of_beef.jpg",
-    "mobileLightboxSrc": "/assets/images/food_and_drink/sunday_sunday_lunch_palmers_british_rump_of_beef.jpg",
-    "desktopLightboxSrc": "/assets/images/food_and_drink/sunday_sunday_lunch_palmers_british_rump_of_beef.jpg",
-    "alt": "Palmers British rump of beef Sunday lunch at the White Horse Inn Launceston",
-    "title": "Palmers British Rump of Beef",
+    "_id": "gallery-food-sunday-sunday-lunch-warrens-british-rump-of-beef",
+    "src": "/assets/images/food_and_drink/sunday_sunday_lunch_warrens_british_rump_of_beef.jpg",
+    "mobileLightboxSrc": "/assets/images/food_and_drink/sunday_sunday_lunch_warrens_british_rump_of_beef.jpg",
+    "desktopLightboxSrc": "/assets/images/food_and_drink/sunday_sunday_lunch_warrens_british_rump_of_beef.jpg",
+    "alt": "Warren's British rump of beef Sunday lunch at the White Horse Inn Launceston",
+    "title": "Warren's British Rump of Beef",
     "caption": "",
     "eyebrow": "Food & Drink",
     "featured": false,
