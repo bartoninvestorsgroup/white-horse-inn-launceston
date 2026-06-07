@@ -108,10 +108,10 @@
     "displaySize": "portrait"
   },
   {
-    "_id": "gallery-food-lunch-starters-scallops",
-    "src": "/assets/images/food_and_drink/lunch_starters_scallops.png",
-    "mobileLightboxSrc": "/assets/images/food_and_drink/lunch_starters_scallops.png",
-    "desktopLightboxSrc": "/assets/images/food_and_drink/lunch_starters_scallops.png",
+    "_id": "gallery-food-scallops",
+    "src": "/assets/images/food_and_drink/scallops.png",
+    "mobileLightboxSrc": "/assets/images/food_and_drink/scallops.png",
+    "desktopLightboxSrc": "/assets/images/food_and_drink/scallops.png",
     "alt": "Scallops starter at the White Horse Inn Launceston",
     "title": "Scallops",
     "caption": "",
