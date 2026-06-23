@@ -50,6 +50,9 @@ AGENTS.md
 # Others
 Backup-c*.txt
 .env*.local
+/Raw/
+/Output/
+/Create QR Codes.ipynb
 
 # Sanity
 /admin
