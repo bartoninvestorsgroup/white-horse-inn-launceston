@@ -86,6 +86,12 @@ const kidsSectionImages = {
   },
 };
 
+const highlightedNonKidsSectionTitles = new Set([
+  "sandwiches",
+  "snacks",
+  "toasties and crisps",
+]);
+
 const dietaryTokenMap = new Map(
   dietaryBadges.map((badge) => [badge.label, badge]),
 );
@@ -141,6 +147,10 @@ function buildMenuSectionAnchorId(menuTitle, sectionTitle) {
 
 function publicAssetExists(src) {
   return existsSync(path.join(process.cwd(), "public", src.replace(/^\//, "")));
+}
+
+function shouldHighlightNonKidsSection(title) {
+  return highlightedNonKidsSectionTitles.has(normalizeText(title).toLowerCase());
 }
 
 function DietaryBadge({ badge }) {
@@ -519,6 +529,8 @@ function MenuSection({ section, menuTitle, isKidsMenu = false }) {
   const visibleItems = (section.items || []).filter((item) => item.show !== false);
   const kidsImage = isKidsMenu ? kidsSectionImages[section.title] : null;
   const hasKidsImage = kidsImage && publicAssetExists(kidsImage.src);
+  const isHighlightedNonKidsSection =
+    !isKidsMenu && shouldHighlightNonKidsSection(section.title);
 
   if (!visibleItems.length) {
     return null;
@@ -587,7 +599,11 @@ function MenuSection({ section, menuTitle, isKidsMenu = false }) {
   return (
     <section
       id={buildMenuSectionAnchorId(menuTitle, section.title)}
-      className="scroll-mt-32 border-t border-[color:var(--color-primary)] pt-8"
+      className={`scroll-mt-32 ${
+        isHighlightedNonKidsSection
+          ? "border border-[color:rgba(var(--color-primary-rgb),0.18)] bg-[color:rgba(var(--color-primary-rgb),0.08)] p-6 md:p-8"
+          : "border-t border-[color:var(--color-primary)] pt-8"
+      }`}
     >
       {sectionContent}
     </section>

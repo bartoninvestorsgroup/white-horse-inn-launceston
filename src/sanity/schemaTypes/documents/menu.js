@@ -32,6 +32,7 @@ const sectionTitleOptions = [
   { title: "Sunday Lunch", value: "Sunday Lunch" },
   { title: "Non-Roast Mains", value: "Non-Roast Mains" },
   { title: "Snacks", value: "Snacks" },
+  { title: "Toasties and Crisps", value: "Toasties and Crisps" },
   { title: "Sides", value: "Sides" },
   { title: "Desserts", value: "Desserts" },
   { title: "Drinks", value: "Drinks" },
