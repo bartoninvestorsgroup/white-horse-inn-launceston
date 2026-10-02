@@ -29,6 +29,7 @@ export const menuBaseProjection = groq`{
   sections[]{
     _key,
     title,
+    description,
     items[]{
       _key,
       title,

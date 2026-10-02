@@ -243,9 +243,15 @@ function buildDocuments(rows) {
       _type: "menuSection",
       _key: stableKey(`${slug}:section:${sectionTitle}`),
       title: sectionTitle,
+      description: normalizeText(row.sectionDescription) || undefined,
       order: Number(row.sectionOrder) || menu.sections.length + 1,
       items: [],
     };
+    const rowSectionDescription = normalizeText(row.sectionDescription);
+
+    if (rowSectionDescription && !section.description) {
+      section.description = rowSectionDescription;
+    }
 
     const itemOrder = Number(row.itemOrder) || section.items.length + 1;
     const itemKey = String(itemOrder);

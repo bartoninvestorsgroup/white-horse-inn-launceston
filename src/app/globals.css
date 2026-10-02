@@ -193,6 +193,52 @@ img {
     -2px -2px 0 white;
 }
 
+.christmas-menu-shell {
+  --christmas-pine: #073f2a;
+  --christmas-pine-soft: #0f5a3c;
+  --christmas-red: #781f25;
+  --christmas-red-rgb: 120, 31, 37;
+  border-block: 1px solid rgba(var(--christmas-red-rgb), 0.22);
+  background: var(--color-surface);
+  color: var(--christmas-pine);
+}
+
+.christmas-menu-shell .eyebrow {
+  color: var(--christmas-red);
+}
+
+.christmas-menu-shell p,
+.christmas-menu-shell .menu-item-anchor h3,
+.christmas-menu-shell .menu-item-anchor p {
+  color: var(--christmas-pine);
+}
+
+.christmas-menu-shell .menu-item-anchor {
+  border-color: rgba(var(--christmas-red-rgb), 0.2);
+}
+
+.christmas-menu-shell .menu-item-anchor > p,
+.christmas-menu-shell .menu-item-anchor h3 {
+  color: var(--christmas-pine);
+}
+
+.christmas-menu-shell section {
+  border-color: rgba(var(--christmas-red-rgb), 0.55);
+}
+
+.christmas-menu-shell a {
+  color: var(--christmas-red);
+}
+
+.christmas-menu-shell [title="Vegetarian"],
+.christmas-menu-shell [title="Vegan"],
+.christmas-menu-shell [title="Gluten free"],
+.christmas-menu-shell [title="Gluten free option"] {
+  border-color: var(--christmas-red);
+  background: var(--christmas-pine);
+  color: var(--color-gold);
+}
+
 .cta-button {
   display: inline-flex;
   min-height: 85px;

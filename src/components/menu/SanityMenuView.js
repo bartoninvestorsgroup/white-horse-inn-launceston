@@ -250,7 +250,7 @@ function renderMarkdownLinks(text, keyPrefix) {
   });
 }
 
-function MenuIntroduction({ text }) {
+function MenuIntroduction({ text, isChristmasMenu = false }) {
   const normalized = normalizeText(text);
 
   if (!normalized) {
@@ -263,6 +263,26 @@ function MenuIntroduction({ text }) {
     <div className="mx-auto mt-6 max-w-5xl space-y-4 text-center text-base leading-8 text-[color:var(--color-copy-soft)] md:text-lg">
       {paragraphs.map((paragraph, paragraphIndex) => {
         const lines = paragraph.split(/\n/);
+
+        if (isChristmasMenu && paragraphIndex === 0) {
+          return (
+            <div
+              key={`menu-intro-${paragraphIndex}`}
+              className="mx-auto grid max-w-xl gap-3 sm:grid-cols-2"
+            >
+              {lines.map((line, lineIndex) => (
+                <div
+                  key={`menu-intro-price-${lineIndex}`}
+                  className="border border-[color:var(--christmas-red)] bg-[color:rgba(var(--christmas-red-rgb),0.06)] px-5 py-4 shadow-[var(--shadow-card)]"
+                >
+                  <p className="font-heading text-2xl leading-tight text-[color:var(--christmas-red)] md:text-3xl">
+                    {line}
+                  </p>
+                </div>
+              ))}
+            </div>
+          );
+        }
 
         return (
           <p key={`menu-intro-${paragraphIndex}`}>
@@ -385,6 +405,47 @@ function KidsMenuTitle() {
       >
         Menu
       </PaintBlobLabel>
+    </div>
+  );
+}
+
+function ChristmasMenuTopDecorations() {
+  return (
+    <div
+      aria-hidden="true"
+      className="pointer-events-none absolute inset-x-0 top-0 z-0 h-36 overflow-hidden md:h-52"
+    >
+      <Image
+        src="/assets/images/festive/festive_corner_top_left.png"
+        alt=""
+        width={898}
+        height={931}
+        sizes="(min-width: 768px) 24rem, 12rem"
+        className="absolute left-0 top-0 h-32 w-32 object-contain object-left-top md:h-52 md:w-52 lg:h-64 lg:w-64"
+      />
+      <Image
+        src="/assets/images/festive/festive_corner_top_right.png"
+        alt=""
+        width={929}
+        height={935}
+        sizes="(min-width: 768px) 24rem, 12rem"
+        className="absolute right-0 top-0 h-32 w-32 object-contain object-right-top md:h-52 md:w-52 lg:h-64 lg:w-64"
+      />
+    </div>
+  );
+}
+
+function ChristmasSectionSeparator() {
+  return (
+    <div aria-hidden="true" className="flex justify-center">
+      <Image
+        src="/assets/images/festive/festive_holly_bow.png"
+        alt=""
+        width={283}
+        height={67}
+        sizes="14rem"
+        className="h-auto w-44 md:w-56"
+      />
     </div>
   );
 }
@@ -525,12 +586,13 @@ function MenuItem({ item, menuTitle, sectionTitle, isKidsMenu = false }) {
   );
 }
 
-function MenuSection({ section, menuTitle, isKidsMenu = false }) {
+function MenuSection({ section, menuTitle, isKidsMenu = false, isChristmasMenu = false }) {
   const visibleItems = (section.items || []).filter((item) => item.show !== false);
   const kidsImage = isKidsMenu ? kidsSectionImages[section.title] : null;
   const hasKidsImage = kidsImage && publicAssetExists(kidsImage.src);
   const isHighlightedNonKidsSection =
-    !isKidsMenu && shouldHighlightNonKidsSection(section.title);
+    !isKidsMenu && !isChristmasMenu && shouldHighlightNonKidsSection(section.title);
+  const sectionDescription = normalizeText(section.description);
 
   if (!visibleItems.length) {
     return null;
@@ -542,13 +604,21 @@ function MenuSection({ section, menuTitle, isKidsMenu = false }) {
         className={`mb-6 flex flex-col gap-2 ${
           isKidsMenu
             ? "items-center text-center"
+            : isChristmasMenu
+              ? "items-center text-center"
             : "md:flex-row md:items-end md:justify-between"
         }`}
       >
         {isKidsMenu ? (
           <KidsSectionHeading title={section.title} />
         ) : (
-          <h2 className="font-heading text-4xl leading-tight text-[color:var(--color-primary)] md:text-5xl">
+          <h2
+            className={`font-heading text-4xl leading-tight md:text-5xl ${
+              isChristmasMenu
+                ? "text-[color:var(--christmas-red)]"
+                : "text-[color:var(--color-primary)]"
+            }`}
+          >
             {section.title}
           </h2>
         )}
@@ -556,6 +626,19 @@ function MenuSection({ section, menuTitle, isKidsMenu = false }) {
           {visibleItems.length} item{visibleItems.length === 1 ? "" : "s"}
         </p>
       </div>
+      {sectionDescription ? (
+        <p
+          className={`mb-6 whitespace-pre-line text-[color:var(--color-copy-soft)] ${
+            isKidsMenu
+              ? "text-center text-lg leading-8"
+              : isChristmasMenu
+                ? "mx-auto max-w-4xl text-center text-base leading-7 md:text-lg md:leading-8"
+              : "max-w-4xl text-base leading-7 md:text-lg md:leading-8"
+          }`}
+        >
+          {renderTextWithDietaryTokens(sectionDescription)}
+        </p>
+      ) : null}
       <div className={`grid gap-x-10 ${isKidsMenu ? "" : "md:grid-cols-2"}`}>
         {visibleItems.map((item) => (
           <MenuItem
@@ -610,31 +693,12 @@ function MenuSection({ section, menuTitle, isKidsMenu = false }) {
   );
 }
 
-function SundayLunchNote() {
-  return (
-    <div className="border-t border-[color:var(--color-border-soft)] pt-8 text-center">
-      <p className="mx-auto max-w-4xl text-base leading-8 text-[color:var(--color-copy-soft)] md:text-lg">
-        All our Sunday Dishes are Served with Herb Ruffled Roast Potatoes, Honey
-        Parsnips, Braised Red Cabbage, Roast Carrots, Homemade Yorkshire
-        Pudding, Tender stem, Gravy and Cauliflower Cheese.
-      </p>
-      <div className="mx-auto mt-5 inline-flex max-w-4xl items-center justify-center rounded-[0.9rem] border border-[color:var(--color-primary)] bg-[color:var(--color-primary)] px-4 py-3 text-center text-sm font-bold leading-6 text-[color:var(--color-gold)] md:text-base">
-        If you would like your Beef cooked a certain way or Gravy on the Side,
-        please let the server know.
-      </div>
-    </div>
-  );
-}
-
 function MenuDocument({ menu, showDietaryKey = false }) {
   const sections = (menu.sections || []).filter((section) =>
     section.items?.some((item) => item.show !== false),
   );
   const isKidsMenu = menu.menuType === "kidsMenu";
-  const shouldShowSundayNote =
-    menu.menuType === "sundayMenu" &&
-    sections.some((section) => section.title === "Sunday Lunch") &&
-    sections.some((section) => section.title === "Non-Roast Mains");
+  const isChristmasMenu = menu.menuType === "christmas";
 
   if (!sections.length) {
     return null;
@@ -644,17 +708,32 @@ function MenuDocument({ menu, showDietaryKey = false }) {
     <div
       className={`space-y-12 ${
         isKidsMenu ? "kids-menu-font-body relative overflow-visible" : ""
+      } ${
+        isChristmasMenu
+          ? "christmas-menu-shell relative -mx-2 overflow-hidden px-2 pb-10 pt-24 md:-mx-6 md:px-6 md:pb-12 md:pt-32"
+          : ""
       }`}
     >
       {isKidsMenu ? <KidsMenuDecorativeBlobs /> : null}
-      <div className={isKidsMenu ? "relative z-10 space-y-12" : "space-y-12"}>
+      {isChristmasMenu ? <ChristmasMenuTopDecorations /> : null}
+      <div
+        className={
+          isKidsMenu || isChristmasMenu ? "relative z-10 space-y-12" : "space-y-12"
+        }
+      >
         <div className="text-center">
           {isKidsMenu ? (
             <KidsMenuTitle />
           ) : (
             <>
               <p className="eyebrow">{menuTypeLabels[menu.menuType] || menu.menuType}</p>
-              <h2 className="mt-3 font-heading text-4xl leading-tight text-[color:var(--color-primary)] md:text-6xl">
+              <h2
+                className={`mt-3 font-heading text-4xl leading-tight md:text-6xl ${
+                  isChristmasMenu
+                    ? "text-[color:var(--christmas-red)]"
+                    : "text-[color:var(--color-primary)]"
+                }`}
+              >
                 {menu.title}
               </h2>
             </>
@@ -664,20 +743,24 @@ function MenuDocument({ menu, showDietaryKey = false }) {
             sections={sections}
             isKidsMenu={isKidsMenu}
           />
-          <MenuIntroduction text={menu.introduction} />
+          <MenuIntroduction
+            text={menu.introduction}
+            isChristmasMenu={isChristmasMenu}
+          />
         </div>
         {showDietaryKey ? <DietaryKey /> : null}
         <div className="space-y-14">
-          {sections.map((section) => (
+          {sections.map((section, sectionIndex) => (
             <div key={section._key} className="space-y-8">
+              {isChristmasMenu && sectionIndex > 0 ? (
+                <ChristmasSectionSeparator />
+              ) : null}
               <MenuSection
                 section={section}
                 menuTitle={menu.title}
                 isKidsMenu={isKidsMenu}
+                isChristmasMenu={isChristmasMenu}
               />
-              {shouldShowSundayNote && section.title === "Sunday Lunch" ? (
-                <SundayLunchNote />
-              ) : null}
             </div>
           ))}
         </div>

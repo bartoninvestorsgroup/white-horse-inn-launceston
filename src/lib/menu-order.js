@@ -1,16 +1,20 @@
 const fixedMenuTypeOrder = new Map([
   ["lunchMenu", 0],
   ["dinnerMenu", 1],
-  ["kidsMenu", 2],
-  ["sundayMenu", 3],
+  ["christmas", 2],
+  ["kidsMenu", 3],
+  ["sundayMenu", 4],
 ]);
 
 const fixedTitleOrder = new Map([
   ["lunch", 0],
   ["dinner", 1],
-  ["kids menu", 2],
-  ["sunday", 3],
-  ["sunday menu", 3],
+  ["festive menu", 2],
+  ["christmas", 2],
+  ["christmas menu", 2],
+  ["kids menu", 3],
+  ["sunday", 4],
+  ["sunday menu", 4],
 ]);
 
 function normalizedTitle(menu) {

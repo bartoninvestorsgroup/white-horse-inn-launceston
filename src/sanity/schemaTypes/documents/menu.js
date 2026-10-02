@@ -25,12 +25,18 @@ const dietaryOptions = [
 ];
 
 const sectionTitleOptions = [
+  { title: "To Start", value: "To Start" },
   { title: "Starters", value: "Starters" },
   { title: "Mains", value: "Mains" },
   { title: "Sandwiches", value: "Sandwiches" },
+  { title: "Ciabattas", value: "Ciabattas" },
+  { title: "Burgers", value: "Burgers" },
   { title: "Meals", value: "Meals" },
+  { title: "Roasts", value: "Roasts" },
   { title: "Sunday Lunch", value: "Sunday Lunch" },
   { title: "Non-Roast Mains", value: "Non-Roast Mains" },
+  { title: "Other Mains", value: "Other Mains" },
+  { title: "Extras", value: "Extras" },
   { title: "Snacks", value: "Snacks" },
   { title: "Toasties and Crisps", value: "Toasties and Crisps" },
   { title: "Sides", value: "Sides" },
@@ -137,6 +143,14 @@ export default defineType({
 
                   return true;
                 }),
+            }),
+            defineField({
+              name: "description",
+              title: "Section note",
+              type: "text",
+              rows: 4,
+              description:
+                "Optional text shown below the section heading. Use for serving notes, allergens, or included items.",
             }),
             defineField({
               name: "items",

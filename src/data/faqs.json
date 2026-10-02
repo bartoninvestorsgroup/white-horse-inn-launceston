@@ -45,7 +45,7 @@
     "shared": [
       {
         "question": "Do I need to book a table?",
-        "answer": "Booking is recommended for busy periods, especially evenings, weekends and Sunday lunch. Walk-ins are welcome when tables are available."
+        "answer": "Booking is recommended for busy periods, especially evenings, weekends and Sunday lunch. You can [book a table online](/book-a-table), and walk-ins are welcome when tables are available."
       },
       {
         "question": "Do you serve Sunday lunch?",
@@ -57,7 +57,7 @@
       },
       {
         "question": "Is there a kids menu?",
-        "answer": "Yes. The White Horse Inn has dedicated children's options with meals, snacks and drinks for younger guests. Please check the current [kids' menu](/food/kids-menu)."
+        "answer": "Yes. The White Horse Inn has a dedicated [kids' menu](/food/kids-menu), currently offering a main, dessert and drink for £10."
       },
       {
         "question": "Do you offer vegetarian, vegan or gluten-free options?",
@@ -73,7 +73,7 @@
       },
       {
         "question": "Do you serve food all day?",
-        "answer": "Food service times can vary by day and season. Please contact the White Horse Inn directly for the latest kitchen opening times."
+        "answer": "Lunch is served between 12pm and 3pm, and dinner is served between 5pm and 9pm. Food service times can vary by day and season, so please [contact The White Horse Inn](/contact) directly for the latest kitchen opening times."
       },
       {
         "question": "Is there car parking on site?",
@@ -81,28 +81,54 @@
       },
       {
         "question": "Can I book for a larger group?",
-        "answer": "Yes. Larger group bookings are welcome, subject to availability. Please contact the team in advance so they can help with the best table arrangement."
+        "answer": "Yes. Larger group bookings are welcome, subject to availability. Please [contact the team](/contact) in advance so they can help with the best table arrangement."
       },
       {
         "question": "Do you have high chairs or family-friendly seating?",
-        "answer": "The White Horse Inn aims to be welcoming for families. Please mention high chairs or seating needs when booking so the team can prepare where possible."
+        "answer": "The White Horse Inn aims to be welcoming for families. Please mention high chairs or seating needs when you [book a table](/book-a-table) so the team can prepare where possible."
       }
     ],
     "menu": {
       "kids-menu": [
         {
           "question": "What is included on the kids menu?",
-          "answer": "The kids menu includes child-friendly meals, snacks and drinks. Availability can change, so please check the current menu on this page."
+          "answer": "The kids menu currently lets younger guests choose one main, one dessert and one drink for £10. Mains include options such as chicken dippers and fries, sausage and mash, and fish and chips."
         }
       ],
       "sunday-menu": [
         {
           "question": "What comes with Sunday lunch?",
-          "answer": "Sunday dishes are served with roast potatoes, vegetables, Yorkshire pudding, gravy and cauliflower cheese, unless stated otherwise on the menu."
+          "answer": "Sunday roasts are served with herb ruffled roast potatoes, honey parsnips, braised red cabbage, roast carrots, homemade Yorkshire pudding, seasonal greens, gravy and cauliflower cheese, unless stated otherwise on the menu."
         },
         {
           "question": "Can I ask for gravy on the side?",
           "answer": "Yes. If you would like gravy on the side, please let your server know when ordering."
+        }
+      ],
+      "christmas-menu": [
+        {
+          "question": "How much is the Christmas festive menu?",
+          "answer": "The Christmas festive menu is £25 for 2 courses or £30 for 3 courses."
+        },
+        {
+          "question": "How do I book the Christmas menu?",
+          "answer": "For Christmas menu bookings, call [01566 788281](tel:01566788281), [contact us online](/contact), or [book through the website](/book-a-table) with OpenTable."
+        },
+        {
+          "question": "Do I need to pre-order for the festive menu?",
+          "answer": "Yes. Pre-orders for the festive menu are required 1 week before your booked date."
+        },
+        {
+          "question": "Is a deposit required for Christmas menu bookings?",
+          "answer": "A deposit of £10 per head may be required at the White Horse's discretion for larger Christmas menu bookings."
+        },
+        {
+          "question": "Can larger groups book the festive menu?",
+          "answer": "Yes. Larger groups can book the festive menu, subject to availability. Please [contact the team](/contact) in advance so they can confirm pre-order and deposit details."
+        },
+        {
+          "question": "Can I see allergen information for the Christmas menu?",
+          "answer": "Yes. Please tell your server about any allergies or intolerances before ordering from the Christmas menu. Not all ingredients are listed, and detailed information on the fourteen legal allergens is available on request."
         }
       ]
     }
